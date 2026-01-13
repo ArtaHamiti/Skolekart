@@ -1,0 +1,5544 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d8728137149ca8f669942e92079c0e44 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d8728137149ca8f669942e92079c0e44" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d8728137149ca8f669942e92079c0e44 = L.map(
+                "map_d8728137149ca8f669942e92079c0e44",
+                {
+                    center: [59.9127, 10.7461],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7ac2f91dec2f27174a30b926fd4da0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b7ac2f91dec2f27174a30b926fd4da0a.addTo(map_d8728137149ca8f669942e92079c0e44);
+        
+    
+            var feature_group_11271cd64e8fa364d2503071667e95b5 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_b75e4eabef14c3471872306c20638dc3 = L.marker(
+                [27.7783325, -15.692120400000022],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_d4b6dad3eda7318811d5a0085a057649 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a62d61d8f51077cbc6ee60b7961e5b21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a43ee248b24f2b6909cedd58d4d4f1b5 = $(`<div id="html_a43ee248b24f2b6909cedd58d4d4f1b5" style="width: 100.0%; height: 100.0%;">Den norske skole - Gran Canaria</div>`)[0];
+                popup_a62d61d8f51077cbc6ee60b7961e5b21.setContent(html_a43ee248b24f2b6909cedd58d4d4f1b5);
+            
+        
+
+        marker_b75e4eabef14c3471872306c20638dc3.bindPopup(popup_a62d61d8f51077cbc6ee60b7961e5b21)
+        ;
+
+        
+    
+    
+                marker_b75e4eabef14c3471872306c20638dc3.setIcon(icon_d4b6dad3eda7318811d5a0085a057649);
+            
+    
+            var marker_7bb73b67f148742c107557c7d3584ee2 = L.marker(
+                [38.0664348, -0.7269490999999562],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_95d4cb810e86b718b13d3242fcb0d1be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b56ce8cc223b75845af80bed94a43479 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99fc6c0297ca1768e28dd8b019ea1ba0 = $(`<div id="html_99fc6c0297ca1768e28dd8b019ea1ba0" style="width: 100.0%; height: 100.0%;">Den norske skolen i Rojales</div>`)[0];
+                popup_b56ce8cc223b75845af80bed94a43479.setContent(html_99fc6c0297ca1768e28dd8b019ea1ba0);
+            
+        
+
+        marker_7bb73b67f148742c107557c7d3584ee2.bindPopup(popup_b56ce8cc223b75845af80bed94a43479)
+        ;
+
+        
+    
+    
+                marker_7bb73b67f148742c107557c7d3584ee2.setIcon(icon_95d4cb810e86b718b13d3242fcb0d1be);
+            
+    
+            var marker_fa0e51c37f8aec4f6d5b3ea14ea384be = L.marker(
+                [36.60399960000001, -4.541974200000027],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_8f571739d3a52f54516dbc64d98c839c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7388b2c03a1ad63e275c772b2dd26bfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d71b33db2f69b51df5bee3aea33ae616 = $(`<div id="html_d71b33db2f69b51df5bee3aea33ae616" style="width: 100.0%; height: 100.0%;">Den norske skolen i Malaga</div>`)[0];
+                popup_7388b2c03a1ad63e275c772b2dd26bfd.setContent(html_d71b33db2f69b51df5bee3aea33ae616);
+            
+        
+
+        marker_fa0e51c37f8aec4f6d5b3ea14ea384be.bindPopup(popup_7388b2c03a1ad63e275c772b2dd26bfd)
+        ;
+
+        
+    
+    
+                marker_fa0e51c37f8aec4f6d5b3ea14ea384be.setIcon(icon_8f571739d3a52f54516dbc64d98c839c);
+            
+    
+            var marker_7e30e33bdddc9c31ccbc292fdc80b251 = L.marker(
+                [38.595811, -0.113364700000034],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4411eaf0c5b7390929036119af2df9e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65fe7a1c7f2fe38481a89971ba0958d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4e0dafacd39259451eeb7276fc1aeaa = $(`<div id="html_f4e0dafacd39259451eeb7276fc1aeaa" style="width: 100.0%; height: 100.0%;">Den norske skole - Costa Blanca</div>`)[0];
+                popup_65fe7a1c7f2fe38481a89971ba0958d9.setContent(html_f4e0dafacd39259451eeb7276fc1aeaa);
+            
+        
+
+        marker_7e30e33bdddc9c31ccbc292fdc80b251.bindPopup(popup_65fe7a1c7f2fe38481a89971ba0958d9)
+        ;
+
+        
+    
+    
+                marker_7e30e33bdddc9c31ccbc292fdc80b251.setIcon(icon_4411eaf0c5b7390929036119af2df9e8);
+            
+    
+            var marker_4644b05a7eb8e1f96fbf327dc5f399a8 = L.marker(
+                [59.31808, 10.15271],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_8725f8dd73e4ee4cd49541637040cfc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4660957d094959f07a1054ab5d55d2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_932a93d8ea3ecf025e995970068e0285 = $(`<div id="html_932a93d8ea3ecf025e995970068e0285" style="width: 100.0%; height: 100.0%;">Signo Grunn- og videregående skole AS</div>`)[0];
+                popup_f4660957d094959f07a1054ab5d55d2e.setContent(html_932a93d8ea3ecf025e995970068e0285);
+            
+        
+
+        marker_4644b05a7eb8e1f96fbf327dc5f399a8.bindPopup(popup_f4660957d094959f07a1054ab5d55d2e)
+        ;
+
+        
+    
+    
+                marker_4644b05a7eb8e1f96fbf327dc5f399a8.setIcon(icon_8725f8dd73e4ee4cd49541637040cfc2);
+            
+    
+            var marker_ec871a0870c812ed1135caf755cf2945 = L.marker(
+                [59.11809, 11.39657],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_0868873e3a090ca732185f81188b839a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91e29831aea2e1e474f224833019550d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6bdbe2b2d605e6116842e0da9d1fe97 = $(`<div id="html_a6bdbe2b2d605e6116842e0da9d1fe97" style="width: 100.0%; height: 100.0%;">Halden montessoriskole AS</div>`)[0];
+                popup_91e29831aea2e1e474f224833019550d.setContent(html_a6bdbe2b2d605e6116842e0da9d1fe97);
+            
+        
+
+        marker_ec871a0870c812ed1135caf755cf2945.bindPopup(popup_91e29831aea2e1e474f224833019550d)
+        ;
+
+        
+    
+    
+                marker_ec871a0870c812ed1135caf755cf2945.setIcon(icon_0868873e3a090ca732185f81188b839a);
+            
+    
+            var marker_4ce14e8b768c0af8dc350a6ffc71bc7f = L.marker(
+                [59.60665, 5.81312],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_8a012dc04bea5329fdd7f407bca7d194 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53af4b2efcb62bb7f12381e2b175bca9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1197382b5f17e2be3bdd0ed6d9b6e859 = $(`<div id="html_1197382b5f17e2be3bdd0ed6d9b6e859" style="width: 100.0%; height: 100.0%;">Vinterlandbruksskulen i Ryfylke Sti</div>`)[0];
+                popup_53af4b2efcb62bb7f12381e2b175bca9.setContent(html_1197382b5f17e2be3bdd0ed6d9b6e859);
+            
+        
+
+        marker_4ce14e8b768c0af8dc350a6ffc71bc7f.bindPopup(popup_53af4b2efcb62bb7f12381e2b175bca9)
+        ;
+
+        
+    
+    
+                marker_4ce14e8b768c0af8dc350a6ffc71bc7f.setIcon(icon_8a012dc04bea5329fdd7f407bca7d194);
+            
+    
+            var marker_7bf78c761be282ab19436015181d0929 = L.marker(
+                [59.7486, 10.17168],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_bb4088b541f1405e7011dc429312d649 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_015d73a9677d7299d2d1819790f52371 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b7537c42cd6989747731a471968cbd5 = $(`<div id="html_5b7537c42cd6989747731a471968cbd5" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Bragernes Drammen AS</div>`)[0];
+                popup_015d73a9677d7299d2d1819790f52371.setContent(html_5b7537c42cd6989747731a471968cbd5);
+            
+        
+
+        marker_7bf78c761be282ab19436015181d0929.bindPopup(popup_015d73a9677d7299d2d1819790f52371)
+        ;
+
+        
+    
+    
+                marker_7bf78c761be282ab19436015181d0929.setIcon(icon_bb4088b541f1405e7011dc429312d649);
+            
+    
+            var marker_0ea6a999c83ac6f1c5dee26ae0847293 = L.marker(
+                [58.96837, 5.73962],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_7499bab9d2a74713b79d5571d95dcf14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a353984c023cf4fe5657f4b3186d140f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce044866f4b80abc3757f888b5d98235 = $(`<div id="html_ce044866f4b80abc3757f888b5d98235" style="width: 100.0%; height: 100.0%;">Bibelskolen Link</div>`)[0];
+                popup_a353984c023cf4fe5657f4b3186d140f.setContent(html_ce044866f4b80abc3757f888b5d98235);
+            
+        
+
+        marker_0ea6a999c83ac6f1c5dee26ae0847293.bindPopup(popup_a353984c023cf4fe5657f4b3186d140f)
+        ;
+
+        
+    
+    
+                marker_0ea6a999c83ac6f1c5dee26ae0847293.setIcon(icon_7499bab9d2a74713b79d5571d95dcf14);
+            
+    
+            var marker_0bd7c7d73fa90ceff7464a146370a86c = L.marker(
+                [59.29502, 10.41573],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_2471854455c99e4e71a6b4fd91ac5099 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7fa7e9b1ad169a2cea586fa8057351e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b89f303974c6fc543f2d98db8613ef0 = $(`<div id="html_9b89f303974c6fc543f2d98db8613ef0" style="width: 100.0%; height: 100.0%;">Wang Tønsberg AS</div>`)[0];
+                popup_7fa7e9b1ad169a2cea586fa8057351e8.setContent(html_9b89f303974c6fc543f2d98db8613ef0);
+            
+        
+
+        marker_0bd7c7d73fa90ceff7464a146370a86c.bindPopup(popup_7fa7e9b1ad169a2cea586fa8057351e8)
+        ;
+
+        
+    
+    
+                marker_0bd7c7d73fa90ceff7464a146370a86c.setIcon(icon_2471854455c99e4e71a6b4fd91ac5099);
+            
+    
+            var marker_73551462b9e1d5a21013bf4469f67121 = L.marker(
+                [58.14663, 8.00212],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4d126fdd83ac506f6389a4e634cd278f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0bc930173495c008f72b933446c6f975 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79cb7d207d5cc8e720b6fcdeb5e1a5f1 = $(`<div id="html_79cb7d207d5cc8e720b6fcdeb5e1a5f1" style="width: 100.0%; height: 100.0%;">Oasen videregående skole AS</div>`)[0];
+                popup_0bc930173495c008f72b933446c6f975.setContent(html_79cb7d207d5cc8e720b6fcdeb5e1a5f1);
+            
+        
+
+        marker_73551462b9e1d5a21013bf4469f67121.bindPopup(popup_0bc930173495c008f72b933446c6f975)
+        ;
+
+        
+    
+    
+                marker_73551462b9e1d5a21013bf4469f67121.setIcon(icon_4d126fdd83ac506f6389a4e634cd278f);
+            
+    
+            var marker_f60f1a3a3b1a2985658990e9f9469485 = L.marker(
+                [58.86461, 9.40858],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_68e925dd581572cfd8f39ec3f3aa7d95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46edf8cb6f03d1951406aec0c7b94fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22b4bfb675b497b1ba7e4f89e97e0351 = $(`<div id="html_22b4bfb675b497b1ba7e4f89e97e0351" style="width: 100.0%; height: 100.0%;">Kragerø kunstskole AS</div>`)[0];
+                popup_46edf8cb6f03d1951406aec0c7b94fd7.setContent(html_22b4bfb675b497b1ba7e4f89e97e0351);
+            
+        
+
+        marker_f60f1a3a3b1a2985658990e9f9469485.bindPopup(popup_46edf8cb6f03d1951406aec0c7b94fd7)
+        ;
+
+        
+    
+    
+                marker_f60f1a3a3b1a2985658990e9f9469485.setIcon(icon_68e925dd581572cfd8f39ec3f3aa7d95);
+            
+    
+            var marker_0151cc4555ae9f8d45d5cb3be4f200e5 = L.marker(
+                [69.64967, 18.93502],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e14850e85bf46b87e96d66ebeebbe209 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5949221d68194dc042410941c334afe0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1372519f9d5ffb0a91d2174f6dea1929 = $(`<div id="html_1372519f9d5ffb0a91d2174f6dea1929" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Tromsø AS</div>`)[0];
+                popup_5949221d68194dc042410941c334afe0.setContent(html_1372519f9d5ffb0a91d2174f6dea1929);
+            
+        
+
+        marker_0151cc4555ae9f8d45d5cb3be4f200e5.bindPopup(popup_5949221d68194dc042410941c334afe0)
+        ;
+
+        
+    
+    
+                marker_0151cc4555ae9f8d45d5cb3be4f200e5.setIcon(icon_e14850e85bf46b87e96d66ebeebbe209);
+            
+    
+            var marker_b2cf8d7fc39730decd3ecf4f36cb5976 = L.marker(
+                [63.5333, 10.8234],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_d35b840462f4c3157394cb98c8acf84b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9143f96f9ff5fcb9e88868da25db76d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_457f49a97f8993ebd8ad473c797d9417 = $(`<div id="html_457f49a97f8993ebd8ad473c797d9417" style="width: 100.0%; height: 100.0%;">Aglo videregående skole</div>`)[0];
+                popup_9143f96f9ff5fcb9e88868da25db76d7.setContent(html_457f49a97f8993ebd8ad473c797d9417);
+            
+        
+
+        marker_b2cf8d7fc39730decd3ecf4f36cb5976.bindPopup(popup_9143f96f9ff5fcb9e88868da25db76d7)
+        ;
+
+        
+    
+    
+                marker_b2cf8d7fc39730decd3ecf4f36cb5976.setIcon(icon_d35b840462f4c3157394cb98c8acf84b);
+            
+    
+            var marker_9b9ceca259e2589ad4a8bf2dc69b2ee1 = L.marker(
+                [59.23032, 10.27398],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_b1579613f9b591f0b3cf8e7308587d66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe3035763b08abab796a686b8a07bb71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bca1fdae3cdd9f638befed8ded1d2e4 = $(`<div id="html_5bca1fdae3cdd9f638befed8ded1d2e4" style="width: 100.0%; height: 100.0%;">Gjennestad videregående skole</div>`)[0];
+                popup_fe3035763b08abab796a686b8a07bb71.setContent(html_5bca1fdae3cdd9f638befed8ded1d2e4);
+            
+        
+
+        marker_9b9ceca259e2589ad4a8bf2dc69b2ee1.bindPopup(popup_fe3035763b08abab796a686b8a07bb71)
+        ;
+
+        
+    
+    
+                marker_9b9ceca259e2589ad4a8bf2dc69b2ee1.setIcon(icon_b1579613f9b591f0b3cf8e7308587d66);
+            
+    
+            var marker_fae508de0b0137054e1071b9316d9e22 = L.marker(
+                [59.92561, 10.59114],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_6790b693c032ee3d87edea8650f98b76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54bb7138e979f3c5452937bcc023e022 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd074a83c1d40915264facd9b8887872 = $(`<div id="html_bd074a83c1d40915264facd9b8887872" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Bærum AS</div>`)[0];
+                popup_54bb7138e979f3c5452937bcc023e022.setContent(html_bd074a83c1d40915264facd9b8887872);
+            
+        
+
+        marker_fae508de0b0137054e1071b9316d9e22.bindPopup(popup_54bb7138e979f3c5452937bcc023e022)
+        ;
+
+        
+    
+    
+                marker_fae508de0b0137054e1071b9316d9e22.setIcon(icon_6790b693c032ee3d87edea8650f98b76);
+            
+    
+            var marker_6d602b5b29e8ef65ad2aa273dae3017e = L.marker(
+                [63.42982, 10.39215],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_92be4b9922a2ddda61c57018c8bdb885 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9ad8a0197090140d480de86e757013a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a1bd93d5b853a9fa76a5d203aafc2ff = $(`<div id="html_0a1bd93d5b853a9fa76a5d203aafc2ff" style="width: 100.0%; height: 100.0%;">Misjonsskolen Gå Ut Senteret</div>`)[0];
+                popup_c9ad8a0197090140d480de86e757013a.setContent(html_0a1bd93d5b853a9fa76a5d203aafc2ff);
+            
+        
+
+        marker_6d602b5b29e8ef65ad2aa273dae3017e.bindPopup(popup_c9ad8a0197090140d480de86e757013a)
+        ;
+
+        
+    
+    
+                marker_6d602b5b29e8ef65ad2aa273dae3017e.setIcon(icon_92be4b9922a2ddda61c57018c8bdb885);
+            
+    
+            var marker_4da7bc0b4d8cd6d80622a27896385b43 = L.marker(
+                [59.93021, 10.78596],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_ef0949fa324795c0a3c773732207109f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_471dddd8b028b9b21cb2949b911c8cef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7f93ec3ba66f464ac454402c3ded919 = $(`<div id="html_c7f93ec3ba66f464ac454402c3ded919" style="width: 100.0%; height: 100.0%;">Fjellhaug bibelskole</div>`)[0];
+                popup_471dddd8b028b9b21cb2949b911c8cef.setContent(html_c7f93ec3ba66f464ac454402c3ded919);
+            
+        
+
+        marker_4da7bc0b4d8cd6d80622a27896385b43.bindPopup(popup_471dddd8b028b9b21cb2949b911c8cef)
+        ;
+
+        
+    
+    
+                marker_4da7bc0b4d8cd6d80622a27896385b43.setIcon(icon_ef0949fa324795c0a3c773732207109f);
+            
+    
+            var marker_4e809f3e2b7baf402c4dde2fff1cd1b6 = L.marker(
+                [58.83103, 7.8028],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_25ce089170bceb94df5b08bc03f38432 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e42fd5a814da8216558c71898c7ab9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc9415db642c93811b805c6e97c6d69e = $(`<div id="html_bc9415db642c93811b805c6e97c6d69e" style="width: 100.0%; height: 100.0%;">Kvs-Bygland AS</div>`)[0];
+                popup_5e42fd5a814da8216558c71898c7ab9a.setContent(html_bc9415db642c93811b805c6e97c6d69e);
+            
+        
+
+        marker_4e809f3e2b7baf402c4dde2fff1cd1b6.bindPopup(popup_5e42fd5a814da8216558c71898c7ab9a)
+        ;
+
+        
+    
+    
+                marker_4e809f3e2b7baf402c4dde2fff1cd1b6.setIcon(icon_25ce089170bceb94df5b08bc03f38432);
+            
+    
+            var marker_db3305e4b3d664f647cbec12964ccf61 = L.marker(
+                [59.7486, 10.17168],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_3d70ac9c9d1cb9e44c9b646dcb79fa6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_618526cf19621b7bed6e05853ac8c8ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba16158b8a0e6ea106725433f8b5308f = $(`<div id="html_ba16158b8a0e6ea106725433f8b5308f" style="width: 100.0%; height: 100.0%;">Akademiet Ypsilon videregående skole AS</div>`)[0];
+                popup_618526cf19621b7bed6e05853ac8c8ff.setContent(html_ba16158b8a0e6ea106725433f8b5308f);
+            
+        
+
+        marker_db3305e4b3d664f647cbec12964ccf61.bindPopup(popup_618526cf19621b7bed6e05853ac8c8ff)
+        ;
+
+        
+    
+    
+                marker_db3305e4b3d664f647cbec12964ccf61.setIcon(icon_3d70ac9c9d1cb9e44c9b646dcb79fa6c);
+            
+    
+            var marker_a8d05b0fabc0646c8785e694303cc6fe = L.marker(
+                [59.92345, 10.73179],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_56a10ef42726b7d88046d03807d5a489 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33e7d4e7635edab153f78f6ce72ce160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89779cf244fdb88cd17f1019e73ac55c = $(`<div id="html_89779cf244fdb88cd17f1019e73ac55c" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Bislett AS</div>`)[0];
+                popup_33e7d4e7635edab153f78f6ce72ce160.setContent(html_89779cf244fdb88cd17f1019e73ac55c);
+            
+        
+
+        marker_a8d05b0fabc0646c8785e694303cc6fe.bindPopup(popup_33e7d4e7635edab153f78f6ce72ce160)
+        ;
+
+        
+    
+    
+                marker_a8d05b0fabc0646c8785e694303cc6fe.setIcon(icon_56a10ef42726b7d88046d03807d5a489);
+            
+    
+            var marker_ab4d436bc644c22ee39cbfc61d207b3e = L.marker(
+                [60.38746, 5.33138],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_92af983da9b70d73843144462e09cd49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9ffcfd82795f7cab2c3b37a6b4074d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75211eea87310a688c04d13175dd4c72 = $(`<div id="html_75211eea87310a688c04d13175dd4c72" style="width: 100.0%; height: 100.0%;">Bergen private gymnas AS</div>`)[0];
+                popup_c9ffcfd82795f7cab2c3b37a6b4074d1.setContent(html_75211eea87310a688c04d13175dd4c72);
+            
+        
+
+        marker_ab4d436bc644c22ee39cbfc61d207b3e.bindPopup(popup_c9ffcfd82795f7cab2c3b37a6b4074d1)
+        ;
+
+        
+    
+    
+                marker_ab4d436bc644c22ee39cbfc61d207b3e.setIcon(icon_92af983da9b70d73843144462e09cd49);
+            
+    
+            var marker_de91f23715f92bffd3123ba1e0ed8eae = L.marker(
+                [59.92832, 10.7522],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_c16922c161fac5e5af501be81bc6327a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_180d894fdab392fcd2f7d93752da2aca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c95f162bf67b4181c2de67b260a647a = $(`<div id="html_1c95f162bf67b4181c2de67b260a647a" style="width: 100.0%; height: 100.0%;">Oslo fotokunstskole AS</div>`)[0];
+                popup_180d894fdab392fcd2f7d93752da2aca.setContent(html_1c95f162bf67b4181c2de67b260a647a);
+            
+        
+
+        marker_de91f23715f92bffd3123ba1e0ed8eae.bindPopup(popup_180d894fdab392fcd2f7d93752da2aca)
+        ;
+
+        
+    
+    
+                marker_de91f23715f92bffd3123ba1e0ed8eae.setIcon(icon_c16922c161fac5e5af501be81bc6327a);
+            
+    
+            var marker_54ee7d1b8661bffd2ad9ca310e1eaee8 = L.marker(
+                [58.9546, 5.70006],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_285b1fc0f6d51bfbd1ea37e5d252efdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb41f414066abb94535a4584ecab6542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97403a2b754357a8a84009f0549188a8 = $(`<div id="html_97403a2b754357a8a84009f0549188a8" style="width: 100.0%; height: 100.0%;">Wang Toppidrett Stavanger AS</div>`)[0];
+                popup_eb41f414066abb94535a4584ecab6542.setContent(html_97403a2b754357a8a84009f0549188a8);
+            
+        
+
+        marker_54ee7d1b8661bffd2ad9ca310e1eaee8.bindPopup(popup_eb41f414066abb94535a4584ecab6542)
+        ;
+
+        
+    
+    
+                marker_54ee7d1b8661bffd2ad9ca310e1eaee8.setIcon(icon_285b1fc0f6d51bfbd1ea37e5d252efdc);
+            
+    
+            var marker_9e84bed666997aebd7216784a45ca682 = L.marker(
+                [59.21384, 10.92913],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_79ff7adaf3606513cdcfa2667490bad4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04daefca8320de970e88bfc5ccd88807 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd9ebab6454cb7debfd4f54a709139ed = $(`<div id="html_cd9ebab6454cb7debfd4f54a709139ed" style="width: 100.0%; height: 100.0%;">Akademiet Fredrikstad AS Privat videregående skole</div>`)[0];
+                popup_04daefca8320de970e88bfc5ccd88807.setContent(html_cd9ebab6454cb7debfd4f54a709139ed);
+            
+        
+
+        marker_9e84bed666997aebd7216784a45ca682.bindPopup(popup_04daefca8320de970e88bfc5ccd88807)
+        ;
+
+        
+    
+    
+                marker_9e84bed666997aebd7216784a45ca682.setIcon(icon_79ff7adaf3606513cdcfa2667490bad4);
+            
+    
+            var marker_eca6096a66c355448c727beffc13026f = L.marker(
+                [59.9178, 10.73714],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_9891826d2842bc88dd8633313bbcf9a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c5e9d455a06cd6655518b77ecec5a31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e50338835511452e23a069dd7325817b = $(`<div id="html_e50338835511452e23a069dd7325817b" style="width: 100.0%; height: 100.0%;">Filadelfia bibelskole</div>`)[0];
+                popup_5c5e9d455a06cd6655518b77ecec5a31.setContent(html_e50338835511452e23a069dd7325817b);
+            
+        
+
+        marker_eca6096a66c355448c727beffc13026f.bindPopup(popup_5c5e9d455a06cd6655518b77ecec5a31)
+        ;
+
+        
+    
+    
+                marker_eca6096a66c355448c727beffc13026f.setIcon(icon_9891826d2842bc88dd8633313bbcf9a8);
+            
+    
+            var marker_e4176b8e945bfbc170786d1e24aa8808 = L.marker(
+                [58.85071, 5.73238],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_96dcd8c773c4cff16b4092cbf3318593 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81fc0d6fd9efb3bc055d15908e7a753a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4e23b6ff1e6a006498ccddf5774f4f3 = $(`<div id="html_c4e23b6ff1e6a006498ccddf5774f4f3" style="width: 100.0%; height: 100.0%;">Akademiet Sandnes</div>`)[0];
+                popup_81fc0d6fd9efb3bc055d15908e7a753a.setContent(html_c4e23b6ff1e6a006498ccddf5774f4f3);
+            
+        
+
+        marker_e4176b8e945bfbc170786d1e24aa8808.bindPopup(popup_81fc0d6fd9efb3bc055d15908e7a753a)
+        ;
+
+        
+    
+    
+                marker_e4176b8e945bfbc170786d1e24aa8808.setIcon(icon_96dcd8c773c4cff16b4092cbf3318593);
+            
+    
+            var marker_811d9369aa9118b068d258e708a1872b = L.marker(
+                [59.91253, 10.77145],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_05b7cc107a1611cc5f72bade4282ca53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c6c21590bb4d1c44c955cfdb5ea0769 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51a7eb8ff425b009508f3d579525460d = $(`<div id="html_51a7eb8ff425b009508f3d579525460d" style="width: 100.0%; height: 100.0%;">Prosjektskolen AS</div>`)[0];
+                popup_7c6c21590bb4d1c44c955cfdb5ea0769.setContent(html_51a7eb8ff425b009508f3d579525460d);
+            
+        
+
+        marker_811d9369aa9118b068d258e708a1872b.bindPopup(popup_7c6c21590bb4d1c44c955cfdb5ea0769)
+        ;
+
+        
+    
+    
+                marker_811d9369aa9118b068d258e708a1872b.setIcon(icon_05b7cc107a1611cc5f72bade4282ca53);
+            
+    
+            var marker_52558b6fc205ed28087b06c647c3cc83 = L.marker(
+                [61.98317, 9.2448],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_997251516261bfa2462fe0bd6fd2b171 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afad158f1130612514343cbb55e6d402 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_affa8d61a3f3f0d558817704fd924c2a = $(`<div id="html_affa8d61a3f3f0d558817704fd924c2a" style="width: 100.0%; height: 100.0%;">Hjerleid handverksskole AS</div>`)[0];
+                popup_afad158f1130612514343cbb55e6d402.setContent(html_affa8d61a3f3f0d558817704fd924c2a);
+            
+        
+
+        marker_52558b6fc205ed28087b06c647c3cc83.bindPopup(popup_afad158f1130612514343cbb55e6d402)
+        ;
+
+        
+    
+    
+                marker_52558b6fc205ed28087b06c647c3cc83.setIcon(icon_997251516261bfa2462fe0bd6fd2b171);
+            
+    
+            var marker_e2b7e1ca1cf77df4b4e9571c4d89e0a1 = L.marker(
+                [60.38666, 5.33062],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_ec8703649df94945a94731b5495bb8ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5214925b856553a2a90ffd2b70737531 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_679ba6553ee4ae4e99963c9758ce9ed5 = $(`<div id="html_679ba6553ee4ae4e99963c9758ce9ed5" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Bergen AS</div>`)[0];
+                popup_5214925b856553a2a90ffd2b70737531.setContent(html_679ba6553ee4ae4e99963c9758ce9ed5);
+            
+        
+
+        marker_e2b7e1ca1cf77df4b4e9571c4d89e0a1.bindPopup(popup_5214925b856553a2a90ffd2b70737531)
+        ;
+
+        
+    
+    
+                marker_e2b7e1ca1cf77df4b4e9571c4d89e0a1.setIcon(icon_ec8703649df94945a94731b5495bb8ee);
+            
+    
+            var marker_ad4480468c64f455b89c876cf25d6500 = L.marker(
+                [59.21256, 10.92896],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_2983b0276d90312b09c3ca0889372fd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20d7659622147e67eaddcf5568f20919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e22e647f48824ea6e81547c54ae5270a = $(`<div id="html_e22e647f48824ea6e81547c54ae5270a" style="width: 100.0%; height: 100.0%;">Wang Fredrikstad AS</div>`)[0];
+                popup_20d7659622147e67eaddcf5568f20919.setContent(html_e22e647f48824ea6e81547c54ae5270a);
+            
+        
+
+        marker_ad4480468c64f455b89c876cf25d6500.bindPopup(popup_20d7659622147e67eaddcf5568f20919)
+        ;
+
+        
+    
+    
+                marker_ad4480468c64f455b89c876cf25d6500.setIcon(icon_2983b0276d90312b09c3ca0889372fd0);
+            
+    
+            var marker_4a1005455778f99906bf35a576aa1b50 = L.marker(
+                [59.76928, 10.25271],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_1d4b7e8be582cd66a002c1978921b64b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_844941a06ae47757c406b3eb45b71b70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_219bf6261b075f98c07d26614fccb639 = $(`<div id="html_219bf6261b075f98c07d26614fccb639" style="width: 100.0%; height: 100.0%;">Briskeby videregående skole AS</div>`)[0];
+                popup_844941a06ae47757c406b3eb45b71b70.setContent(html_219bf6261b075f98c07d26614fccb639);
+            
+        
+
+        marker_4a1005455778f99906bf35a576aa1b50.bindPopup(popup_844941a06ae47757c406b3eb45b71b70)
+        ;
+
+        
+    
+    
+                marker_4a1005455778f99906bf35a576aa1b50.setIcon(icon_1d4b7e8be582cd66a002c1978921b64b);
+            
+    
+            var marker_d7ce4adf31aa6fa4b57fdac32f548955 = L.marker(
+                [58.62613, 8.92865],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_cabb8c4a644a8b328952f010a352fd9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ebcb00dbf9d23b223a2b60c95d714d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f9ef98e6124d74c3d4adcfc4a5fd633 = $(`<div id="html_9f9ef98e6124d74c3d4adcfc4a5fd633" style="width: 100.0%; height: 100.0%;">Motio AS</div>`)[0];
+                popup_3ebcb00dbf9d23b223a2b60c95d714d6.setContent(html_9f9ef98e6124d74c3d4adcfc4a5fd633);
+            
+        
+
+        marker_d7ce4adf31aa6fa4b57fdac32f548955.bindPopup(popup_3ebcb00dbf9d23b223a2b60c95d714d6)
+        ;
+
+        
+    
+    
+                marker_d7ce4adf31aa6fa4b57fdac32f548955.setIcon(icon_cabb8c4a644a8b328952f010a352fd9f);
+            
+    
+            var marker_3c10a56becdd52b5eb56fdf8bea31104 = L.marker(
+                [60.19129, 12.00542],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_1115bda1850171fdc0221dd5c287ec7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7b64ac36e38ada090edb2dde99532a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d895c828991edd1beaf4348e811e710 = $(`<div id="html_2d895c828991edd1beaf4348e811e710" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Kongsvinger AS</div>`)[0];
+                popup_f7b64ac36e38ada090edb2dde99532a6.setContent(html_2d895c828991edd1beaf4348e811e710);
+            
+        
+
+        marker_3c10a56becdd52b5eb56fdf8bea31104.bindPopup(popup_f7b64ac36e38ada090edb2dde99532a6)
+        ;
+
+        
+    
+    
+                marker_3c10a56becdd52b5eb56fdf8bea31104.setIcon(icon_1115bda1850171fdc0221dd5c287ec7d);
+            
+    
+            var marker_200298d39ed05e659e42778eb6b57ed1 = L.marker(
+                [59.74036097932266, 10.18193216616209],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_53ad47c337ad3703ccb154ee0b66c717 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b933e63de88385d6f9b6defb7c59fb7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc26e3146d2d88d02334caaa36071cd3 = $(`<div id="html_cc26e3146d2d88d02334caaa36071cd3" style="width: 100.0%; height: 100.0%;">Akademiet Drammen AS</div>`)[0];
+                popup_b933e63de88385d6f9b6defb7c59fb7c.setContent(html_cc26e3146d2d88d02334caaa36071cd3);
+            
+        
+
+        marker_200298d39ed05e659e42778eb6b57ed1.bindPopup(popup_b933e63de88385d6f9b6defb7c59fb7c)
+        ;
+
+        
+    
+    
+                marker_200298d39ed05e659e42778eb6b57ed1.setIcon(icon_53ad47c337ad3703ccb154ee0b66c717);
+            
+    
+            var marker_f1ed2d7df7624efe66511c3358c0eb63 = L.marker(
+                [60.38746, 5.33138],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_cfc2694044c5888cd42875564470376f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b966b81f6805a7aa1b5bb28d13fd497 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_738626b2f3dc1147a0961f9ccba07cb2 = $(`<div id="html_738626b2f3dc1147a0961f9ccba07cb2" style="width: 100.0%; height: 100.0%;">Metis videregående AS</div>`)[0];
+                popup_7b966b81f6805a7aa1b5bb28d13fd497.setContent(html_738626b2f3dc1147a0961f9ccba07cb2);
+            
+        
+
+        marker_f1ed2d7df7624efe66511c3358c0eb63.bindPopup(popup_7b966b81f6805a7aa1b5bb28d13fd497)
+        ;
+
+        
+    
+    
+                marker_f1ed2d7df7624efe66511c3358c0eb63.setIcon(icon_cfc2694044c5888cd42875564470376f);
+            
+    
+            var marker_2cdebd982669239873ce5cb2624022ec = L.marker(
+                [62.4734, 6.15031],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e706f1553312c5bc98ef5c25efa61173 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ba4886c1f88d3b6b27e64ffc450f573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01c870cd7362847cb46632e23a9217d8 = $(`<div id="html_01c870cd7362847cb46632e23a9217d8" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Ålesund AS</div>`)[0];
+                popup_0ba4886c1f88d3b6b27e64ffc450f573.setContent(html_01c870cd7362847cb46632e23a9217d8);
+            
+        
+
+        marker_2cdebd982669239873ce5cb2624022ec.bindPopup(popup_0ba4886c1f88d3b6b27e64ffc450f573)
+        ;
+
+        
+    
+    
+                marker_2cdebd982669239873ce5cb2624022ec.setIcon(icon_e706f1553312c5bc98ef5c25efa61173);
+            
+    
+            var marker_368d19ea032075fd1bba3b93e2119aef = L.marker(
+                [59.9196, 10.76129],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_706bf196dd3fd4f00bc38bd205e55ca6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4da4d280d2987e08d649c722deea2eae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ee8949b674f88d1211d0fb390118d71 = $(`<div id="html_4ee8949b674f88d1211d0fb390118d71" style="width: 100.0%; height: 100.0%;">Stiftelsen Spin Off Forstudium</div>`)[0];
+                popup_4da4d280d2987e08d649c722deea2eae.setContent(html_4ee8949b674f88d1211d0fb390118d71);
+            
+        
+
+        marker_368d19ea032075fd1bba3b93e2119aef.bindPopup(popup_4da4d280d2987e08d649c722deea2eae)
+        ;
+
+        
+    
+    
+                marker_368d19ea032075fd1bba3b93e2119aef.setIcon(icon_706bf196dd3fd4f00bc38bd205e55ca6);
+            
+    
+            var marker_b82459d3fae42cbe6de70677d16752cb = L.marker(
+                [58.15325, 8.02905],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_a9e6217f44e84a16dd335718581d6067 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5a82be060e79be3c79d2d1798efe349 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96377c103b806e5ac71a169aceb4b46e = $(`<div id="html_96377c103b806e5ac71a169aceb4b46e" style="width: 100.0%; height: 100.0%;">Akademiet Kristiansand AS</div>`)[0];
+                popup_e5a82be060e79be3c79d2d1798efe349.setContent(html_96377c103b806e5ac71a169aceb4b46e);
+            
+        
+
+        marker_b82459d3fae42cbe6de70677d16752cb.bindPopup(popup_e5a82be060e79be3c79d2d1798efe349)
+        ;
+
+        
+    
+    
+                marker_b82459d3fae42cbe6de70677d16752cb.setIcon(icon_a9e6217f44e84a16dd335718581d6067);
+            
+    
+            var marker_eb1ccde6cb09a00d08c47ef3d1bcc810 = L.marker(
+                [63.43889, 10.48563],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_1694a048dc4104a3625ee532e58faea8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6374bfe794fb9b7a25406954ebb6767d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed1e77eec383f93571ed06b2be53c52e = $(`<div id="html_ed1e77eec383f93571ed06b2be53c52e" style="width: 100.0%; height: 100.0%;">Stiftelsen steinerskolen Rotvoll</div>`)[0];
+                popup_6374bfe794fb9b7a25406954ebb6767d.setContent(html_ed1e77eec383f93571ed06b2be53c52e);
+            
+        
+
+        marker_eb1ccde6cb09a00d08c47ef3d1bcc810.bindPopup(popup_6374bfe794fb9b7a25406954ebb6767d)
+        ;
+
+        
+    
+    
+                marker_eb1ccde6cb09a00d08c47ef3d1bcc810.setIcon(icon_1694a048dc4104a3625ee532e58faea8);
+            
+    
+            var marker_f22c3d2af96e402ba821b377a5f27ba2 = L.marker(
+                [59.91804, 10.74278],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_3b574c5675902bef638c94900163518b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7bde619d6490c77173f0accede8a50e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_070fb2813b900d4146f5047ba22ea47b = $(`<div id="html_070fb2813b900d4146f5047ba22ea47b" style="width: 100.0%; height: 100.0%;">Oslo By steinerskole Sti</div>`)[0];
+                popup_c7bde619d6490c77173f0accede8a50e.setContent(html_070fb2813b900d4146f5047ba22ea47b);
+            
+        
+
+        marker_f22c3d2af96e402ba821b377a5f27ba2.bindPopup(popup_c7bde619d6490c77173f0accede8a50e)
+        ;
+
+        
+    
+    
+                marker_f22c3d2af96e402ba821b377a5f27ba2.setIcon(icon_3b574c5675902bef638c94900163518b);
+            
+    
+            var marker_ed699b6ebae2daab77c1fbe514a8ea00 = L.marker(
+                [60.77761, 11.1027],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_10543a21e4f06ae8f3eaba73a7d2eb35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abff4d71bd971106b089c3c5a4834911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbed2466899ecfa38e5b6ddebe4f111c = $(`<div id="html_fbed2466899ecfa38e5b6ddebe4f111c" style="width: 100.0%; height: 100.0%;">Steinerskolen på Hedemarken avd videregående skole</div>`)[0];
+                popup_abff4d71bd971106b089c3c5a4834911.setContent(html_fbed2466899ecfa38e5b6ddebe4f111c);
+            
+        
+
+        marker_ed699b6ebae2daab77c1fbe514a8ea00.bindPopup(popup_abff4d71bd971106b089c3c5a4834911)
+        ;
+
+        
+    
+    
+                marker_ed699b6ebae2daab77c1fbe514a8ea00.setIcon(icon_10543a21e4f06ae8f3eaba73a7d2eb35);
+            
+    
+            var marker_b84e343b467af92411cf9d347a4dee58 = L.marker(
+                [59.46509, 10.81341],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4a5024a04e9578a515f0f1153d67cecb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f517a6d8c57f203678bb1725cd3a055 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a0e7ff9d0a57ec9ea3ba2fbb6b7eec = $(`<div id="html_40a0e7ff9d0a57ec9ea3ba2fbb6b7eec" style="width: 100.0%; height: 100.0%;">Evangeliesenterets bibelskole</div>`)[0];
+                popup_9f517a6d8c57f203678bb1725cd3a055.setContent(html_40a0e7ff9d0a57ec9ea3ba2fbb6b7eec);
+            
+        
+
+        marker_b84e343b467af92411cf9d347a4dee58.bindPopup(popup_9f517a6d8c57f203678bb1725cd3a055)
+        ;
+
+        
+    
+    
+                marker_b84e343b467af92411cf9d347a4dee58.setIcon(icon_4a5024a04e9578a515f0f1153d67cecb);
+            
+    
+            var marker_48c3dc94ed586a461868bd84bd0b3e2e = L.marker(
+                [63.42862, 10.39237],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_7fbdb563b8df9ea66d771682961f46ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9c63c896fde1dd6bc27434541c9af63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c5ef12dcbc7ab47bc39bbdfe930b717 = $(`<div id="html_0c5ef12dcbc7ab47bc39bbdfe930b717" style="width: 100.0%; height: 100.0%;">Bibelskolen i Trondheim Sti</div>`)[0];
+                popup_c9c63c896fde1dd6bc27434541c9af63.setContent(html_0c5ef12dcbc7ab47bc39bbdfe930b717);
+            
+        
+
+        marker_48c3dc94ed586a461868bd84bd0b3e2e.bindPopup(popup_c9c63c896fde1dd6bc27434541c9af63)
+        ;
+
+        
+    
+    
+                marker_48c3dc94ed586a461868bd84bd0b3e2e.setIcon(icon_7fbdb563b8df9ea66d771682961f46ed);
+            
+    
+            var marker_c79ef6159f543012e2821136387341ea = L.marker(
+                [59.91702, 10.71729],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4f09ffd569c7057653c00e4092383a2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86953d6cdd214a57bd8f62fe39935785 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_335e60ecc7f11c6280657b548ba8fa9e = $(`<div id="html_335e60ecc7f11c6280657b548ba8fa9e" style="width: 100.0%; height: 100.0%;">Lycee Francais Rene Cassin avd Vidregående skole</div>`)[0];
+                popup_86953d6cdd214a57bd8f62fe39935785.setContent(html_335e60ecc7f11c6280657b548ba8fa9e);
+            
+        
+
+        marker_c79ef6159f543012e2821136387341ea.bindPopup(popup_86953d6cdd214a57bd8f62fe39935785)
+        ;
+
+        
+    
+    
+                marker_c79ef6159f543012e2821136387341ea.setIcon(icon_4f09ffd569c7057653c00e4092383a2a);
+            
+    
+            var marker_962b81785a1e5318822cd715c321970a = L.marker(
+                [58.93885, 5.73421],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_bc70d94e1bbfce4badd61a98bcd980ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21e60021e30cab7f2f769ffae7e72844 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeceefee31cd450168d99e67baeb4b56 = $(`<div id="html_eeceefee31cd450168d99e67baeb4b56" style="width: 100.0%; height: 100.0%;">Steinerskolen i Stavanger videregående skole</div>`)[0];
+                popup_21e60021e30cab7f2f769ffae7e72844.setContent(html_eeceefee31cd450168d99e67baeb4b56);
+            
+        
+
+        marker_962b81785a1e5318822cd715c321970a.bindPopup(popup_21e60021e30cab7f2f769ffae7e72844)
+        ;
+
+        
+    
+    
+                marker_962b81785a1e5318822cd715c321970a.setIcon(icon_bc70d94e1bbfce4badd61a98bcd980ea);
+            
+    
+            var marker_dc5b8bb59a1612f81494a2d4c5785be1 = L.marker(
+                [59.93, 10.60565],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e56831bdd41324e081c1e20ae5466a6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8810bc4078fecd5551672921c2014b6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d60ee21b3fafb71fc0155c3d1030893e = $(`<div id="html_d60ee21b3fafb71fc0155c3d1030893e" style="width: 100.0%; height: 100.0%;">Steinerskolen i Bærum videregående Opplæring</div>`)[0];
+                popup_8810bc4078fecd5551672921c2014b6d.setContent(html_d60ee21b3fafb71fc0155c3d1030893e);
+            
+        
+
+        marker_dc5b8bb59a1612f81494a2d4c5785be1.bindPopup(popup_8810bc4078fecd5551672921c2014b6d)
+        ;
+
+        
+    
+    
+                marker_dc5b8bb59a1612f81494a2d4c5785be1.setIcon(icon_e56831bdd41324e081c1e20ae5466a6d);
+            
+    
+            var marker_1f8346cb4e4d9151e6de5575a58368de = L.marker(
+                [63.43066, 10.37297],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_06c2969d93b0af29a9755fc8a95f55e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_116c40eaea7c2aa2643e4fbef67ef8fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b5ac1ecb67558a9c07548e8d015a4fe = $(`<div id="html_0b5ac1ecb67558a9c07548e8d015a4fe" style="width: 100.0%; height: 100.0%;">Steinerskolen i Trondheim videregående skole</div>`)[0];
+                popup_116c40eaea7c2aa2643e4fbef67ef8fd.setContent(html_0b5ac1ecb67558a9c07548e8d015a4fe);
+            
+        
+
+        marker_1f8346cb4e4d9151e6de5575a58368de.bindPopup(popup_116c40eaea7c2aa2643e4fbef67ef8fd)
+        ;
+
+        
+    
+    
+                marker_1f8346cb4e4d9151e6de5575a58368de.setIcon(icon_06c2969d93b0af29a9755fc8a95f55e1);
+            
+    
+            var marker_29594c452529cab0e8e3ef6e931e3b58 = L.marker(
+                [59.23161, 11.47543],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_53db87e330cb6a3ba848fdaf5545e0d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cc2a3a300e464684bc8f084567ebd40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_007cee89985f67372a259ac7071c87c0 = $(`<div id="html_007cee89985f67372a259ac7071c87c0" style="width: 100.0%; height: 100.0%;">Stiftelsen Østerbo videregående skole</div>`)[0];
+                popup_0cc2a3a300e464684bc8f084567ebd40.setContent(html_007cee89985f67372a259ac7071c87c0);
+            
+        
+
+        marker_29594c452529cab0e8e3ef6e931e3b58.bindPopup(popup_0cc2a3a300e464684bc8f084567ebd40)
+        ;
+
+        
+    
+    
+                marker_29594c452529cab0e8e3ef6e931e3b58.setIcon(icon_53db87e330cb6a3ba848fdaf5545e0d6);
+            
+    
+            var marker_25e774a2cda4c565ade9de7ce31f9605 = L.marker(
+                [59.9362, 10.88051],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_536f3789c7db2912354052187a600c5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f19136ac71c41a26c14f88143436060e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_773cd3be5132dadcd6b0b29470619de3 = $(`<div id="html_773cd3be5132dadcd6b0b29470619de3" style="width: 100.0%; height: 100.0%;">Natur videregående skole Sti</div>`)[0];
+                popup_f19136ac71c41a26c14f88143436060e.setContent(html_773cd3be5132dadcd6b0b29470619de3);
+            
+        
+
+        marker_25e774a2cda4c565ade9de7ce31f9605.bindPopup(popup_f19136ac71c41a26c14f88143436060e)
+        ;
+
+        
+    
+    
+                marker_25e774a2cda4c565ade9de7ce31f9605.setIcon(icon_536f3789c7db2912354052187a600c5c);
+            
+    
+            var marker_d3d4c1869e55662b418f405f5d607cef = L.marker(
+                [59.34455, 5.79518],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4fcd973bd1a32028c9f9f1f4a34330fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a29a407aabd806f3f72e9ec9a1cc6123 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_570f53e48937795abf0916c2d5c5371f = $(`<div id="html_570f53e48937795abf0916c2d5c5371f" style="width: 100.0%; height: 100.0%;">Tveit vidaregåande skule Sti</div>`)[0];
+                popup_a29a407aabd806f3f72e9ec9a1cc6123.setContent(html_570f53e48937795abf0916c2d5c5371f);
+            
+        
+
+        marker_d3d4c1869e55662b418f405f5d607cef.bindPopup(popup_a29a407aabd806f3f72e9ec9a1cc6123)
+        ;
+
+        
+    
+    
+                marker_d3d4c1869e55662b418f405f5d607cef.setIcon(icon_4fcd973bd1a32028c9f9f1f4a34330fd);
+            
+    
+            var marker_7f7d5f6aad6ae6ba6155ddc9c214ce5a = L.marker(
+                [60.46604, 5.222],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e46a16af0b8fc55cfd66d28bf8dbf333 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebdebaf86aa47619bd8d16fd4e36f225 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c725e81bc6c9b63bd92688a50bba8f6e = $(`<div id="html_c725e81bc6c9b63bd92688a50bba8f6e" style="width: 100.0%; height: 100.0%;">Hop videregående skole AS</div>`)[0];
+                popup_ebdebaf86aa47619bd8d16fd4e36f225.setContent(html_c725e81bc6c9b63bd92688a50bba8f6e);
+            
+        
+
+        marker_7f7d5f6aad6ae6ba6155ddc9c214ce5a.bindPopup(popup_ebdebaf86aa47619bd8d16fd4e36f225)
+        ;
+
+        
+    
+    
+                marker_7f7d5f6aad6ae6ba6155ddc9c214ce5a.setIcon(icon_e46a16af0b8fc55cfd66d28bf8dbf333);
+            
+    
+            var marker_365bf6ae18324e2a6d1127f0230dd9ed = L.marker(
+                [59.9491, 10.73242],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_1309fbf6d8ce08c9ca18b0d51dc2f9f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff572f9292be92ebf2de28d7fcc4c797 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5b09205bf074f6e21224471ba3dfe51 = $(`<div id="html_e5b09205bf074f6e21224471ba3dfe51" style="width: 100.0%; height: 100.0%;">Heltberg private gymnas</div>`)[0];
+                popup_ff572f9292be92ebf2de28d7fcc4c797.setContent(html_e5b09205bf074f6e21224471ba3dfe51);
+            
+        
+
+        marker_365bf6ae18324e2a6d1127f0230dd9ed.bindPopup(popup_ff572f9292be92ebf2de28d7fcc4c797)
+        ;
+
+        
+    
+    
+                marker_365bf6ae18324e2a6d1127f0230dd9ed.setIcon(icon_1309fbf6d8ce08c9ca18b0d51dc2f9f3);
+            
+    
+            var marker_1296ae19503e85b9212afc9b650b6dc9 = L.marker(
+                [58.95005, 5.65417],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_9ae0454d2829aaf6559f306fcfbf4e0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e26d5e6278e449197666c7348f63830 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c542721d3d0c15adb1f3b0dcdc7037b = $(`<div id="html_4c542721d3d0c15adb1f3b0dcdc7037b" style="width: 100.0%; height: 100.0%;">International School Of Stavanger avd Undervisning</div>`)[0];
+                popup_9e26d5e6278e449197666c7348f63830.setContent(html_4c542721d3d0c15adb1f3b0dcdc7037b);
+            
+        
+
+        marker_1296ae19503e85b9212afc9b650b6dc9.bindPopup(popup_9e26d5e6278e449197666c7348f63830)
+        ;
+
+        
+    
+    
+                marker_1296ae19503e85b9212afc9b650b6dc9.setIcon(icon_9ae0454d2829aaf6559f306fcfbf4e0f);
+            
+    
+            var marker_4db30c84f5afdd1e3e2fc2d41654950f = L.marker(
+                [60.53654, 8.22571],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_f96e764fc0bdcdc80ac860d8af1f6b64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c203721e553906d23f1063d168b3efe1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d276dfe37ec859b1ea2b5fd7dac6243e = $(`<div id="html_d276dfe37ec859b1ea2b5fd7dac6243e" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Geilo AS</div>`)[0];
+                popup_c203721e553906d23f1063d168b3efe1.setContent(html_d276dfe37ec859b1ea2b5fd7dac6243e);
+            
+        
+
+        marker_4db30c84f5afdd1e3e2fc2d41654950f.bindPopup(popup_c203721e553906d23f1063d168b3efe1)
+        ;
+
+        
+    
+    
+                marker_4db30c84f5afdd1e3e2fc2d41654950f.setIcon(icon_f96e764fc0bdcdc80ac860d8af1f6b64);
+            
+    
+            var marker_bf073774b916a19c32658634d5eec5f5 = L.marker(
+                [59.27328, 11.01803],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_9e3fb1a4c77a864bff112d0eec963fa9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84d25a9f0e998b677abb409e49cbf6ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b38f7b3896694ab287021331fbef7659 = $(`<div id="html_b38f7b3896694ab287021331fbef7659" style="width: 100.0%; height: 100.0%;">Seiersborg videregående skole Fredrikstad AS</div>`)[0];
+                popup_84d25a9f0e998b677abb409e49cbf6ff.setContent(html_b38f7b3896694ab287021331fbef7659);
+            
+        
+
+        marker_bf073774b916a19c32658634d5eec5f5.bindPopup(popup_84d25a9f0e998b677abb409e49cbf6ff)
+        ;
+
+        
+    
+    
+                marker_bf073774b916a19c32658634d5eec5f5.setIcon(icon_9e3fb1a4c77a864bff112d0eec963fa9);
+            
+    
+            var marker_325e6f1c44b526629b230202b542b7d2 = L.marker(
+                [61.20767, 6.52918],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_0607256ed7e3157b94823bfceb1caf75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81fef12b6485239db41ee1c14ce2610f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13ac199c31b2ef60552709bbda95b78c = $(`<div id="html_13ac199c31b2ef60552709bbda95b78c" style="width: 100.0%; height: 100.0%;">Sygna Vgs</div>`)[0];
+                popup_81fef12b6485239db41ee1c14ce2610f.setContent(html_13ac199c31b2ef60552709bbda95b78c);
+            
+        
+
+        marker_325e6f1c44b526629b230202b542b7d2.bindPopup(popup_81fef12b6485239db41ee1c14ce2610f)
+        ;
+
+        
+    
+    
+                marker_325e6f1c44b526629b230202b542b7d2.setIcon(icon_0607256ed7e3157b94823bfceb1caf75);
+            
+    
+            var marker_4a916f8a74aff46a3b6d1dd4705e32e6 = L.marker(
+                [63.23681, 10.27536],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_55aec399c122a6caddd86e1ca3ab0ba3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3f50538a2233376b0eedae6d45db5d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8a542bbedd59daa0e594ba106900fbb = $(`<div id="html_e8a542bbedd59daa0e594ba106900fbb" style="width: 100.0%; height: 100.0%;">Øya videregående skole</div>`)[0];
+                popup_a3f50538a2233376b0eedae6d45db5d8.setContent(html_e8a542bbedd59daa0e594ba106900fbb);
+            
+        
+
+        marker_4a916f8a74aff46a3b6d1dd4705e32e6.bindPopup(popup_a3f50538a2233376b0eedae6d45db5d8)
+        ;
+
+        
+    
+    
+                marker_4a916f8a74aff46a3b6d1dd4705e32e6.setIcon(icon_55aec399c122a6caddd86e1ca3ab0ba3);
+            
+    
+            var marker_5a2e83902517a17bb06215a67df6135c = L.marker(
+                [63.3601, 10.3816],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_dd82ed6ee4e40e44a354c548e5c48dec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54abca7d264cff1c77a882ba6aa5ad00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef34c531ff2c2719c32be1e0d99ad577 = $(`<div id="html_ef34c531ff2c2719c32be1e0d99ad577" style="width: 100.0%; height: 100.0%;">Kristen videregående skole Trøndelag</div>`)[0];
+                popup_54abca7d264cff1c77a882ba6aa5ad00.setContent(html_ef34c531ff2c2719c32be1e0d99ad577);
+            
+        
+
+        marker_5a2e83902517a17bb06215a67df6135c.bindPopup(popup_54abca7d264cff1c77a882ba6aa5ad00)
+        ;
+
+        
+    
+    
+                marker_5a2e83902517a17bb06215a67df6135c.setIcon(icon_dd82ed6ee4e40e44a354c548e5c48dec);
+            
+    
+            var marker_537e1c484ca447d3922925d36da3fc08 = L.marker(
+                [64.78575, 11.42312],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_1e905866e79bd9fe3e5e66b336652cbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d938ad37f1632d8bdb5563958080e471 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ef36baabe36a28008bf9863290fbb9a = $(`<div id="html_4ef36baabe36a28008bf9863290fbb9a" style="width: 100.0%; height: 100.0%;">Val Skoler AS avd Vgs</div>`)[0];
+                popup_d938ad37f1632d8bdb5563958080e471.setContent(html_4ef36baabe36a28008bf9863290fbb9a);
+            
+        
+
+        marker_537e1c484ca447d3922925d36da3fc08.bindPopup(popup_d938ad37f1632d8bdb5563958080e471)
+        ;
+
+        
+    
+    
+                marker_537e1c484ca447d3922925d36da3fc08.setIcon(icon_1e905866e79bd9fe3e5e66b336652cbf);
+            
+    
+            var marker_2b019542e8cdb4d66e45f97996ff4425 = L.marker(
+                [60.34462, 5.11735],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_f3e13d8e94d4ef010c129c515e300c2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76895dfdfaa0d13a6d6edc0de0eddbb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8420f3e56e58173df343f976cf455d72 = $(`<div id="html_8420f3e56e58173df343f976cf455d72" style="width: 100.0%; height: 100.0%;">Bibelskolen Bildøy</div>`)[0];
+                popup_76895dfdfaa0d13a6d6edc0de0eddbb3.setContent(html_8420f3e56e58173df343f976cf455d72);
+            
+        
+
+        marker_2b019542e8cdb4d66e45f97996ff4425.bindPopup(popup_76895dfdfaa0d13a6d6edc0de0eddbb3)
+        ;
+
+        
+    
+    
+                marker_2b019542e8cdb4d66e45f97996ff4425.setIcon(icon_f3e13d8e94d4ef010c129c515e300c2a);
+            
+    
+            var marker_3d45e0d276793df2dbe049a3bc7db564 = L.marker(
+                [60.15129, 5.38534],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_52c580055fef54d4fc5ecb6dd3a5d9e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ca6dbafedc3e7a5169562a1f792d34f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b42c1ce954c8ac1022cceb226db7c5ce = $(`<div id="html_b42c1ce954c8ac1022cceb226db7c5ce" style="width: 100.0%; height: 100.0%;">Kongshaug Musikkgymnas</div>`)[0];
+                popup_6ca6dbafedc3e7a5169562a1f792d34f.setContent(html_b42c1ce954c8ac1022cceb226db7c5ce);
+            
+        
+
+        marker_3d45e0d276793df2dbe049a3bc7db564.bindPopup(popup_6ca6dbafedc3e7a5169562a1f792d34f)
+        ;
+
+        
+    
+    
+                marker_3d45e0d276793df2dbe049a3bc7db564.setIcon(icon_52c580055fef54d4fc5ecb6dd3a5d9e9);
+            
+    
+            var marker_798f52cf3f7587ab759ebe0cbc685494 = L.marker(
+                [60.3498, 6.18418],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_14b3da83e626c0ecba5c562f280c33a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20b964cac71e3a28d6a869c2455027e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c078b4810295225bd6406fdc1b76918c = $(`<div id="html_c078b4810295225bd6406fdc1b76918c" style="width: 100.0%; height: 100.0%;">Framnes Kristne vidaregåande skule</div>`)[0];
+                popup_20b964cac71e3a28d6a869c2455027e3.setContent(html_c078b4810295225bd6406fdc1b76918c);
+            
+        
+
+        marker_798f52cf3f7587ab759ebe0cbc685494.bindPopup(popup_20b964cac71e3a28d6a869c2455027e3)
+        ;
+
+        
+    
+    
+                marker_798f52cf3f7587ab759ebe0cbc685494.setIcon(icon_14b3da83e626c0ecba5c562f280c33a7);
+            
+    
+            var marker_0215d8f461749545ca63e70c3f4e5c65 = L.marker(
+                [59.924, 10.72948],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_3641ede2ffc356b1fdaa163bb74716ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_476bc7b43e18967c6ce2decf25a48f5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b78ce1e92ef065ced0ed09bf6f2c2dde = $(`<div id="html_b78ce1e92ef065ced0ed09bf6f2c2dde" style="width: 100.0%; height: 100.0%;">Kristelig gymnasium AS videregående skole</div>`)[0];
+                popup_476bc7b43e18967c6ce2decf25a48f5e.setContent(html_b78ce1e92ef065ced0ed09bf6f2c2dde);
+            
+        
+
+        marker_0215d8f461749545ca63e70c3f4e5c65.bindPopup(popup_476bc7b43e18967c6ce2decf25a48f5e)
+        ;
+
+        
+    
+    
+                marker_0215d8f461749545ca63e70c3f4e5c65.setIcon(icon_3641ede2ffc356b1fdaa163bb74716ed);
+            
+    
+            var marker_6b04aab9abc752bca94d687fd9c7d775 = L.marker(
+                [58.34851, 8.64152],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_ab1b7ad2737fc1c7721dd75f6d6adea7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a19049aa4b2589caed54d23e18cc2037 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5aab74a91e099f93cc5e3524d1b530fb = $(`<div id="html_5aab74a91e099f93cc5e3524d1b530fb" style="width: 100.0%; height: 100.0%;">Drottningborg Vgs AS</div>`)[0];
+                popup_a19049aa4b2589caed54d23e18cc2037.setContent(html_5aab74a91e099f93cc5e3524d1b530fb);
+            
+        
+
+        marker_6b04aab9abc752bca94d687fd9c7d775.bindPopup(popup_a19049aa4b2589caed54d23e18cc2037)
+        ;
+
+        
+    
+    
+                marker_6b04aab9abc752bca94d687fd9c7d775.setIcon(icon_ab1b7ad2737fc1c7721dd75f6d6adea7);
+            
+    
+            var marker_fba373a898e93b2f2a6d8357c01392c8 = L.marker(
+                [62.30856, 6.91996],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_929c0ead977062b6cb424a28e67c8732 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b3273bba01bc336bafa6d7827bb8542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15263074d466a773a0264332549365d4 = $(`<div id="html_15263074d466a773a0264332549365d4" style="width: 100.0%; height: 100.0%;">Vestborg Vgs</div>`)[0];
+                popup_9b3273bba01bc336bafa6d7827bb8542.setContent(html_15263074d466a773a0264332549365d4);
+            
+        
+
+        marker_fba373a898e93b2f2a6d8357c01392c8.bindPopup(popup_9b3273bba01bc336bafa6d7827bb8542)
+        ;
+
+        
+    
+    
+                marker_fba373a898e93b2f2a6d8357c01392c8.setIcon(icon_929c0ead977062b6cb424a28e67c8732);
+            
+    
+            var marker_bc2e930feb90e7358e6c1542923e05cf = L.marker(
+                [69.22912, 17.99658],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_dc6579e8ea3e13f0183a29554317babb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a3546ace0272c3b9edb02a48f0c1f90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_030b576a5543747d5eb682181185518d = $(`<div id="html_030b576a5543747d5eb682181185518d" style="width: 100.0%; height: 100.0%;">Nordborg Vgs</div>`)[0];
+                popup_8a3546ace0272c3b9edb02a48f0c1f90.setContent(html_030b576a5543747d5eb682181185518d);
+            
+        
+
+        marker_bc2e930feb90e7358e6c1542923e05cf.bindPopup(popup_8a3546ace0272c3b9edb02a48f0c1f90)
+        ;
+
+        
+    
+    
+                marker_bc2e930feb90e7358e6c1542923e05cf.setIcon(icon_dc6579e8ea3e13f0183a29554317babb);
+            
+    
+            var marker_d38b092c37530fad2b08dc0a5ba8c5f3 = L.marker(
+                [58.14923, 8.03194],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_2724bb21ca9414c7b52eb82c0b66c92e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52afcc9c026aa0e9601639e70a172dde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a7d196c1a463e6e3a46367ebaa3a233 = $(`<div id="html_1a7d196c1a463e6e3a46367ebaa3a233" style="width: 100.0%; height: 100.0%;">Stiftelsen Maritim videregående skole Sørlandet</div>`)[0];
+                popup_52afcc9c026aa0e9601639e70a172dde.setContent(html_1a7d196c1a463e6e3a46367ebaa3a233);
+            
+        
+
+        marker_d38b092c37530fad2b08dc0a5ba8c5f3.bindPopup(popup_52afcc9c026aa0e9601639e70a172dde)
+        ;
+
+        
+    
+    
+                marker_d38b092c37530fad2b08dc0a5ba8c5f3.setIcon(icon_2724bb21ca9414c7b52eb82c0b66c92e);
+            
+    
+            var marker_e3cb8357c29d6b54f92aa5b35fab5379 = L.marker(
+                [59.32111, 10.81228],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_76df78f7c8ad5f4e5d040da5495877b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_521f0c7f099137b3c9e073b0610ca7b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4d4cbe86cda3701f096b409ebca5956 = $(`<div id="html_c4d4cbe86cda3701f096b409ebca5956" style="width: 100.0%; height: 100.0%;">Tomb videregående skole</div>`)[0];
+                popup_521f0c7f099137b3c9e073b0610ca7b2.setContent(html_c4d4cbe86cda3701f096b409ebca5956);
+            
+        
+
+        marker_e3cb8357c29d6b54f92aa5b35fab5379.bindPopup(popup_521f0c7f099137b3c9e073b0610ca7b2)
+        ;
+
+        
+    
+    
+                marker_e3cb8357c29d6b54f92aa5b35fab5379.setIcon(icon_76df78f7c8ad5f4e5d040da5495877b1);
+            
+    
+            var marker_e176fa6ad426588080982edd656aa8c7 = L.marker(
+                [59.94917, 10.65886],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_67efaefd91d584a902b4779e840766f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c8fecb3ea347969fac4524d4f91a268 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14b4dc2f3d1d163bdae1b300f0f4c97b = $(`<div id="html_14b4dc2f3d1d163bdae1b300f0f4c97b" style="width: 100.0%; height: 100.0%;">Rudolf steinerskolen i Oslo Sti</div>`)[0];
+                popup_6c8fecb3ea347969fac4524d4f91a268.setContent(html_14b4dc2f3d1d163bdae1b300f0f4c97b);
+            
+        
+
+        marker_e176fa6ad426588080982edd656aa8c7.bindPopup(popup_6c8fecb3ea347969fac4524d4f91a268)
+        ;
+
+        
+    
+    
+                marker_e176fa6ad426588080982edd656aa8c7.setIcon(icon_67efaefd91d584a902b4779e840766f6);
+            
+    
+            var marker_21b4d9aeabcfb400e3405263509b07eb = L.marker(
+                [59.38135, 8.52013],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_a11c40b7d15aef72de3b37268c21dcde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d33407cedf51fa4c418b569456b9dc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59951fecb52ba8da21061ca5a9adfe33 = $(`<div id="html_59951fecb52ba8da21061ca5a9adfe33" style="width: 100.0%; height: 100.0%;">Kvitsund gymnas</div>`)[0];
+                popup_4d33407cedf51fa4c418b569456b9dc1.setContent(html_59951fecb52ba8da21061ca5a9adfe33);
+            
+        
+
+        marker_21b4d9aeabcfb400e3405263509b07eb.bindPopup(popup_4d33407cedf51fa4c418b569456b9dc1)
+        ;
+
+        
+    
+    
+                marker_21b4d9aeabcfb400e3405263509b07eb.setIcon(icon_a11c40b7d15aef72de3b37268c21dcde);
+            
+    
+            var marker_8f3d87038eefe793c4d6f7831b4cb87c = L.marker(
+                [60.37804, 5.35595],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e2953a8e418d74a16699ba9c5b8bb387 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d39fe74078ec139840aac888b3447e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_272efb49028e74adf44b059728b6fc50 = $(`<div id="html_272efb49028e74adf44b059728b6fc50" style="width: 100.0%; height: 100.0%;">Bergen bibelskole Sti</div>`)[0];
+                popup_8d39fe74078ec139840aac888b3447e1.setContent(html_272efb49028e74adf44b059728b6fc50);
+            
+        
+
+        marker_8f3d87038eefe793c4d6f7831b4cb87c.bindPopup(popup_8d39fe74078ec139840aac888b3447e1)
+        ;
+
+        
+    
+    
+                marker_8f3d87038eefe793c4d6f7831b4cb87c.setIcon(icon_e2953a8e418d74a16699ba9c5b8bb387);
+            
+    
+            var marker_5377ac0f8cb73fa9a84cd3423e35f70b = L.marker(
+                [60.33899, 5.32024],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_dc6a0103d08507ecdea47b39a7cfe0a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c77ad309fd66ef6919f00607af8adf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fe80b6544cd114492402e839f41315f = $(`<div id="html_3fe80b6544cd114492402e839f41315f" style="width: 100.0%; height: 100.0%;">Credo bibelskole</div>`)[0];
+                popup_3c77ad309fd66ef6919f00607af8adf0.setContent(html_3fe80b6544cd114492402e839f41315f);
+            
+        
+
+        marker_5377ac0f8cb73fa9a84cd3423e35f70b.bindPopup(popup_3c77ad309fd66ef6919f00607af8adf0)
+        ;
+
+        
+    
+    
+                marker_5377ac0f8cb73fa9a84cd3423e35f70b.setIcon(icon_dc6a0103d08507ecdea47b39a7cfe0a9);
+            
+    
+            var marker_d9fef39aa80e3e7514413ac652901fac = L.marker(
+                [58.95488, 5.69944],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_30d99a8b3e5f573e4ca29e5327578a89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae6f2e3ff762466937fc7ec7f2799107 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f78246537046ffe73435caaeee597dd = $(`<div id="html_8f78246537046ffe73435caaeee597dd" style="width: 100.0%; height: 100.0%;">Acta bibelskole</div>`)[0];
+                popup_ae6f2e3ff762466937fc7ec7f2799107.setContent(html_8f78246537046ffe73435caaeee597dd);
+            
+        
+
+        marker_d9fef39aa80e3e7514413ac652901fac.bindPopup(popup_ae6f2e3ff762466937fc7ec7f2799107)
+        ;
+
+        
+    
+    
+                marker_d9fef39aa80e3e7514413ac652901fac.setIcon(icon_30d99a8b3e5f573e4ca29e5327578a89);
+            
+    
+            var marker_d3820984b26cedcbbea96c49845f5741 = L.marker(
+                [60.77756, 11.1034],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_38b942a47393bd7860a413f707f57381 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4ac798dc209945d70755043f806dd9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecdc76099ec2647a58e273ad1d95b68a = $(`<div id="html_ecdc76099ec2647a58e273ad1d95b68a" style="width: 100.0%; height: 100.0%;">Helsepedagogisk steinerskole på Hedemarken</div>`)[0];
+                popup_a4ac798dc209945d70755043f806dd9c.setContent(html_ecdc76099ec2647a58e273ad1d95b68a);
+            
+        
+
+        marker_d3820984b26cedcbbea96c49845f5741.bindPopup(popup_a4ac798dc209945d70755043f806dd9c)
+        ;
+
+        
+    
+    
+                marker_d3820984b26cedcbbea96c49845f5741.setIcon(icon_38b942a47393bd7860a413f707f57381);
+            
+    
+            var marker_b2d9d7b55a1ec9ba111a46d2bf94b496 = L.marker(
+                [63.43896, 10.48351],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_eabffda677460d5faf1748a0ea6d1882 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57725a986b72d2a994e392e3c7824fe0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8299b9d96156b896d198c4a986acac8a = $(`<div id="html_8299b9d96156b896d198c4a986acac8a" style="width: 100.0%; height: 100.0%;">Lukas videregående skole AS</div>`)[0];
+                popup_57725a986b72d2a994e392e3c7824fe0.setContent(html_8299b9d96156b896d198c4a986acac8a);
+            
+        
+
+        marker_b2d9d7b55a1ec9ba111a46d2bf94b496.bindPopup(popup_57725a986b72d2a994e392e3c7824fe0)
+        ;
+
+        
+    
+    
+                marker_b2d9d7b55a1ec9ba111a46d2bf94b496.setIcon(icon_eabffda677460d5faf1748a0ea6d1882);
+            
+    
+            var marker_4ed16efa0cf19187f18316a7d442b321 = L.marker(
+                [66.19877, 13.03525],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_2ff7d0e19b527cc7d113df95f8b9b8f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_445bf1a3d39198243ea11dfc1289848c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c110426ebaaaaef049829c7cd02335eb = $(`<div id="html_c110426ebaaaaef049829c7cd02335eb" style="width: 100.0%; height: 100.0%;">Kristen videregående skole Nordland Sti</div>`)[0];
+                popup_445bf1a3d39198243ea11dfc1289848c.setContent(html_c110426ebaaaaef049829c7cd02335eb);
+            
+        
+
+        marker_4ed16efa0cf19187f18316a7d442b321.bindPopup(popup_445bf1a3d39198243ea11dfc1289848c)
+        ;
+
+        
+    
+    
+                marker_4ed16efa0cf19187f18316a7d442b321.setIcon(icon_2ff7d0e19b527cc7d113df95f8b9b8f3);
+            
+    
+            var marker_13104ae8fe5befa591f17e539e3cccad = L.marker(
+                [59.12004, 10.23137],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_94c8bda8ca22626a0d58018626c88086 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c51100e7d0f55d227e2934e80be51997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf001a69722c3b6705904ae96fba1e1c = $(`<div id="html_cf001a69722c3b6705904ae96fba1e1c" style="width: 100.0%; height: 100.0%;">Skagerak International School Sti</div>`)[0];
+                popup_c51100e7d0f55d227e2934e80be51997.setContent(html_cf001a69722c3b6705904ae96fba1e1c);
+            
+        
+
+        marker_13104ae8fe5befa591f17e539e3cccad.bindPopup(popup_c51100e7d0f55d227e2934e80be51997)
+        ;
+
+        
+    
+    
+                marker_13104ae8fe5befa591f17e539e3cccad.setIcon(icon_94c8bda8ca22626a0d58018626c88086);
+            
+    
+            var marker_7853321d46f6bc78ba2ee702deadfb79 = L.marker(
+                [59.8499, 10.80442],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_0b4210c93b34a26d19d73fc5e073e936 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c09a021d3cde5983ccdea3cd2ac2d04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cbac346472cb9ec8caac617e4876c6a = $(`<div id="html_8cbac346472cb9ec8caac617e4876c6a" style="width: 100.0%; height: 100.0%;">Ljabruskolen - steinerskole for Elever Med Spesielle Behov Sti</div>`)[0];
+                popup_5c09a021d3cde5983ccdea3cd2ac2d04.setContent(html_8cbac346472cb9ec8caac617e4876c6a);
+            
+        
+
+        marker_7853321d46f6bc78ba2ee702deadfb79.bindPopup(popup_5c09a021d3cde5983ccdea3cd2ac2d04)
+        ;
+
+        
+    
+    
+                marker_7853321d46f6bc78ba2ee702deadfb79.setIcon(icon_0b4210c93b34a26d19d73fc5e073e936);
+            
+    
+            var marker_8249ae12fa6c058095bd2c87992f8b6b = L.marker(
+                [60.31017, 5.32901],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_f3aa147ce8b0ee3ae70b693adbed22a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c850e08999aa6e729ef8c0a4527ad448 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20b7d6fca5486b4539568fea0844e6ba = $(`<div id="html_20b7d6fca5486b4539568fea0844e6ba" style="width: 100.0%; height: 100.0%;">Steinerskolen på Skjold Helseped Avdeling</div>`)[0];
+                popup_c850e08999aa6e729ef8c0a4527ad448.setContent(html_20b7d6fca5486b4539568fea0844e6ba);
+            
+        
+
+        marker_8249ae12fa6c058095bd2c87992f8b6b.bindPopup(popup_c850e08999aa6e729ef8c0a4527ad448)
+        ;
+
+        
+    
+    
+                marker_8249ae12fa6c058095bd2c87992f8b6b.setIcon(icon_f3aa147ce8b0ee3ae70b693adbed22a7);
+            
+    
+            var marker_757379ea425c6c0bf94f58c655d76006 = L.marker(
+                [59.92035, 10.75279],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_64c2ff8882cf4ebb751d8b52e5665831 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_975ee3c70e3e90a627e7771aed7560e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10422e817d350531594dac5a35f6c8d5 = $(`<div id="html_10422e817d350531594dac5a35f6c8d5" style="width: 100.0%; height: 100.0%;">Strykejernet kunstskole AS</div>`)[0];
+                popup_975ee3c70e3e90a627e7771aed7560e0.setContent(html_10422e817d350531594dac5a35f6c8d5);
+            
+        
+
+        marker_757379ea425c6c0bf94f58c655d76006.bindPopup(popup_975ee3c70e3e90a627e7771aed7560e0)
+        ;
+
+        
+    
+    
+                marker_757379ea425c6c0bf94f58c655d76006.setIcon(icon_64c2ff8882cf4ebb751d8b52e5665831);
+            
+    
+            var marker_8078e6dd69a52a592cc166ae3373e637 = L.marker(
+                [58.2877, 7.87645],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_c0d91eb8c91901a7df092dfb595750c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_443c42c28b08c0d67b89994193cf5437 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2af71f41f045ed68d721914f4dd28a94 = $(`<div id="html_2af71f41f045ed68d721914f4dd28a94" style="width: 100.0%; height: 100.0%;">Blå Kors videregående skole Øvrebø AS</div>`)[0];
+                popup_443c42c28b08c0d67b89994193cf5437.setContent(html_2af71f41f045ed68d721914f4dd28a94);
+            
+        
+
+        marker_8078e6dd69a52a592cc166ae3373e637.bindPopup(popup_443c42c28b08c0d67b89994193cf5437)
+        ;
+
+        
+    
+    
+                marker_8078e6dd69a52a592cc166ae3373e637.setIcon(icon_c0d91eb8c91901a7df092dfb595750c2);
+            
+    
+            var marker_8d2e75803865b354d175e7b78dc12c6a = L.marker(
+                [58.31169, 8.56593],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_f14b0ef3369f71f5b722bcdd4e744c45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21a8fc18d1f020eb240f88ce711b5321 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc37cb4fc7bcbe4ada1e29426a515981 = $(`<div id="html_dc37cb4fc7bcbe4ada1e29426a515981" style="width: 100.0%; height: 100.0%;">Bibelskolen i Grimstad</div>`)[0];
+                popup_21a8fc18d1f020eb240f88ce711b5321.setContent(html_dc37cb4fc7bcbe4ada1e29426a515981);
+            
+        
+
+        marker_8d2e75803865b354d175e7b78dc12c6a.bindPopup(popup_21a8fc18d1f020eb240f88ce711b5321)
+        ;
+
+        
+    
+    
+                marker_8d2e75803865b354d175e7b78dc12c6a.setIcon(icon_f14b0ef3369f71f5b722bcdd4e744c45);
+            
+    
+            var marker_3ae4d4ed958279703b78956abedaf96c = L.marker(
+                [60.07095, 10.16954],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_27d8b2bfb17c73af5d2feb4e2ed78689 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a94af27b3db6d489f47c140adcded26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e73ef284d467bd87dee373cd8e45ffe1 = $(`<div id="html_e73ef284d467bd87dee373cd8e45ffe1" style="width: 100.0%; height: 100.0%;">Tyrifjord videregående skole</div>`)[0];
+                popup_8a94af27b3db6d489f47c140adcded26.setContent(html_e73ef284d467bd87dee373cd8e45ffe1);
+            
+        
+
+        marker_3ae4d4ed958279703b78956abedaf96c.bindPopup(popup_8a94af27b3db6d489f47c140adcded26)
+        ;
+
+        
+    
+    
+                marker_3ae4d4ed958279703b78956abedaf96c.setIcon(icon_27d8b2bfb17c73af5d2feb4e2ed78689);
+            
+    
+            var marker_49995fd1395c7f0ea26d3584af1eee37 = L.marker(
+                [58.76159, 5.64889],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_ab2838f9372935c3b39b7cfd3a15d3cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_836c53a83f346b2873df17684b04f3f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0808acc839e8a51afc4b521536d25fbd = $(`<div id="html_0808acc839e8a51afc4b521536d25fbd" style="width: 100.0%; height: 100.0%;">Vinterlandbruksskulen på Jæren Sti</div>`)[0];
+                popup_836c53a83f346b2873df17684b04f3f5.setContent(html_0808acc839e8a51afc4b521536d25fbd);
+            
+        
+
+        marker_49995fd1395c7f0ea26d3584af1eee37.bindPopup(popup_836c53a83f346b2873df17684b04f3f5)
+        ;
+
+        
+    
+    
+                marker_49995fd1395c7f0ea26d3584af1eee37.setIcon(icon_ab2838f9372935c3b39b7cfd3a15d3cc);
+            
+    
+            var marker_e4de491876c5d26250ee5486cae04b70 = L.marker(
+                [60.34368, 5.34308],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_683136ceba8b34ff6aa01b6c54912569 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6a128805b78010d7c5efa94aec1897d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_956cc3d0dcac9cc0cac8b3b615da5637 = $(`<div id="html_956cc3d0dcac9cc0cac8b3b615da5637" style="width: 100.0%; height: 100.0%;">Rudolf steinerskolen i Bergen skolen</div>`)[0];
+                popup_c6a128805b78010d7c5efa94aec1897d.setContent(html_956cc3d0dcac9cc0cac8b3b615da5637);
+            
+        
+
+        marker_e4de491876c5d26250ee5486cae04b70.bindPopup(popup_c6a128805b78010d7c5efa94aec1897d)
+        ;
+
+        
+    
+    
+                marker_e4de491876c5d26250ee5486cae04b70.setIcon(icon_683136ceba8b34ff6aa01b6c54912569);
+            
+    
+            var marker_f5cbc2f66c257e66f93ba8ab3c26e950 = L.marker(
+                [58.67356, 5.63596],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_903e54da509afd5c0b248a5ec9274455 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38d5b9ccbfb7b80d9b14d27387984266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17a9dd408452ebef7889c394cae3676e = $(`<div id="html_17a9dd408452ebef7889c394cae3676e" style="width: 100.0%; height: 100.0%;">Tryggheim vidaregåande skule</div>`)[0];
+                popup_38d5b9ccbfb7b80d9b14d27387984266.setContent(html_17a9dd408452ebef7889c394cae3676e);
+            
+        
+
+        marker_f5cbc2f66c257e66f93ba8ab3c26e950.bindPopup(popup_38d5b9ccbfb7b80d9b14d27387984266)
+        ;
+
+        
+    
+    
+                marker_f5cbc2f66c257e66f93ba8ab3c26e950.setIcon(icon_903e54da509afd5c0b248a5ec9274455);
+            
+    
+            var marker_aabb3db054f1ef285718737b504319ca = L.marker(
+                [58.12425, 7.05024],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_670728a559689b383e599ee3df280fe1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2afb3db4850d834283d0053403c63e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6cbb8958c5e33d8ca1861c73c0fe9b4 = $(`<div id="html_e6cbb8958c5e33d8ca1861c73c0fe9b4" style="width: 100.0%; height: 100.0%;">Kvs-Lyngdal AS</div>`)[0];
+                popup_a2afb3db4850d834283d0053403c63e3.setContent(html_e6cbb8958c5e33d8ca1861c73c0fe9b4);
+            
+        
+
+        marker_aabb3db054f1ef285718737b504319ca.bindPopup(popup_a2afb3db4850d834283d0053403c63e3)
+        ;
+
+        
+    
+    
+                marker_aabb3db054f1ef285718737b504319ca.setIcon(icon_670728a559689b383e599ee3df280fe1);
+            
+    
+            var marker_b2873f9aadbc220efd5480b5444b79d1 = L.marker(
+                [59.27051, 10.40571],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_f8c0566f266ded9113cfdcf713a88a9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67ea4082de72ed9fafefd0d3b089f6e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6e8926907fd769696aa08022ddce1ff = $(`<div id="html_d6e8926907fd769696aa08022ddce1ff" style="width: 100.0%; height: 100.0%;">Slottsfjellet videregående</div>`)[0];
+                popup_67ea4082de72ed9fafefd0d3b089f6e7.setContent(html_d6e8926907fd769696aa08022ddce1ff);
+            
+        
+
+        marker_b2873f9aadbc220efd5480b5444b79d1.bindPopup(popup_67ea4082de72ed9fafefd0d3b089f6e7)
+        ;
+
+        
+    
+    
+                marker_b2873f9aadbc220efd5480b5444b79d1.setIcon(icon_f8c0566f266ded9113cfdcf713a88a9f);
+            
+    
+            var marker_1eb7ce0bb46db1b7d400552b1928e31e = L.marker(
+                [58.18298, 8.08403],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_bb52bcd3c9d9d7ae87036815ae248604 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b887349783415efa67e24ecf32a0986f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8324f1a7f696bf6cee152a65c02701b = $(`<div id="html_b8324f1a7f696bf6cee152a65c02701b" style="width: 100.0%; height: 100.0%;">Ansgar bibelskole AS</div>`)[0];
+                popup_b887349783415efa67e24ecf32a0986f.setContent(html_b8324f1a7f696bf6cee152a65c02701b);
+            
+        
+
+        marker_1eb7ce0bb46db1b7d400552b1928e31e.bindPopup(popup_b887349783415efa67e24ecf32a0986f)
+        ;
+
+        
+    
+    
+                marker_1eb7ce0bb46db1b7d400552b1928e31e.setIcon(icon_bb52bcd3c9d9d7ae87036815ae248604);
+            
+    
+            var marker_900884de6c7ab1ac8f1372e27efc0610 = L.marker(
+                [59.46358, 10.69718],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_459bdd934957b6fc7e8b7e62918ff1dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c72849ee155914660d175c3b5b2af1dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c8397a5b6f1e0eec91bd8840058be80 = $(`<div id="html_9c8397a5b6f1e0eec91bd8840058be80" style="width: 100.0%; height: 100.0%;">Steinerskolen i Moss videregående skole</div>`)[0];
+                popup_c72849ee155914660d175c3b5b2af1dc.setContent(html_9c8397a5b6f1e0eec91bd8840058be80);
+            
+        
+
+        marker_900884de6c7ab1ac8f1372e27efc0610.bindPopup(popup_c72849ee155914660d175c3b5b2af1dc)
+        ;
+
+        
+    
+    
+                marker_900884de6c7ab1ac8f1372e27efc0610.setIcon(icon_459bdd934957b6fc7e8b7e62918ff1dd);
+            
+    
+            var marker_4f7af018cf9a90a05c638b30f785f9db = L.marker(
+                [59.98172, 11.01538],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_c675ec8ccf0ed7905b22a8f183b06334 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa845c999c2ab1617bc9ff14d2793e33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a92cce41edc5a4b0e0ca7ce2f60f0014 = $(`<div id="html_a92cce41edc5a4b0e0ca7ce2f60f0014" style="width: 100.0%; height: 100.0%;">Bibelskolen Oslo Kristne senter</div>`)[0];
+                popup_fa845c999c2ab1617bc9ff14d2793e33.setContent(html_a92cce41edc5a4b0e0ca7ce2f60f0014);
+            
+        
+
+        marker_4f7af018cf9a90a05c638b30f785f9db.bindPopup(popup_fa845c999c2ab1617bc9ff14d2793e33)
+        ;
+
+        
+    
+    
+                marker_4f7af018cf9a90a05c638b30f785f9db.setIcon(icon_c675ec8ccf0ed7905b22a8f183b06334);
+            
+    
+            var marker_bfa79ad600d22e60b1f7f852d9ce3241 = L.marker(
+                [59.73542, 10.58473],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_bcfeac9f6eb43e40e4ba407dd023f4b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_016272ff42ff51a570f94893478b3485 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aba1075422f455e0ff2ac47499177ac5 = $(`<div id="html_aba1075422f455e0ff2ac47499177ac5" style="width: 100.0%; height: 100.0%;">Norsk yrkesdykkerskole AS</div>`)[0];
+                popup_016272ff42ff51a570f94893478b3485.setContent(html_aba1075422f455e0ff2ac47499177ac5);
+            
+        
+
+        marker_bfa79ad600d22e60b1f7f852d9ce3241.bindPopup(popup_016272ff42ff51a570f94893478b3485)
+        ;
+
+        
+    
+    
+                marker_bfa79ad600d22e60b1f7f852d9ce3241.setIcon(icon_bcfeac9f6eb43e40e4ba407dd023f4b9);
+            
+    
+            var marker_97f10c1d9cc2fe9f7130e39a50dbe5c9 = L.marker(
+                [59.92345, 10.73179],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_ac9df5095602e5546b2636316b5486a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_663b1567192974f48f6625eed4630881 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df248352d476418a2a51cc2298009ba1 = $(`<div id="html_df248352d476418a2a51cc2298009ba1" style="width: 100.0%; height: 100.0%;">Oslo private gymnasium AS</div>`)[0];
+                popup_663b1567192974f48f6625eed4630881.setContent(html_df248352d476418a2a51cc2298009ba1);
+            
+        
+
+        marker_97f10c1d9cc2fe9f7130e39a50dbe5c9.bindPopup(popup_663b1567192974f48f6625eed4630881)
+        ;
+
+        
+    
+    
+                marker_97f10c1d9cc2fe9f7130e39a50dbe5c9.setIcon(icon_ac9df5095602e5546b2636316b5486a7);
+            
+    
+            var marker_20ea5a2b3a533be1c454d94f9c5a6ebe = L.marker(
+                [59.91956, 10.58345],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_0f35bbb415d11595aa5971470aaaa58d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9eeb24d4c439f617f89d2b2b9663a8e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09f26434aaf919faa3dfc09e909693e0 = $(`<div id="html_09f26434aaf919faa3dfc09e909693e0" style="width: 100.0%; height: 100.0%;">Oslo International School</div>`)[0];
+                popup_9eeb24d4c439f617f89d2b2b9663a8e4.setContent(html_09f26434aaf919faa3dfc09e909693e0);
+            
+        
+
+        marker_20ea5a2b3a533be1c454d94f9c5a6ebe.bindPopup(popup_9eeb24d4c439f617f89d2b2b9663a8e4)
+        ;
+
+        
+    
+    
+                marker_20ea5a2b3a533be1c454d94f9c5a6ebe.setIcon(icon_0f35bbb415d11595aa5971470aaaa58d);
+            
+    
+            var marker_3c3785c4f9bbfb0bcbed384a9748652a = L.marker(
+                [59.92385, 10.73946],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_01a37366c782535a4d19adbff3fe8ae2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6edbc00bf266265034d38a2289ff3ba7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1943122fe8207a205e88b13dc1cf88d9 = $(`<div id="html_1943122fe8207a205e88b13dc1cf88d9" style="width: 100.0%; height: 100.0%;">Troens Bevis Bibel og Misjons Institutt</div>`)[0];
+                popup_6edbc00bf266265034d38a2289ff3ba7.setContent(html_1943122fe8207a205e88b13dc1cf88d9);
+            
+        
+
+        marker_3c3785c4f9bbfb0bcbed384a9748652a.bindPopup(popup_6edbc00bf266265034d38a2289ff3ba7)
+        ;
+
+        
+    
+    
+                marker_3c3785c4f9bbfb0bcbed384a9748652a.setIcon(icon_01a37366c782535a4d19adbff3fe8ae2);
+            
+    
+            var marker_71a7faaf9dc83f37797f00c49e8db9e7 = L.marker(
+                [59.91474, 10.72427],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4716752b14d446429200972cc673d782 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c21d9f9552a8daf2b6bac85964fb7fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e04830f4f65fa75ff82d75cfa927353 = $(`<div id="html_3e04830f4f65fa75ff82d75cfa927353" style="width: 100.0%; height: 100.0%;">Wang videregående Skole/ Wang Toppidrett</div>`)[0];
+                popup_9c21d9f9552a8daf2b6bac85964fb7fb.setContent(html_3e04830f4f65fa75ff82d75cfa927353);
+            
+        
+
+        marker_71a7faaf9dc83f37797f00c49e8db9e7.bindPopup(popup_9c21d9f9552a8daf2b6bac85964fb7fb)
+        ;
+
+        
+    
+    
+                marker_71a7faaf9dc83f37797f00c49e8db9e7.setIcon(icon_4716752b14d446429200972cc673d782);
+            
+    
+            var marker_f114a715493a3bb29fd1250140327fb5 = L.marker(
+                [59.91121, 10.73838],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_ee5293ac2fb8ce31ce7ee141e87aed5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c89f80a67b407333caafaccf54d1370e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c941157031e53eed36bd394a64be7f2 = $(`<div id="html_5c941157031e53eed36bd394a64be7f2" style="width: 100.0%; height: 100.0%;">Otto Treider private gymnas AS</div>`)[0];
+                popup_c89f80a67b407333caafaccf54d1370e.setContent(html_5c941157031e53eed36bd394a64be7f2);
+            
+        
+
+        marker_f114a715493a3bb29fd1250140327fb5.bindPopup(popup_c89f80a67b407333caafaccf54d1370e)
+        ;
+
+        
+    
+    
+                marker_f114a715493a3bb29fd1250140327fb5.setIcon(icon_ee5293ac2fb8ce31ce7ee141e87aed5f);
+            
+    
+            var marker_d601d947ca1bc3dfe14c4ed72c8290af = L.marker(
+                [59.42576, 5.27431],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e76fa08cd8b7ff643c121fc84dbf282f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e84ad8080ffde949448fecaea3bd258 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_318ed3fcdc815e12c864212139653717 = $(`<div id="html_318ed3fcdc815e12c864212139653717" style="width: 100.0%; height: 100.0%;">Haugesund Toppidrettsgymnas AS</div>`)[0];
+                popup_0e84ad8080ffde949448fecaea3bd258.setContent(html_318ed3fcdc815e12c864212139653717);
+            
+        
+
+        marker_d601d947ca1bc3dfe14c4ed72c8290af.bindPopup(popup_0e84ad8080ffde949448fecaea3bd258)
+        ;
+
+        
+    
+    
+                marker_d601d947ca1bc3dfe14c4ed72c8290af.setIcon(icon_e76fa08cd8b7ff643c121fc84dbf282f);
+            
+    
+            var marker_ffd8c0310ef5564aec7c737b0b301d03 = L.marker(
+                [63.429, 10.40036],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_5a6efe9f735f6a48c6025cff99ab2aea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_094c5063d8428129ef5bb55f46023200 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_898d120c100d10782588a66738d32808 = $(`<div id="html_898d120c100d10782588a66738d32808" style="width: 100.0%; height: 100.0%;">Bybroen videregående skole AS</div>`)[0];
+                popup_094c5063d8428129ef5bb55f46023200.setContent(html_898d120c100d10782588a66738d32808);
+            
+        
+
+        marker_ffd8c0310ef5564aec7c737b0b301d03.bindPopup(popup_094c5063d8428129ef5bb55f46023200)
+        ;
+
+        
+    
+    
+                marker_ffd8c0310ef5564aec7c737b0b301d03.setIcon(icon_5a6efe9f735f6a48c6025cff99ab2aea);
+            
+    
+            var marker_f59d8db37e3d99541e8a346ece6f3b4e = L.marker(
+                [58.98995, 5.72344],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4033d65ffd120f0c13ad2c851c628801 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a89c7855b8a855dddbb1758719bc985 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ef1eb238647feebbc0268cc0ec23088 = $(`<div id="html_4ef1eb238647feebbc0268cc0ec23088" style="width: 100.0%; height: 100.0%;">Skoleskipet Gann</div>`)[0];
+                popup_1a89c7855b8a855dddbb1758719bc985.setContent(html_4ef1eb238647feebbc0268cc0ec23088);
+            
+        
+
+        marker_f59d8db37e3d99541e8a346ece6f3b4e.bindPopup(popup_1a89c7855b8a855dddbb1758719bc985)
+        ;
+
+        
+    
+    
+                marker_f59d8db37e3d99541e8a346ece6f3b4e.setIcon(icon_4033d65ffd120f0c13ad2c851c628801);
+            
+    
+            var marker_4bdfeabfb48f7173b89e606104f2e831 = L.marker(
+                [59.20444, 10.95422],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_31950c549d43911e8998f761d359a15c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_481f4612313cf531cab92e77faa232bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fd7d87c8e4d0f4dec33b9c21cc9a48e = $(`<div id="html_2fd7d87c8e4d0f4dec33b9c21cc9a48e" style="width: 100.0%; height: 100.0%;">Plus-Skolen AS Yrkesfaglig Utdanning</div>`)[0];
+                popup_481f4612313cf531cab92e77faa232bf.setContent(html_2fd7d87c8e4d0f4dec33b9c21cc9a48e);
+            
+        
+
+        marker_4bdfeabfb48f7173b89e606104f2e831.bindPopup(popup_481f4612313cf531cab92e77faa232bf)
+        ;
+
+        
+    
+    
+                marker_4bdfeabfb48f7173b89e606104f2e831.setIcon(icon_31950c549d43911e8998f761d359a15c);
+            
+    
+            var marker_cc108f8386cbebe55dc42693cd5bdb54 = L.marker(
+                [59.89269, 10.52632],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_74c00c9141706257412e2b4d1e3293d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9726588fec7a3fbbbf4649593191667 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98995f45f1be02238e24468c1094e606 = $(`<div id="html_98995f45f1be02238e24468c1094e606" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Sandvika AS</div>`)[0];
+                popup_a9726588fec7a3fbbbf4649593191667.setContent(html_98995f45f1be02238e24468c1094e606);
+            
+        
+
+        marker_cc108f8386cbebe55dc42693cd5bdb54.bindPopup(popup_a9726588fec7a3fbbbf4649593191667)
+        ;
+
+        
+    
+    
+                marker_cc108f8386cbebe55dc42693cd5bdb54.setIcon(icon_74c00c9141706257412e2b4d1e3293d0);
+            
+    
+            var marker_f876168fb5c39082cce612e1868dd007 = L.marker(
+                [63.44256, 10.45906],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_0209d59b0479bd10cc9a2860b873ba54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3347b0ede3c1552f4addced8d49327d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b87adaa4a2eaf72216e119a94e6695da = $(`<div id="html_b87adaa4a2eaf72216e119a94e6695da" style="width: 100.0%; height: 100.0%;">Trondheim Toppidrettsgymnas Sti</div>`)[0];
+                popup_e3347b0ede3c1552f4addced8d49327d.setContent(html_b87adaa4a2eaf72216e119a94e6695da);
+            
+        
+
+        marker_f876168fb5c39082cce612e1868dd007.bindPopup(popup_e3347b0ede3c1552f4addced8d49327d)
+        ;
+
+        
+    
+    
+                marker_f876168fb5c39082cce612e1868dd007.setIcon(icon_0209d59b0479bd10cc9a2860b873ba54);
+            
+    
+            var marker_f7f43d17a0660038b11007684a62859a = L.marker(
+                [59.93637, 10.75914],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_b34a29ee38957cffcb2f177e57d59994 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1045c72f37aed3bdbb22a9d268220dbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ac7d23933323dc7826abd0c86f9a502 = $(`<div id="html_4ac7d23933323dc7826abd0c86f9a502" style="width: 100.0%; height: 100.0%;">Stiftelsen Den Tysk-Norske skolen i Oslo avd grunnskole og videregående</div>`)[0];
+                popup_1045c72f37aed3bdbb22a9d268220dbc.setContent(html_4ac7d23933323dc7826abd0c86f9a502);
+            
+        
+
+        marker_f7f43d17a0660038b11007684a62859a.bindPopup(popup_1045c72f37aed3bdbb22a9d268220dbc)
+        ;
+
+        
+    
+    
+                marker_f7f43d17a0660038b11007684a62859a.setIcon(icon_b34a29ee38957cffcb2f177e57d59994);
+            
+    
+            var marker_03a98070320bb6d25a5ad298292b06f7 = L.marker(
+                [58.15521, 8.07752],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_50f5026b0654a3cdbdb4059014ea638d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ae4674698c1b9429218a283100e1272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b72293289eacfe3f7be4da62f1a608b = $(`<div id="html_5b72293289eacfe3f7be4da62f1a608b" style="width: 100.0%; height: 100.0%;">Oasen skole Strømme AS videregående skole</div>`)[0];
+                popup_1ae4674698c1b9429218a283100e1272.setContent(html_5b72293289eacfe3f7be4da62f1a608b);
+            
+        
+
+        marker_03a98070320bb6d25a5ad298292b06f7.bindPopup(popup_1ae4674698c1b9429218a283100e1272)
+        ;
+
+        
+    
+    
+                marker_03a98070320bb6d25a5ad298292b06f7.setIcon(icon_50f5026b0654a3cdbdb4059014ea638d);
+            
+    
+            var marker_86d35d3874e72a9b80953d802a93257f = L.marker(
+                [58.88395, 5.73894],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_fe7625895e131c8029b82baa55b30304 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3a106fcfeb8c71661ad700085fb48c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2709faccda314702f7769e29515a5b50 = $(`<div id="html_2709faccda314702f7769e29515a5b50" style="width: 100.0%; height: 100.0%;">Forus friskole - Vgs</div>`)[0];
+                popup_f3a106fcfeb8c71661ad700085fb48c7.setContent(html_2709faccda314702f7769e29515a5b50);
+            
+        
+
+        marker_86d35d3874e72a9b80953d802a93257f.bindPopup(popup_f3a106fcfeb8c71661ad700085fb48c7)
+        ;
+
+        
+    
+    
+                marker_86d35d3874e72a9b80953d802a93257f.setIcon(icon_fe7625895e131c8029b82baa55b30304);
+            
+    
+            var marker_8d62eca5cd42ff67f8ae894a6d1cc178 = L.marker(
+                [68.1299, 13.58109],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_8136accd7b0065f9b8d6deffa89cfe6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0bff0635b530012fe6d4ca5e2fe22f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_493704dd519854e81da0571d50f297a4 = $(`<div id="html_493704dd519854e81da0571d50f297a4" style="width: 100.0%; height: 100.0%;">Havbruksakademiet Nord AS</div>`)[0];
+                popup_a0bff0635b530012fe6d4ca5e2fe22f7.setContent(html_493704dd519854e81da0571d50f297a4);
+            
+        
+
+        marker_8d62eca5cd42ff67f8ae894a6d1cc178.bindPopup(popup_a0bff0635b530012fe6d4ca5e2fe22f7)
+        ;
+
+        
+    
+    
+                marker_8d62eca5cd42ff67f8ae894a6d1cc178.setIcon(icon_8136accd7b0065f9b8d6deffa89cfe6b);
+            
+    
+            var marker_c787fbeee7ea41fe6738e7d12e2d8b4f = L.marker(
+                [59.67378, 9.64225],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_74ff99d7bf2a28dbc6c2b9227eb5aee4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7118279213e32791734a6f8e4ded6c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58b59f42a86b0f7849f795a8c3041ed8 = $(`<div id="html_58b59f42a86b0f7849f795a8c3041ed8" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Kongsberg AS</div>`)[0];
+                popup_f7118279213e32791734a6f8e4ded6c4.setContent(html_58b59f42a86b0f7849f795a8c3041ed8);
+            
+        
+
+        marker_c787fbeee7ea41fe6738e7d12e2d8b4f.bindPopup(popup_f7118279213e32791734a6f8e4ded6c4)
+        ;
+
+        
+    
+    
+                marker_c787fbeee7ea41fe6738e7d12e2d8b4f.setIcon(icon_74ff99d7bf2a28dbc6c2b9227eb5aee4);
+            
+    
+            var marker_3d9f9bd26d170f6f4fe721ae0f912898 = L.marker(
+                [59.66176, 10.79354],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_52a667c6caa8b619112f84ee91b73248 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53b7d71932f136bfc80267811c719961 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3f5260d9b08c165c0047aee1835c1b9 = $(`<div id="html_f3f5260d9b08c165c0047aee1835c1b9" style="width: 100.0%; height: 100.0%;">Seiersborg videregående skole Follo AS</div>`)[0];
+                popup_53b7d71932f136bfc80267811c719961.setContent(html_f3f5260d9b08c165c0047aee1835c1b9);
+            
+        
+
+        marker_3d9f9bd26d170f6f4fe721ae0f912898.bindPopup(popup_53b7d71932f136bfc80267811c719961)
+        ;
+
+        
+    
+    
+                marker_3d9f9bd26d170f6f4fe721ae0f912898.setIcon(icon_52a667c6caa8b619112f84ee91b73248);
+            
+    
+            var marker_38cb2c59755bbf8ce8c30b39051a219f = L.marker(
+                [60.36712, 5.35898],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_6282b0f7ef40f809ec5d485f34f78c2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6838dae485c36be933e8690ebaa1eb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1df90eb2c7ae20d9e3fa8ec530a8d128 = $(`<div id="html_1df90eb2c7ae20d9e3fa8ec530a8d128" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Bergen AS</div>`)[0];
+                popup_e6838dae485c36be933e8690ebaa1eb6.setContent(html_1df90eb2c7ae20d9e3fa8ec530a8d128);
+            
+        
+
+        marker_38cb2c59755bbf8ce8c30b39051a219f.bindPopup(popup_e6838dae485c36be933e8690ebaa1eb6)
+        ;
+
+        
+    
+    
+                marker_38cb2c59755bbf8ce8c30b39051a219f.setIcon(icon_6282b0f7ef40f809ec5d485f34f78c2d);
+            
+    
+            var marker_bf05a92b3d09f143817f3c7404f75d91 = L.marker(
+                [58.33753, 8.58078],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_d882135c0a9463f06db25a759ce2a74d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_054a80ff1bef3d8128021f298e08cce1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e98b7d56659febef841f7fcd35fbb1d = $(`<div id="html_6e98b7d56659febef841f7fcd35fbb1d" style="width: 100.0%; height: 100.0%;">Blå Kors videregående skole Grimstad AS</div>`)[0];
+                popup_054a80ff1bef3d8128021f298e08cce1.setContent(html_6e98b7d56659febef841f7fcd35fbb1d);
+            
+        
+
+        marker_bf05a92b3d09f143817f3c7404f75d91.bindPopup(popup_054a80ff1bef3d8128021f298e08cce1)
+        ;
+
+        
+    
+    
+                marker_bf05a92b3d09f143817f3c7404f75d91.setIcon(icon_d882135c0a9463f06db25a759ce2a74d);
+            
+    
+            var marker_83231421edbd99aa8f19c0921e97984f = L.marker(
+                [59.27896, 10.39904],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_9056b7b3a2c909a3bf15b94ee147e56b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b531a0be4c67f4bbaf22e7ba50a2c30b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bdee025fa064b8ceaad60aea0342bab = $(`<div id="html_3bdee025fa064b8ceaad60aea0342bab" style="width: 100.0%; height: 100.0%;">Tønsberg bibelskole AS</div>`)[0];
+                popup_b531a0be4c67f4bbaf22e7ba50a2c30b.setContent(html_3bdee025fa064b8ceaad60aea0342bab);
+            
+        
+
+        marker_83231421edbd99aa8f19c0921e97984f.bindPopup(popup_b531a0be4c67f4bbaf22e7ba50a2c30b)
+        ;
+
+        
+    
+    
+                marker_83231421edbd99aa8f19c0921e97984f.setIcon(icon_9056b7b3a2c909a3bf15b94ee147e56b);
+            
+    
+            var marker_560e1f567eb854b8b5117eb87940f8ac = L.marker(
+                [59.89269, 10.52632],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_a5dfdb72cc2daac2606349c338caa3a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6863b0bdd0732fa82ead669f593d48b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7525e3c7faa438fffb388622af94e40b = $(`<div id="html_7525e3c7faa438fffb388622af94e40b" style="width: 100.0%; height: 100.0%;">Norges Realfagsgymnas Sandvika AS</div>`)[0];
+                popup_6863b0bdd0732fa82ead669f593d48b3.setContent(html_7525e3c7faa438fffb388622af94e40b);
+            
+        
+
+        marker_560e1f567eb854b8b5117eb87940f8ac.bindPopup(popup_6863b0bdd0732fa82ead669f593d48b3)
+        ;
+
+        
+    
+    
+                marker_560e1f567eb854b8b5117eb87940f8ac.setIcon(icon_a5dfdb72cc2daac2606349c338caa3a6);
+            
+    
+            var marker_aa6160abb3220199343b93f92913e4ad = L.marker(
+                [61.11788, 10.46692],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_86f1b8201ddd9b08da724b4eaa5a9d42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d39151b1baca7ffdcab202ad59b99bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_188979bffde0962fbdea4e86c2789f52 = $(`<div id="html_188979bffde0962fbdea4e86c2789f52" style="width: 100.0%; height: 100.0%;">Create - Lillehammer Kreative videregående skole AS</div>`)[0];
+                popup_6d39151b1baca7ffdcab202ad59b99bb.setContent(html_188979bffde0962fbdea4e86c2789f52);
+            
+        
+
+        marker_aa6160abb3220199343b93f92913e4ad.bindPopup(popup_6d39151b1baca7ffdcab202ad59b99bb)
+        ;
+
+        
+    
+    
+                marker_aa6160abb3220199343b93f92913e4ad.setIcon(icon_86f1b8201ddd9b08da724b4eaa5a9d42);
+            
+    
+            var marker_0f8173c2ab4222c0c9afbf12148d0d24 = L.marker(
+                [60.38285, 5.33371],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_51462b67ad70697edf6c175b74fdfaf4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5598a9c9d6b3c20b6e51bdfb12b56337 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efbb72694ee073df9f6caa59b9106229 = $(`<div id="html_efbb72694ee073df9f6caa59b9106229" style="width: 100.0%; height: 100.0%;">St. Paul gymnas</div>`)[0];
+                popup_5598a9c9d6b3c20b6e51bdfb12b56337.setContent(html_efbb72694ee073df9f6caa59b9106229);
+            
+        
+
+        marker_0f8173c2ab4222c0c9afbf12148d0d24.bindPopup(popup_5598a9c9d6b3c20b6e51bdfb12b56337)
+        ;
+
+        
+    
+    
+                marker_0f8173c2ab4222c0c9afbf12148d0d24.setIcon(icon_51462b67ad70697edf6c175b74fdfaf4);
+            
+    
+            var marker_ff224469798cbac0837eb725d31575e3 = L.marker(
+                [67.27618, 14.38304],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_63cfe2000dadffa779eb0c31b5ef39f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82527cc4cac4def75eeccabc2a703947 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6207391e76c61a0a12d11daf86d2552 = $(`<div id="html_f6207391e76c61a0a12d11daf86d2552" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Bodø AS</div>`)[0];
+                popup_82527cc4cac4def75eeccabc2a703947.setContent(html_f6207391e76c61a0a12d11daf86d2552);
+            
+        
+
+        marker_ff224469798cbac0837eb725d31575e3.bindPopup(popup_82527cc4cac4def75eeccabc2a703947)
+        ;
+
+        
+    
+    
+                marker_ff224469798cbac0837eb725d31575e3.setIcon(icon_63cfe2000dadffa779eb0c31b5ef39f4);
+            
+    
+            var marker_3ced89cd52fb57ccb57a1962ac19d984 = L.marker(
+                [59.37473, 5.26223],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_7f6ea4946fa225163d0259e632debb1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93b4d208302d168ddad28707e06f4607 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffc2036fdd242836041c138a6cda649b = $(`<div id="html_ffc2036fdd242836041c138a6cda649b" style="width: 100.0%; height: 100.0%;">Hauge videregående skole</div>`)[0];
+                popup_93b4d208302d168ddad28707e06f4607.setContent(html_ffc2036fdd242836041c138a6cda649b);
+            
+        
+
+        marker_3ced89cd52fb57ccb57a1962ac19d984.bindPopup(popup_93b4d208302d168ddad28707e06f4607)
+        ;
+
+        
+    
+    
+                marker_3ced89cd52fb57ccb57a1962ac19d984.setIcon(icon_7f6ea4946fa225163d0259e632debb1c);
+            
+    
+            var marker_8203e91e7980ca748937b83a4f233c98 = L.marker(
+                [59.96258, 10.69287],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_d847c206935ae728fd83de6c72f7db26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ede035a595669d9991756a68a50ac64f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4398c78743b99505e3b3e9d3cdecd717 = $(`<div id="html_4398c78743b99505e3b3e9d3cdecd717" style="width: 100.0%; height: 100.0%;">Norlights International School Oslo AS</div>`)[0];
+                popup_ede035a595669d9991756a68a50ac64f.setContent(html_4398c78743b99505e3b3e9d3cdecd717);
+            
+        
+
+        marker_8203e91e7980ca748937b83a4f233c98.bindPopup(popup_ede035a595669d9991756a68a50ac64f)
+        ;
+
+        
+    
+    
+                marker_8203e91e7980ca748937b83a4f233c98.setIcon(icon_d847c206935ae728fd83de6c72f7db26);
+            
+    
+            var marker_5728e8278de7aa510ac90d5438283c88 = L.marker(
+                [70.63277, 29.70523],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_b7daaa5cc240129d14e80bfbc2ac6a77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6553b9b9417504cb5e20fbcc28d54cc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_937c7677f7fd6d89c805fe14d0b5fbb7 = $(`<div id="html_937c7677f7fd6d89c805fe14d0b5fbb7" style="width: 100.0%; height: 100.0%;">Båtsfjord private videregående skole AS</div>`)[0];
+                popup_6553b9b9417504cb5e20fbcc28d54cc7.setContent(html_937c7677f7fd6d89c805fe14d0b5fbb7);
+            
+        
+
+        marker_5728e8278de7aa510ac90d5438283c88.bindPopup(popup_6553b9b9417504cb5e20fbcc28d54cc7)
+        ;
+
+        
+    
+    
+                marker_5728e8278de7aa510ac90d5438283c88.setIcon(icon_b7daaa5cc240129d14e80bfbc2ac6a77);
+            
+    
+            var marker_71988c9d11db5786ddbf95675647d4fd = L.marker(
+                [59.91056, 10.76583],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_a587da7efcd12f436aff0b1a44b61253 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c34800b468f0444ee0816304cec1fac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_260527cd121dc87e69ac9af3936bca5e = $(`<div id="html_260527cd121dc87e69ac9af3936bca5e" style="width: 100.0%; height: 100.0%;">Akademiet Norsk restaurantskole Sti</div>`)[0];
+                popup_0c34800b468f0444ee0816304cec1fac.setContent(html_260527cd121dc87e69ac9af3936bca5e);
+            
+        
+
+        marker_71988c9d11db5786ddbf95675647d4fd.bindPopup(popup_0c34800b468f0444ee0816304cec1fac)
+        ;
+
+        
+    
+    
+                marker_71988c9d11db5786ddbf95675647d4fd.setIcon(icon_a587da7efcd12f436aff0b1a44b61253);
+            
+    
+            var marker_5465e7ac2cf5ee67d5bd97d03696ba63 = L.marker(
+                [60.15228, 11.18266],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e9b80e50b4c5872c25ab521813c65a8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1000402678523dfed0bc2900b0ab2dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84d4d1e5fb08fba8f850fc34efbc6afb = $(`<div id="html_84d4d1e5fb08fba8f850fc34efbc6afb" style="width: 100.0%; height: 100.0%;">Hoppensprett Akademiet Vgs Jessheim AS</div>`)[0];
+                popup_d1000402678523dfed0bc2900b0ab2dd.setContent(html_84d4d1e5fb08fba8f850fc34efbc6afb);
+            
+        
+
+        marker_5465e7ac2cf5ee67d5bd97d03696ba63.bindPopup(popup_d1000402678523dfed0bc2900b0ab2dd)
+        ;
+
+        
+    
+    
+                marker_5465e7ac2cf5ee67d5bd97d03696ba63.setIcon(icon_e9b80e50b4c5872c25ab521813c65a8d);
+            
+    
+            var marker_b6dfb003044f67f62f9ad266d2675364 = L.marker(
+                [59.38214, 5.3112],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_2f91b771e334051e7171e0177fc6fca1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f91c96abe958b771ffc156c94a15315e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ce133eaa919cfe0ea6994087ae53bef = $(`<div id="html_9ce133eaa919cfe0ea6994087ae53bef" style="width: 100.0%; height: 100.0%;">Norheim Vgs AS</div>`)[0];
+                popup_f91c96abe958b771ffc156c94a15315e.setContent(html_9ce133eaa919cfe0ea6994087ae53bef);
+            
+        
+
+        marker_b6dfb003044f67f62f9ad266d2675364.bindPopup(popup_f91c96abe958b771ffc156c94a15315e)
+        ;
+
+        
+    
+    
+                marker_b6dfb003044f67f62f9ad266d2675364.setIcon(icon_2f91b771e334051e7171e0177fc6fca1);
+            
+    
+            var marker_313a3939d11143417b4592766246d231 = L.marker(
+                [60.80167, 11.03811],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_46f8fa1cab871b49fe3b4930e5c053b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04e26bff2c9d16347aca04244e65d99f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e794923bba95cca3e72a56de45e9695e = $(`<div id="html_e794923bba95cca3e72a56de45e9695e" style="width: 100.0%; height: 100.0%;">Wang Hamar AS</div>`)[0];
+                popup_04e26bff2c9d16347aca04244e65d99f.setContent(html_e794923bba95cca3e72a56de45e9695e);
+            
+        
+
+        marker_313a3939d11143417b4592766246d231.bindPopup(popup_04e26bff2c9d16347aca04244e65d99f)
+        ;
+
+        
+    
+    
+                marker_313a3939d11143417b4592766246d231.setIcon(icon_46f8fa1cab871b49fe3b4930e5c053b8);
+            
+    
+            var marker_7852d545a4801406fb16af3e294af4a1 = L.marker(
+                [59.21174, 10.9386],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_7032caeba02ee59cb35cb40d2eeb1ab8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_323830ec499722eab0df7445eeefc1c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae46a96fe1b53065df44709c10552c18 = $(`<div id="html_ae46a96fe1b53065df44709c10552c18" style="width: 100.0%; height: 100.0%;">Hans Nielsen Hauge videregående skole</div>`)[0];
+                popup_323830ec499722eab0df7445eeefc1c0.setContent(html_ae46a96fe1b53065df44709c10552c18);
+            
+        
+
+        marker_7852d545a4801406fb16af3e294af4a1.bindPopup(popup_323830ec499722eab0df7445eeefc1c0)
+        ;
+
+        
+    
+    
+                marker_7852d545a4801406fb16af3e294af4a1.setIcon(icon_7032caeba02ee59cb35cb40d2eeb1ab8);
+            
+    
+            var marker_638bc4f0c5f6387e4a53ea3d1691f91a = L.marker(
+                [63.36135, 10.35149],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_02e1f91775b28bcaf11753f79cee1b50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c65cb28b3a0e2676177e73c690295e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93e83ba989ba7d5e334eeb47b62835c7 = $(`<div id="html_93e83ba989ba7d5e334eeb47b62835c7" style="width: 100.0%; height: 100.0%;">Momo waldorfskole AS</div>`)[0];
+                popup_0c65cb28b3a0e2676177e73c690295e1.setContent(html_93e83ba989ba7d5e334eeb47b62835c7);
+            
+        
+
+        marker_638bc4f0c5f6387e4a53ea3d1691f91a.bindPopup(popup_0c65cb28b3a0e2676177e73c690295e1)
+        ;
+
+        
+    
+    
+                marker_638bc4f0c5f6387e4a53ea3d1691f91a.setIcon(icon_02e1f91775b28bcaf11753f79cee1b50);
+            
+    
+            var marker_10e58a0df3dff3f8caf7dfdabc86c0eb = L.marker(
+                [59.5654, 11.32593],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_82e50958a1d2aded52b6cc0e5e6c3153 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5bb9527a51446594d1989b2dead6b246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_372412c094df2429ae6fc6f9059ce6ac = $(`<div id="html_372412c094df2429ae6fc6f9059ce6ac" style="width: 100.0%; height: 100.0%;">Møbelsnekkerskolen AS</div>`)[0];
+                popup_5bb9527a51446594d1989b2dead6b246.setContent(html_372412c094df2429ae6fc6f9059ce6ac);
+            
+        
+
+        marker_10e58a0df3dff3f8caf7dfdabc86c0eb.bindPopup(popup_5bb9527a51446594d1989b2dead6b246)
+        ;
+
+        
+    
+    
+                marker_10e58a0df3dff3f8caf7dfdabc86c0eb.setIcon(icon_82e50958a1d2aded52b6cc0e5e6c3153);
+            
+    
+            var marker_d3c4ff54ff5e351b45f0b70387350866 = L.marker(
+                [62.47027, 6.18723],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_9537ee19ce6b9768d9def2858109ac4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_990852c2f55119dbc4b419b85b86fc66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45fe62597d86779255645dcdaebaab59 = $(`<div id="html_45fe62597d86779255645dcdaebaab59" style="width: 100.0%; height: 100.0%;">Akademiet Toppidrettsgymnas Ålesund AS</div>`)[0];
+                popup_990852c2f55119dbc4b419b85b86fc66.setContent(html_45fe62597d86779255645dcdaebaab59);
+            
+        
+
+        marker_d3c4ff54ff5e351b45f0b70387350866.bindPopup(popup_990852c2f55119dbc4b419b85b86fc66)
+        ;
+
+        
+    
+    
+                marker_d3c4ff54ff5e351b45f0b70387350866.setIcon(icon_9537ee19ce6b9768d9def2858109ac4b);
+            
+    
+            var marker_fa2c91bf5e78980e2a3efb9c03b3f9e1 = L.marker(
+                [62.47284, 6.16358],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_c35e79a7a8f2dc43860de01f3966f7da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f63381bb08fd654338308642d1b4dc4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bebd806b5c94311d604216fbfdeb4742 = $(`<div id="html_bebd806b5c94311d604216fbfdeb4742" style="width: 100.0%; height: 100.0%;">Akademiet Vgs Møre AS</div>`)[0];
+                popup_f63381bb08fd654338308642d1b4dc4c.setContent(html_bebd806b5c94311d604216fbfdeb4742);
+            
+        
+
+        marker_fa2c91bf5e78980e2a3efb9c03b3f9e1.bindPopup(popup_f63381bb08fd654338308642d1b4dc4c)
+        ;
+
+        
+    
+    
+                marker_fa2c91bf5e78980e2a3efb9c03b3f9e1.setIcon(icon_c35e79a7a8f2dc43860de01f3966f7da);
+            
+    
+            var marker_11dfaddb9b3ca62a133df97effb5a902 = L.marker(
+                [59.21206, 9.59073],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_a2bb3096673d23127d018a210092a0d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a25603fe552f4c50ffe62c0dd2a92d76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e88aef8a6596693d432eb89a8490d9d9 = $(`<div id="html_e88aef8a6596693d432eb89a8490d9d9" style="width: 100.0%; height: 100.0%;">Stiftelsen Telemark Toppidrett gymnas</div>`)[0];
+                popup_a25603fe552f4c50ffe62c0dd2a92d76.setContent(html_e88aef8a6596693d432eb89a8490d9d9);
+            
+        
+
+        marker_11dfaddb9b3ca62a133df97effb5a902.bindPopup(popup_a25603fe552f4c50ffe62c0dd2a92d76)
+        ;
+
+        
+    
+    
+                marker_11dfaddb9b3ca62a133df97effb5a902.setIcon(icon_a2bb3096673d23127d018a210092a0d5);
+            
+    
+            var marker_6bd859f1050040b6530b69ad981054fa = L.marker(
+                [59.92345, 10.73179],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_335792573692ffa5732680285f13f0b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b8ffb16744b23dc215cdfeb885be6b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab3882ba32714a4adc8f26a935335c9b = $(`<div id="html_ab3882ba32714a4adc8f26a935335c9b" style="width: 100.0%; height: 100.0%;">Akademiet Oslo AS</div>`)[0];
+                popup_0b8ffb16744b23dc215cdfeb885be6b2.setContent(html_ab3882ba32714a4adc8f26a935335c9b);
+            
+        
+
+        marker_6bd859f1050040b6530b69ad981054fa.bindPopup(popup_0b8ffb16744b23dc215cdfeb885be6b2)
+        ;
+
+        
+    
+    
+                marker_6bd859f1050040b6530b69ad981054fa.setIcon(icon_335792573692ffa5732680285f13f0b9);
+            
+    
+            var marker_58ac48e59962a37bdaff698ecf775242 = L.marker(
+                [60.39271, 5.33095],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_b024372184b0e662b91243a17471acf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48e0c1334537561c8bdf3c39c68b2796 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfbc349f1806e22684028716bf61e755 = $(`<div id="html_cfbc349f1806e22684028716bf61e755" style="width: 100.0%; height: 100.0%;">Danielsen Intensivgymnas</div>`)[0];
+                popup_48e0c1334537561c8bdf3c39c68b2796.setContent(html_cfbc349f1806e22684028716bf61e755);
+            
+        
+
+        marker_58ac48e59962a37bdaff698ecf775242.bindPopup(popup_48e0c1334537561c8bdf3c39c68b2796)
+        ;
+
+        
+    
+    
+                marker_58ac48e59962a37bdaff698ecf775242.setIcon(icon_b024372184b0e662b91243a17471acf0);
+            
+    
+            var marker_c46e637b0c03999ffda4137f02c18b30 = L.marker(
+                [69.63869, 18.93087],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_dc1ff7404ed5cfc3327ae6b5ae221823 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_504ef26efee0ce5e032eb9c2e44f7bfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cb8632e8decac5123892c100ef3faad = $(`<div id="html_8cb8632e8decac5123892c100ef3faad" style="width: 100.0%; height: 100.0%;">Fjellheim bibelskole</div>`)[0];
+                popup_504ef26efee0ce5e032eb9c2e44f7bfb.setContent(html_8cb8632e8decac5123892c100ef3faad);
+            
+        
+
+        marker_c46e637b0c03999ffda4137f02c18b30.bindPopup(popup_504ef26efee0ce5e032eb9c2e44f7bfb)
+        ;
+
+        
+    
+    
+                marker_c46e637b0c03999ffda4137f02c18b30.setIcon(icon_dc1ff7404ed5cfc3327ae6b5ae221823);
+            
+    
+            var marker_8f5b4858b56eb70de074b00debee72b2 = L.marker(
+                [59.60809, 5.77295],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_aee392b9c59ea9ad49c096bf0f3417dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7643f3c0dcb5e7439490d4eac466ef71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47cd94acbe3e159ea62bdca427204e7d = $(`<div id="html_47cd94acbe3e159ea62bdca427204e7d" style="width: 100.0%; height: 100.0%;">Lundeneset Vgs</div>`)[0];
+                popup_7643f3c0dcb5e7439490d4eac466ef71.setContent(html_47cd94acbe3e159ea62bdca427204e7d);
+            
+        
+
+        marker_8f5b4858b56eb70de074b00debee72b2.bindPopup(popup_7643f3c0dcb5e7439490d4eac466ef71)
+        ;
+
+        
+    
+    
+                marker_8f5b4858b56eb70de074b00debee72b2.setIcon(icon_aee392b9c59ea9ad49c096bf0f3417dd);
+            
+    
+            var marker_f6a5ccd7b89918f29b53fda90aba0c10 = L.marker(
+                [59.28137, 10.25776],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_4cf4ae4f7c7a8bc8dcce489be9c17035 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13604c698ee19a95fd750569e9b03011 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53bfb144310fd3eda2d9b48a986767e7 = $(`<div id="html_53bfb144310fd3eda2d9b48a986767e7" style="width: 100.0%; height: 100.0%;">Bibelskolen på Fossnes</div>`)[0];
+                popup_13604c698ee19a95fd750569e9b03011.setContent(html_53bfb144310fd3eda2d9b48a986767e7);
+            
+        
+
+        marker_f6a5ccd7b89918f29b53fda90aba0c10.bindPopup(popup_13604c698ee19a95fd750569e9b03011)
+        ;
+
+        
+    
+    
+                marker_f6a5ccd7b89918f29b53fda90aba0c10.setIcon(icon_4cf4ae4f7c7a8bc8dcce489be9c17035);
+            
+    
+            var marker_b4eb8a910e4100df5f7c7d848bae6952 = L.marker(
+                [61.125, 10.47277],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_e010b3abe38d36e117d12f122e99d5ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5c77e24807edf56d734c129be30ca03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80cf736c3717f031ae0d2a93df081352 = $(`<div id="html_80cf736c3717f031ae0d2a93df081352" style="width: 100.0%; height: 100.0%;">Norges Toppidrettsgymnas Lillehammer AS</div>`)[0];
+                popup_c5c77e24807edf56d734c129be30ca03.setContent(html_80cf736c3717f031ae0d2a93df081352);
+            
+        
+
+        marker_b4eb8a910e4100df5f7c7d848bae6952.bindPopup(popup_c5c77e24807edf56d734c129be30ca03)
+        ;
+
+        
+    
+    
+                marker_b4eb8a910e4100df5f7c7d848bae6952.setIcon(icon_e010b3abe38d36e117d12f122e99d5ea);
+            
+    
+            var marker_7eb40c1d966eaede2d89d1a83f58db3f = L.marker(
+                [59.9134, 10.76078],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_9dd278965950317fc5d29cb9d76efab6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_490850b14cd055d1336cbd580c213fe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_479efe9f1cb43f272cedef9686db190d = $(`<div id="html_479efe9f1cb43f272cedef9686db190d" style="width: 100.0%; height: 100.0%;">Urtehagen videregående privatskole Sti</div>`)[0];
+                popup_490850b14cd055d1336cbd580c213fe2.setContent(html_479efe9f1cb43f272cedef9686db190d);
+            
+        
+
+        marker_7eb40c1d966eaede2d89d1a83f58db3f.bindPopup(popup_490850b14cd055d1336cbd580c213fe2)
+        ;
+
+        
+    
+    
+                marker_7eb40c1d966eaede2d89d1a83f58db3f.setIcon(icon_9dd278965950317fc5d29cb9d76efab6);
+            
+    
+            var marker_3efac648996df05e3f73ab34665283a5 = L.marker(
+                [58.14828, 8.00266],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_100ebb82893d88f51be0683eeac606a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d11cf7da3d1993ec074f01be0a10d105 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f31fe9b7aa4fcb446e97b345dfa50cf5 = $(`<div id="html_f31fe9b7aa4fcb446e97b345dfa50cf5" style="width: 100.0%; height: 100.0%;">Lev bibelskole Sti</div>`)[0];
+                popup_d11cf7da3d1993ec074f01be0a10d105.setContent(html_f31fe9b7aa4fcb446e97b345dfa50cf5);
+            
+        
+
+        marker_3efac648996df05e3f73ab34665283a5.bindPopup(popup_d11cf7da3d1993ec074f01be0a10d105)
+        ;
+
+        
+    
+    
+                marker_3efac648996df05e3f73ab34665283a5.setIcon(icon_100ebb82893d88f51be0683eeac606a9);
+            
+    
+            var marker_71b98d71e53a6f7fab66b9b501d4171a = L.marker(
+                [60.22295, 5.28764],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_6e4d5d8decadfdf8500ffdbfe540db6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae947f5450a8636ae557e1086c0ccca0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a24a8c45544190b43ddc9142245d6bc4 = $(`<div id="html_a24a8c45544190b43ddc9142245d6bc4" style="width: 100.0%; height: 100.0%;">Krokeide videregående skole AS</div>`)[0];
+                popup_ae947f5450a8636ae557e1086c0ccca0.setContent(html_a24a8c45544190b43ddc9142245d6bc4);
+            
+        
+
+        marker_71b98d71e53a6f7fab66b9b501d4171a.bindPopup(popup_ae947f5450a8636ae557e1086c0ccca0)
+        ;
+
+        
+    
+    
+                marker_71b98d71e53a6f7fab66b9b501d4171a.setIcon(icon_6e4d5d8decadfdf8500ffdbfe540db6e);
+            
+    
+            var marker_d60db351ef948d40b62b6375bc3b5f93 = L.marker(
+                [60.393, 5.33068],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_309b8f2e2be03306ed8b2220a9132111 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c778073d583e945f6e3e3b2b3845c1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51d1e72f975b446c4c1a137d7162f54f = $(`<div id="html_51d1e72f975b446c4c1a137d7162f54f" style="width: 100.0%; height: 100.0%;">Danielsen videregående skole</div>`)[0];
+                popup_6c778073d583e945f6e3e3b2b3845c1c.setContent(html_51d1e72f975b446c4c1a137d7162f54f);
+            
+        
+
+        marker_d60db351ef948d40b62b6375bc3b5f93.bindPopup(popup_6c778073d583e945f6e3e3b2b3845c1c)
+        ;
+
+        
+    
+    
+                marker_d60db351ef948d40b62b6375bc3b5f93.setIcon(icon_309b8f2e2be03306ed8b2220a9132111);
+            
+    
+            var marker_5990e125957c61311ba1cb0230f1f924 = L.marker(
+                [60.47763, 11.16565],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_357938a7824217e2ea1a6f151dcbb595 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c53c03f08f568683cbd4c78c258388bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e427e2f9d6298ed5e7093a80bcf2eff9 = $(`<div id="html_e427e2f9d6298ed5e7093a80bcf2eff9" style="width: 100.0%; height: 100.0%;">Feiring videregående skole AS</div>`)[0];
+                popup_c53c03f08f568683cbd4c78c258388bf.setContent(html_e427e2f9d6298ed5e7093a80bcf2eff9);
+            
+        
+
+        marker_5990e125957c61311ba1cb0230f1f924.bindPopup(popup_c53c03f08f568683cbd4c78c258388bf)
+        ;
+
+        
+    
+    
+                marker_5990e125957c61311ba1cb0230f1f924.setIcon(icon_357938a7824217e2ea1a6f151dcbb595);
+            
+    
+            var marker_6bc71f8bf7b67c5ae91842439f982f3d = L.marker(
+                [59.94674, 10.95199],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_d03bfd53a549a3e56bc581f96015b8bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_690e003757458dff243ddde5bc79d984 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f4e4a352f115e88e1341d25b8e7edc6 = $(`<div id="html_1f4e4a352f115e88e1341d25b8e7edc6" style="width: 100.0%; height: 100.0%;">Wang Romerike AS</div>`)[0];
+                popup_690e003757458dff243ddde5bc79d984.setContent(html_1f4e4a352f115e88e1341d25b8e7edc6);
+            
+        
+
+        marker_6bc71f8bf7b67c5ae91842439f982f3d.bindPopup(popup_690e003757458dff243ddde5bc79d984)
+        ;
+
+        
+    
+    
+                marker_6bc71f8bf7b67c5ae91842439f982f3d.setIcon(icon_d03bfd53a549a3e56bc581f96015b8bb);
+            
+    
+            var marker_b48862602f9bfe3edffd39095fbec156 = L.marker(
+                [65.46981, 12.13377],
+                {
+}
+            ).addTo(feature_group_11271cd64e8fa364d2503071667e95b5);
+        
+    
+            var icon_41f04c2f8d4db38c9cf343c65e51cc6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21e9b9d22466dfdc52caa8b7e0eaf0ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d14bbe4fa5934236c484b246ba168c8 = $(`<div id="html_7d14bbe4fa5934236c484b246ba168c8" style="width: 100.0%; height: 100.0%;">Campus Blå videregående skole AS</div>`)[0];
+                popup_21e9b9d22466dfdc52caa8b7e0eaf0ab.setContent(html_7d14bbe4fa5934236c484b246ba168c8);
+            
+        
+
+        marker_b48862602f9bfe3edffd39095fbec156.bindPopup(popup_21e9b9d22466dfdc52caa8b7e0eaf0ab)
+        ;
+
+        
+    
+    
+                marker_b48862602f9bfe3edffd39095fbec156.setIcon(icon_41f04c2f8d4db38c9cf343c65e51cc6a);
+            
+    
+            feature_group_11271cd64e8fa364d2503071667e95b5.addTo(map_d8728137149ca8f669942e92079c0e44);
+        
+</script>
+</html>

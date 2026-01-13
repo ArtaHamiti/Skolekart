@@ -10,7 +10,7 @@ m = fm.Map(location=Norway_coords, zoom_start=7)
 private_skoler = fm.FeatureGroup(name="Private skoler")
 offentlige_skoler = fm.FeatureGroup(name="Offentlige skoler")
 
-df = pd.read_csv("privatskoler_vgs.csv")
+df = pd.read_csv("privatskoler_vgs.csv", comment="#")
 for _, row in df.iterrows():
     fm.Marker(
         location=[row["Breddegrad"], row["Lengdegrad"]],
@@ -21,4 +21,4 @@ for _, row in df.iterrows():
 # Legg gruppen til kartet
 private_skoler.add_to(m)
 
-m.save("norgeskart.html")
+m.save("norgeskart_med_manuelt_fylt_inn_for_0_verdier.html")

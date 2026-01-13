@@ -5,4 +5,8 @@ seaborn
 jupyter
 openpyxl
 scikit-learn
-
+plotly
+scipy
+statsmodels
+pyarrow
+folium
