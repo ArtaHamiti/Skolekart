@@ -65,7 +65,7 @@ Møre barne- og ungdomsskule,5.80714,62.27855
 Sandnes friskole AS,5.71712,58.82388
 Steinkjer montessoriskole,11.47801,64.01442
 Stiftelsen Trondheim International School,10.41373,63.42935
-Stiftelsen Davinci montessoriskole,0.0,0.0
+Stiftelsen Davinci montessoriskole,5.34799,60.36518                     # Hentet fra Google Maps
 Wang Fredrikstad AS,10.92896,59.21256
 Andørja montessoriskole,17.16436,68.91749
 Holmedal montessoriskule,5.18777,61.36057
@@ -76,7 +76,7 @@ Stiftelsen steinerskolen i Arendal,8.75454,58.47592
 Vike montessoriskule SA,7.1489,62.61915
 Oasen skole Birkelid AS,7.84612,58.12668
 Molde friskole,7.12167,62.73742
-Stiftelsen Vollen montessoriskole,0.0,0.0
+Stiftelsen Vollen montessoriskole,10.47667,59.80523                     # Hentet fra Google Maps
 Øvergård montessoriskole,19.44755,69.02122
 Stiftelsen Lyngdal Kristne grunnskole,7.06781,58.12961
 Hamar Montessori skole Sti,11.04787,60.82068
@@ -89,11 +89,11 @@ Stiftelsen steinerskolen Rotvoll,10.48563,63.43889
 Ørsnes privatskole,14.39505,68.20048
 Danielsen barne- og ungdomsskule Sotra,5.13476,60.35229
 Alta Kristne grunnskole SA,23.35157,69.96777
-Lørenskog friskole,0.0,0.0
+Lørenskog friskole,10.92921,59.93161                                    # Hentet fra Google Maps
 Vollan skole,9.63438,62.57551
 Samfundets skole Dvergsnes,8.07568,58.13895
 Samfundets skole Oftenes,7.75758,58.07471
-Oslo By steinerskole Sti,0.0,0.0
+Oslo By steinerskole Sti,10.65591,59.95094                              # Hentet fra Google Maps - dobbeltsjekk at denne er riktig
 Nordhordland Kristne grunnskole,5.2435,60.5645
 Forus friskole - Bus,5.73925,58.88313
 Bjørkly skole,11.47474,64.41061
@@ -130,7 +130,7 @@ Stiftelsen Lillehammer steinerskole,10.42448,61.09985
 Steinerskolen Stavanger grunnskole,5.73421,58.93885
 Øya videregående skole,10.27536,63.23681
 Steinerskolen i Haugesund,5.29963,59.41864
-Steinerskolen i Trondheim grunnskole,0.0,0.0
+Steinerskolen i Trondheim grunnskole,10.37290,63.43064                                  # Hentet fra Google Maps    
 Steinerskolen i Bærum Grunnskoleundervisning,10.60565,59.93
 Rudolf steinerskolen i Oslo Sti,10.65886,59.94917
 St Sunniva skole avd Undervisning,10.74521,59.91878
@@ -152,7 +152,7 @@ Steinerskolen på Skjold Helseped Avdeling,5.32901,60.31017
 Stiftelsen steinerskolen på Skjold,5.32901,60.31017
 Steinerskolen Ålesund,6.26629,62.46194
 Birralee International School Trondheim AS avd skole,10.39013,63.42701
-Ekrehagen skole Adventistsamfunnets Grunnskoler,0.0,0.0
+Ekrehagen skole Adventistsamfunnets Grunnskoler,18.95503,69.68610                       # Hentet fra Google Maps
 Foreningen Danielsen ungdomsskole Bergen,5.33508,60.39201
 Rudolf steinerskolen i Bergen skolen,5.34308,60.34368
 Steinerskolen i Vestfold,10.39467,59.23991
@@ -173,9 +173,9 @@ Akademiet Realfagsungdomsskole Ålesund AS,6.15031,62.4734
 Drøbak Montessori barneskole AS,10.63498,59.66306
 Montessori Horten AS,10.42986,59.43541
 Grimstad International School AS,8.58078,58.33753
-Hans Nielsen Hauge grunnskole Oslo,0.0,0.0
+Hans Nielsen Hauge grunnskole Oslo,10.69099,59.96220                                    # Hentet fra Google Maps
 Sandstrand Montessoriforening,16.80358,68.6816
-Stiftelsen Bodø International School,0.0,0.0
+Stiftelsen Bodø International School,14.58755,67.29175                                  # Hentet fra Google Maps
 Skien steinerskole AS,9.59315,59.23088
 Stiftelsen Den Tysk-Norske skolen i Oslo avd grunnskole og videregående,10.75914,59.93637
 Norges Toppidrettsgymnas ungdomsskole Asker AS,10.45233,59.82552
@@ -198,7 +198,7 @@ Stiftinga Tuddal montessoriskule,8.78749,59.75579
 Akademiet realfagsskole Oslo AS,10.7725,59.93356
 Biss Sentrum AS,5.71299,58.97514
 Elsfjord montessoriskole SA,13.54507,66.10355
-Wang Ung Follo AS,0.0,0.0
+Wang Ung Follo AS,10.82348,59.79930                                                 # Hentet fra Google Maps
 Helgådal Montessori SA,11.90368,63.82074
 Kongsvinger montessoriskole SA,12.01812,60.174
 Voll skole AS,9.83776,62.87648
@@ -247,7 +247,7 @@ Momo waldorfskole AS,10.35149,63.36135
 Hoppensprett Akademiet AS avd ungdomsskole,11.18266,60.15228
 Nordborg ungdomsskole,17.99604,69.23026
 Montessoriskolen Morgan AS,17.32728,68.74081
-Hoppensprett Akademiet Brårud AS,0.0,0.0
+Hoppensprett Akademiet Brårud AS,11.33235,60.21297                                  # Hentet fra Google Maps
 Narvik montessoriskole,17.43929,68.41266
 Lisleherad montessoriskole SA,9.27139,59.59907
 Eltoft montessoriskole AS,13.68908,68.24139
@@ -262,7 +262,7 @@ Danielsen ungdomsskole Karmøy AS,5.24468,59.2881
 Oasen skole Grenland AS,9.56798,59.20725
 Toten montessoriskole,10.73428,60.59788
 Holmestrand Internasjonale montessoriskole Sti,10.32171,59.47714
-Stiftelsen Kongsberg International School,0.0,0.0
+Stiftelsen Kongsberg International School,9.64268,59.67608                          # Hentet fra Google Maps
 Nyskolen i Oslo grunnskole,10.83882,59.86345
 Steinerskolen på Eidsvoll,11.24116,60.28651
 Nidaros idrettsungdomsskole Sti,10.38058,63.36776
