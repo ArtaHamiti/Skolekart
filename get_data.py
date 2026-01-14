@@ -58,4 +58,4 @@ def get_coordinates(base_url_info_schools: str, filtered_df: pd.DataFrame, new_f
 #get_coordinates(base_url_info_schools, privatskoler_vgs, "privatskoler_vgs.csv")         
 #get_coordinates(base_url_info_schools, private_grunnskoler, "private_grunnskoler.csv")     
 #get_coordinates(base_url_info_schools, offentlige_skoler_vgs, "offentlige_vgs")
-get_coordinates(base_url_info_schools, offentlige_grunnskoler, "offentlige_grunnskoler")
+#get_coordinates(base_url_info_schools, offentlige_grunnskoler, "offentlige_grunnskoler")

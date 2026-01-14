@@ -37,7 +37,7 @@ Hundsund ungdomsskole,10.6215,59.89015
 Marienlyst ungdomsskole,10.20251,59.73357
 Skulane Fellesfunksjonar,6.41838,60.62784
 Vadsø ungdomsskole og voksenopplæring avd skole,29.74564,70.08041
-Flesberg kommune Spesial Tiltak Oppvekst,0.0,0.0
+Flesberg kommune Spesial Tiltak Oppvekst,9.572594881684177,59.83788771479477                       # Hentet fra Google Maps
 Kristiansand Internasjonale skole,8.01744,58.15611
 Mykje skole,5.33037,59.35006
 Buggeland skole,5.75449,58.81477
@@ -98,7 +98,7 @@ Apalløkka skole,10.86426,59.95948
 Madsebakken skole,9.67369,59.66895
 Neskollen skole,11.33916,60.12525
 Lillesand kommune - Sentraladministrasjon skole,8.37863,58.24981
-Gullhaug skole,0.0,0.0
+Gullhaug skole,10.491774832354833,59.94522605569779                                            # Hentet fra Google Maps
 Berg skole,9.66616,59.60445
 Stokksund skule,5.72868,62.30293
 Bjørnholt ungdomsskole,10.83432,59.83557
@@ -132,7 +132,7 @@ Austevoll kommune Vaksenopplæringa,5.22229,60.09494
 Ormåsen barneskole,9.82227,59.75461
 Søyland skole,6.64351,58.30385
 Brakahaug skole,5.31892,59.40165
-Kragerø læringssenter,0.0,0.0
+Kragerø læringssenter,9.408837061039335,58.86729447074864                                          # Hentet fra Google Maps   
 Storelva skole,18.79758,69.68563
 Reinen skole,18.96651,69.63572
 Workinnmarka skole,18.93433,69.66726
@@ -187,7 +187,7 @@ Vikåsen skole,10.53466,63.4129
 Slåtten skule,5.89409,61.46323
 Hamna skole,18.97965,69.70312
 Stavset skole,10.33204,63.38676
-Østli skole,0.0,0.0
+Østli skole,10.806551142662554,59.782161868011606                                            # Hentet fra Google Maps
 Tjødnalio skule,5.40665,59.77082
 Seljord barne- og ungdomsskule skole 1-10,8.623,59.48311
 Vikhammer ungdomsskole,10.63167,63.43786
@@ -206,7 +206,7 @@ Rasta skole,10.93849,59.92036
 Lillesand kommune - Tingsaker skole,8.3993,58.25998
 Varhaug ungdomsskule,5.6607,58.62009
 Vikemarka skule,6.13091,62.20563
-Skjervøy ungdomsskole,0.0,0.0
+Skjervøy ungdomsskole,20.97167972534115,70.03351049009811                                  # Hentet fra Google Maps    
 Ravnanger ungdomsskole,5.15052,60.46407
 Sætre ungdomsskole,10.53651,59.67031
 Veienmarka ungdomsskole,10.22742,60.17152
@@ -279,20 +279,20 @@ Kolltveit skule,5.09486,60.35176
 Lista ungdomsskole,6.68879,58.09069
 Brumunddal ungdomsskole,10.94033,60.89046
 Prestrud skole,11.03548,60.80811
-Fjellfoten skole,0.0,0.0
+Fjellfoten skole,11.47486811198584, 60.09325570746334                                            # Hentet fra Google Maps
 Hauglia skole,11.13453,59.8326
 Våk skole,10.79932,59.46137
 Kongerød ungdomsskole,9.61931,59.14893
 Sandnes barneskole,12.6389,66.01523
 Korta skole,10.62781,60.72003
-Kopperud skole,0.0,0.0
+Kopperud skole,10.675547698519159, 60.769190612547646                                          # Hentet fra Google Maps
 Sørskogbygda skole,11.78013,60.94274
 Bardufoss ungdomsskole,18.48493,69.05278
 Vear skole,10.35937,59.25943
 Biri ungdomsskole,10.60676,60.95309
 Moelv ungdomsskole,10.69321,60.92658
 Hannestad barneskole,11.05908,59.27618
-Halbrend skule,0.0,0.0
+Halbrend skule,5.83655509854472057, 61.44983264916853                                        # Hentet fra Google Maps
 Nordskogen skole,29.73832,70.64219
 Komsa skole,23.27355,69.97356
 Ørmelen skole,11.4696,63.7919
@@ -376,7 +376,7 @@ Dovre ungdomsskole,9.11999,62.07524
 Austafjord skole,10.94254,64.91798
 Selje skule,5.34878,62.04279
 Vegårshei skule,8.86074,58.75255
-Nordsia oppvekstsenter skole,0.0,0.0
+Nordsia oppvekstsenter skole,15.733643714128238,67.58467375719414                                      # Hentet fra Google Maps
 Namdalseid skole,11.20748,64.24039
 Hallset skole,10.36733,63.39265
 Volda ungdomsskule,6.07829,62.14688
@@ -409,7 +409,7 @@ Hyen skule,5.91698,61.73745
 Lærdalsøyri skule,7.49389,61.10115
 Austevoll ungdomsskule,5.24835,60.07999
 Kinsarvik skule,6.71964,60.37371
-Rosendal ungdomsskule,0.0,0.0
+Rosendal ungdomsskule,6.0088066736316132,59.983455055234664                                      # Hentet fra Google Maps
 Husnes ungdomsskule,5.74463,59.85252
 Finnøy skule,5.87132,59.17441
 Gransherad skole,9.02684,59.6925
@@ -430,7 +430,7 @@ Buksnes skole,13.55528,68.1184
 Bøstad skole,13.75156,68.23927
 Ballstad skole,13.53908,68.08431
 Leknes skole,13.62054,68.14713
-Svarholt skole,0.0,0.0
+Svarholt skole,13.834883904363112,68.13782284035183                                      # Hentet fra Google Maps
 Fygle skole,13.64999,68.14426
 Sørvågen skole,13.01661,67.88935
 Røst barne- og ungdomsskole,12.11574,67.51727
@@ -450,7 +450,7 @@ Sortland barneskole,15.40481,68.69614
 Alsvåg skole,15.26491,68.90614
 Myre skole,15.08635,68.91549
 Evenes skole,16.88816,68.48317
-Ramsund skole,0.0,0.0
+Ramsund skole,16.51758759882081,68.49308811376748                                     # Hentet fra Google Maps
 Drag skole,16.08107,68.0404
 Innhavet oppvekstsenter avd skole,15.9327,67.96429
 Oppeid skole,15.62453,68.08292
@@ -470,7 +470,7 @@ Erdal barneskole,5.22753,60.44348
 Florvåg skole,5.23604,60.41962
 Follese skole,5.16232,60.40811
 Strusshamn skole,5.19164,60.40593
-Tveit skole,0.0,0.0
+Tveit skole,5.1341450426874936,60.45341491573624                                            # Hentet fra Google Maps
 Hetlevik skole,5.14915,60.42495
 Haugland skole,5.15779,60.45018
 Træet skule,5.07929,60.5092
@@ -492,7 +492,7 @@ Rødøy skole,13.07586,66.66134
 Nesøy skole,12.6454,66.59557
 Tjongsfjord skole,13.41957,66.6982
 Lovund skole,12.35773,66.36667
-Onøy Lurøy oppvekstsenter avd skole,0.0,0.0
+Onøy Lurøy oppvekstsenter avd skole,12.868050591327737,66.39860726684137                                      # Hentet fra Google Maps
 Aldersund oppvekstsenter skole,13.11651,66.38213
 Konsvik oppvekstsenter avd skole,13.08819,66.49952
 Kvarøy oppvekstsenter skole,12.9606,66.48588
@@ -520,12 +520,12 @@ Tverlandet oppvekstsenter Avdeling skole,12.95292,66.03119
 Ulvang oppvekstsenter Avdeling skole,12.7545,66.06449
 Tjøtta oppvekstsenter avd skole,12.42279,65.82224
 Søvik oppvekstsenter avd skole,12.44835,65.92165
-Bjarnetjønna skole,0.0,0.0
+Bjarnetjønna skole,12.615048727557562,66.01658840306649                                      # Hentet fra Google Maps
 Herøy skole,12.27543,65.97653
 Berg skole,12.19812,65.37117
-Brønnøysund barneskole,0.0,0.0
+Brønnøysund barneskole,12.208967246502663,65.46664666987817                                      # Hentet fra Google Maps
 Terråk skole,12.368,65.08613
-Frydenlund skole,17.4166,68.44086
+Frydenlund skole,17.4166,68.44086                                       # Narvik
 Dale skule,5.81922,60.59145
 Eksingedalen skule,6.11285,60.78934
 Stamnes skule,5.77232,60.66478
@@ -595,14 +595,14 @@ Eggedal skole,9.35851,60.23999
 Nerstad skole,9.73684,60.0021
 Prestfoss skole,9.63139,60.04183
 Sigdal ungdomsskole,9.63924,60.04221
-Hallingskarvet skole,0.0,0.0
+Hallingskarvet skole,8.2981834329060866,60.61545071883149                                      # Hentet fra Google Maps
 Ål ungdomsskule,8.55004,60.62775
 Nordbygdene skule,8.48669,60.7016
 Skattebøl skule,8.5221,60.61966
 Torpo skule,8.72132,60.66532
-Nedre-Ål skule,0.0,0.0
+Nedre-Ål skule,8.5502858333249996,60.62857125243932                                      # Hentet fra Google Maps
 Hemsedal skole,8.56143,60.86221
-Nesbyen skole,0.0,0.0
+Nesbyen skole,9.099430712003496,60.566370466291325                                      # Hentet fra Google Maps
 Flå skole,9.46253,60.43042
 Tislegård ungdomsskole,9.65659,59.65915
 Hvittingfoss barne- og ungdomsskole,10.00927,59.48909
@@ -673,7 +673,7 @@ Julsundet skole,6.99286,62.77263
 Åmli skule,8.49699,58.77133
 Valstrand skole,8.23979,58.3228
 Engesland skole,8.11808,58.5294
-Herefoss skole,0.0,0.0
+Herefoss skole,8.353080511927965,58.51920601260575                                      # Hentet fra Google Maps
 Birkeland skole,8.24205,58.32005
 Lillesand kommune - Brentemoen skole,8.3775,58.25108
 Lillesand kommune - Lillesand ungdomsskole,8.36172,58.25707
@@ -691,14 +691,14 @@ Bell skole,11.03398,63.2282
 Hommelvik ungdomsskole,10.80167,63.40884
 Vikhammer skole,10.63686,63.43884
 Hommelvik skole,10.80616,63.41258
-Støren ungdomsskole,0.0,0.0
-Singsaas Oppvekstområde avd skole,0.0,0.0
+Støren ungdomsskole,10.287359485113228,63.03605498497173                                      # Hentet fra Google Maps
+Singsaas Oppvekstområde avd skole,10.651899764208792,62.941022483573775                                      # Hentet fra Google Maps
 Budal Oppvekstområde avd skole,10.48209,62.88299
 Støren barneskole,10.28624,63.03336
 Røros skole,11.36994,62.57777
 Glåmos skole,11.42784,62.67183
 Brekken skole,11.86424,62.64935
-Rennebu barne- og ungdomsskole,0.0,0.0
+Rennebu barne- og ungdomsskole,10.006655012500582,62.82970369132598                                      # Hentet fra Google Maps
 Drivdalen skole,9.61556,62.53419
 Oppdal ungdomsskole,9.68757,62.5951
 Strand barne- og ungdomsskole,10.45734,64.32214
@@ -779,7 +779,7 @@ Bykle barne- og ungdomsskule,7.35842,59.35639
 Valle skule,7.53209,59.19982
 Byglandsfjord skule,7.81307,58.6669
 Bygland skule,7.79921,58.83258
-Evje ungdomsskule,0.0,0.0
+Evje ungdomsskule,7.819670238914341,58.590457053282                                      # Hentet fra Google Maps
 Hornnes barneskule,7.7637,58.56765
 Evje barneskule,7.82098,58.59093
 Iveland skole,7.92013,58.4569
@@ -789,7 +789,7 @@ Rykene oppvekstsenter avd skole,8.63316,58.41159
 Nedenes skole,8.70868,58.41277
 Strømmen oppvekstsenter avd skole,8.74261,58.45005
 Svinndal skole,11.01519,59.42352
-Våler ungdomsskole,0.0,0.0
+Våler ungdomsskole,10.85803561011132,59.4901140410642                                      # Hentet fra Google Maps
 Vang skole og ressurssenter,10.68987,59.38288
 Ekholt skole,10.67977,59.41083
 Larkollen skole,10.67215,59.33284
@@ -800,10 +800,10 @@ Hafslundsøy barneskole,11.14669,59.28579
 Jelsnes barneskole,11.16488,59.37511
 Lande barneskole,11.10402,59.29029
 Kirkeng skole,11.42133,59.35728
-Os skole,11.31117,59.43981
+Os skole,11.31117,59.43981                              # Rakkestad
 Bergenhus skole,11.34899,59.4205
 Kirkelund skole,11.17118,59.47102
-Rom skole,0.0,0.0
+Rom skole,11.128697775381386,59.590564929204746                                      # Hentet fra Google Maps
 Moen skole,11.16539,59.56887
 Korsgård skole,11.19665,59.58923
 Spydeberg skole,11.068,59.59645
@@ -811,7 +811,7 @@ Hovin skole,11.07902,59.62325
 Hafslund ungdomsskole,11.14423,59.27245
 Sandbakken barne- og ungdomsskole,11.18007,59.24791
 Hornnes barneskole,11.1931,59.20897
-Navestad barneskole,0.0,0.0
+Navestad barneskole,11.137957140790943,59.25675869557785                                      # Hentet fra Google Maps
 Ullerøy barneskole,11.14501,59.1662
 Hafslund barneskole,11.14222,59.27147
 Varteig barne- og ungdomsskole,11.17997,59.34918
@@ -824,21 +824,21 @@ Sandesundsveien barneskole,11.10406,59.27792
 Kruseløkka ungdomsskole,11.10397,59.28555
 Bugøynes oppvekstsenter avd skole,29.64091,69.9735
 Kirkenes skole,30.05829,69.72345
-Sirma oppvekstsenter,0.0,0.0
+Sirma oppvekstsenter,27.39838798382076,70.01502610202911                                      # Hentet fra Google Maps
 Boftsa oppvekstsenter Avdeling skole,28.17715,70.3794
 Austertana oppvekstsenter Avdeling skole,28.51064,70.43674
-Skjånes skole,0.0,0.0
+Skjånes skole,28.0965436540853,70.79848621670517                                      # Hentet fra Google Maps
 Mehamn skole,27.85249,71.0349
 Lebesby oppvekstsenter Avdeling skole,26.99909,70.57378
 Kjøllefjord skole,27.35784,70.94521
 Lakselv barneskole,24.96751,70.04777
-Børselv skole,0.0,0.0
+Børselv skole,25.567010829583577, 70.31543792086157                                      # Hentet fra Google Maps
 Honningsvåg skole,25.97738,70.97836
-Gunnarnes skole,0.0,0.0
-Havøysund skole,0.0,0.0
+Gunnarnes skole,24.112017841251394, 70.99840674729954                                      # Hentet fra Google Maps
+Havøysund skole,24.65820423516843, 70.99927638586321                                      # Hentet fra Google Maps
 Kokelv oppvekstsenter,24.64101,70.61227
 Kvalsund skole,23.97351,70.4985
-Akkarfjord oppvekstsenter,0.0,0.0
+Akkarfjord oppvekstsenter,23.416186929603132,70.79045529344123                                      # Hentet fra Google Maps
 Høgtun skole,22.3535,70.25198
 Talvik skole,22.94359,70.04195
 Øvre Alta skole,23.26571,69.92764
@@ -846,9 +846,9 @@ Bossekop skole,23.24479,69.95969
 Elvebakken skole,23.36457,69.97108
 Tverrelvdalen skole,23.43278,69.93293
 Rafsbotn skole,23.52979,70.01908
-Leirbotn skole,0.0,0.0
+Leirbotn skole,23.39367209703503, 70.12082243871949                                      # Hentet fra Google Maps
 Kautokeino skole,23.04332,69.0118
-Máze Skuvla/Masi skole Máze skole,0.0,0.0
+Máze Skuvla/Masi skole Máze skole,23.673176133219002,69.44900418446262                                  # Hentet fra Google Maps
 Vadsø kommune Vestre Jakobselv oppvekstsenter avd skole,29.33538,70.1126
 Vardø kommune grunnskole,31.11392,70.36958
 Breilia skole,23.69911,70.6666
@@ -891,7 +891,7 @@ Berg skole,10.41611,63.41961
 Breidablikk skole,10.36105,63.34921
 Nyborg skole,10.35287,63.41031
 Lade skole,10.43633,63.44725
-Ila skole,0.0,0.0
+Ila skole,10.371420117391915,63.430680927161625                                     # Hentet fra Google Maps - Trondheim
 Charlottenlund barneskole,10.48704,63.42622
 Bratsberg skole,10.48092,63.34968
 Åsvang skole,10.45236,63.41138
@@ -904,7 +904,7 @@ Rauland skule avd skule,8.06452,59.69463
 Edland skule avd skule,7.59825,59.73841
 Gimle skule,8.08643,59.18645
 Kyrkjebygda oppvekstsenter Avdeling skule,8.50146,59.16628
-Brunkeberg oppvekstsenter avd skule,0.0,0.0
+Brunkeberg oppvekstsenter avd skule,8.494562825452144,59.40204975222643                                      # Hentet fra Google Maps
 Kviteseid skule,8.47345,59.41099
 Seljord barneskule,8.6242,59.48382
 Folkestad skule,9.04621,59.43703
@@ -993,7 +993,7 @@ Hauge Oppvekst avd skule,4.96007,61.84093
 Svelgen Oppvekst avd skule,5.28644,61.76632
 Naustdal skule,5.71558,61.51234
 Sunde skule,5.93581,61.42863
-Holsen skule og barnehage avd skule,0.0,0.0
+Holsen skule og barnehage avd skule,6.157196354363368,61.4184866934948                                      # Hentet fra Google Maps
 Førde barneskule,5.86212,61.45443
 Skei skule,6.48836,61.5791
 Vassenden skule,6.11883,61.49061
@@ -1011,9 +1011,9 @@ Veitastrond oppvekstsenter skule,7.03063,61.48349
 Jostedal oppvekstsenter skule,7.29305,61.60443
 Luster oppvekstsenter skule,7.46005,61.44473
 Tangen skule,7.7126,61.2432
-Farnes skule,0.0,0.0
+Farnes skule,7.802100839061353,61.30936833565129                                      # Hentet fra Google Maps
 Borgund skule,7.85325,61.08142
-Norane skule,0.0,0.0
+Norane skule,7.015616885042682,61.181129641410855                                      # Hentet fra Google Maps
 Kaupanger skule,7.22444,61.18848
 Trudvang skule,7.09908,61.23269
 Leikanger ungdomsskule,6.81678,61.18535
@@ -1023,7 +1023,7 @@ Fjærland oppvekstsenter avd skule,6.73881,61.39809
 Sagatun skule avd skule,6.52565,61.20571
 Husabø skole,6.00098,58.4478
 Rossabø skole,5.2982,59.40476
-Røvær skole,0.0,0.0
+Røvær skole,5.0900796696336865,59.43793212162261                                      # Hentet fra Google Maps
 Saltveit skole,5.28503,59.46875
 Lillesund skole,5.28154,59.4065
 Hauge skole,5.26386,59.42038
@@ -1060,7 +1060,7 @@ Dysjaland skule,5.60066,58.84069
 Forsand skule,6.13249,58.89709
 Tau skole,5.92412,59.06347
 Nordre Strand skole,6.00074,59.11327
-Jørpeland ungdomsskole,0.0,0.0
+Jørpeland ungdomsskole,6.031651270386151,59.030125805599134                                      # Hentet fra Google Maps
 Fjelltun skole,6.02872,59.0271
 Hjelmeland skule,6.17003,59.23051
 Fister skule,6.07864,59.17538
@@ -1093,7 +1093,7 @@ Søre Ål barneskole,10.47576,61.09448
 Jørstadmoen skole,10.39278,61.15426
 Vingar skole,10.42793,61.10813
 Åretta ungdomsskole,10.47674,61.10116
-Hammartun skole,0.0,0.0
+Hammartun skole,10.462617471548219,61.11288668128077                                      # Hentet fra Google Maps
 Vindingstad skole,10.69861,60.77361
 Lundstein skole,10.66308,60.84294
 Grande skole,10.58468,60.81088
@@ -1156,7 +1156,7 @@ Jordet skole,12.12711,61.41579
 Innbygda skole,12.26739,61.31619
 Vestad skole,11.5404,60.8865
 Lillemoen skole,11.6255,60.82607
-Frydenlund skole,0.0,0.0
+Frydenlund skole,11.56856198503141,60.880542795488466                                      # Hentet fra Google Maps
 Elverum ungdomsskole,11.55874,60.88738
 Våler barne- og ungdomsskole,11.83006,60.67377
 Åsnes ungdomsskole,12.02024,60.61237
@@ -1178,7 +1178,7 @@ Nesoddtangen skole,10.66504,59.85408
 Hellerasten ungdomsskole,10.81486,59.81317
 Kolbotn skole,10.80432,59.81297
 Sofiemyr skole Holbergsvei,10.81771,59.79897
-Greverud skole,0.0,0.0
+Greverud skole,10.810749740809856,59.76825040623784                                      # Hentet fra Google Maps
 Vesterskaun skole,11.16526,60.02161
 Sørum skole,11.2360882,60.01116210000001
 Sørumsand skole,11.23312,59.9791
@@ -1223,7 +1223,7 @@ Eltonåsen skole,11.01514,60.1313
 Maura skole,11.03969,60.25838
 Kringler-Slattum skole,10.99534,60.17143
 Nannestad ungdomsskole,11.01273,60.21793
-Vestby skole avd Garder,0.0,0.0
+Vestby skole avd Garder,10.807646108136725,59.58099865498665                                      # Hentet fra Google Maps
 Flatbygdi skule,6.57923,61.08113
 Kyrkjebø skule,5.93799,61.16437
 Vadheim oppvekstsenter avd skule,5.83401,61.21244
@@ -1319,7 +1319,7 @@ Sandvollan skole,11.33409,63.94969
 Inderøy ungdomsskole,11.28629,63.87729
 Namsskogan skole,13.16154,64.9252
 Namsskogan kommune Trones skole,12.84553,64.74178
-Grong barne- og ungdomsskole,0.0,0.0
+Grong barne- og ungdomsskole,12.310209700512717,64.46486159826124                                      # Hentet fra Google Maps
 Harran oppvekstsenter Avdeling skole,12.50127,64.56546
 Hunn skole,11.76353,64.46292
 Overhalla barne- og ungdomsskole,11.96167,64.49902
@@ -1364,8 +1364,8 @@ Borgen barneskole,11.16869,59.26437
 Hoberg skole,11.13421,60.77174
 Toso skole,10.42486,60.23787
 Longyearbyen skole grunnskole,15.61161,78.21022
-Åarjelsaemien Vierhtiesåafoe - Sørsamisk Kunnskapspark,0.0,0.0
-Åfarnes barne- og ungdomsskole,0.0,0.0
+Åarjelsaemien Vierhtiesåafoe - Sørsamisk Kunnskapspark,13.990805783360827,65.5986873254533                                      # Hentet fra Google Maps
+Åfarnes barne- og ungdomsskole,7.503833721260641,62.65826177732567                                      # Hentet fra Google Maps
 Åndalsnes ungdomsskole,7.68419,62.56363
 Isfjorden skole,7.78868,62.5777
 Åndalsnes barneskole,7.68742,62.56346
@@ -1429,7 +1429,7 @@ Krohnengen skole,5.32817,60.40044
 Ny Krohnborg skole,5.33353,60.37532
 Hellen skole,5.29822,60.42596
 Slettebakken skole,5.35826,60.35627
-Landås skole,0.0,0.0
+Landås skole,5.370346569667946,60.36322861057981                                      # Hentet fra Google Maps
 Seljedalen skole,5.28539,60.36077
 Sandgotna skole,5.231,60.36239
 Rolland skole,5.30457,60.43762
@@ -1445,7 +1445,7 @@ Valnesfjord skole,15.17385,67.29413
 Mørkvedmarka skole,14.58741,67.2916
 Hunstad ungdomsskole,14.54207,67.28237
 Kjerringøy oppvekstsenter avd skole,14.75906,67.51988
-Skolen i Væran avd skole,0.0,0.0
+Skolen i Væran avd skole,13.902173798376914,67.40506762554436                                    # Hentet fra Google Maps - Helligvær skole
 Saltvern skole,14.43002,67.28896
 Bankgata ungdomsskole,14.39056,67.27995
 Alstad ungdomsskole,14.48679,67.27507
@@ -1459,7 +1459,7 @@ Alberthaugen skole,14.42673,67.27406
 Hunstad barneskole,14.53933,67.28474
 Rønvik skole,14.41914,67.29626
 Harstad kommune Øyriket oppvekstsenter - Lundenes barneskole,16.56864,68.87611
-Harstad kommune Bergseng barneskole,0.0,0.0
+Harstad kommune Bergseng barneskole,16.49912842766964,68.80828980465756                                    # Hentet fra Google Maps
 Harstad kommune Hagebyen ungdomsskole,16.54273,68.81363
 Seljestad ungdomsskole,16.53101,68.78808
 Harstad kommune Seljestad barneskole,16.5313,68.78663
@@ -1477,7 +1477,7 @@ Misvær oppvekstsenter avd skole,15.00715,67.12258
 Meløy oppvekstsenter avd skole,13.41126,66.82303
 Værøy skole,12.69326,67.66374
 Hilstad Barne-Og ungdomsskole,12.54393,65.40993
-Brønnøysund barneskole avd Nordhus,0.0,0.0
+Brønnøysund barneskole avd Nordhus,12.152820846584293,65.46468509990353                                    # Hentet fra Google Maps
 Brønnøysund ungdomsskole,12.20908,65.46632
 Mellomåsen skole og voksenopplæring,14.44512,67.28754
 Stokksund grunnskole og Sfo,10.07953,64.02717
@@ -1508,8 +1508,8 @@ Leikanger skule,5.78896,62.23647
 Bergsøy skule,5.64275,62.33464
 Herøy ungdomsskule,5.64734,62.3336
 Risør barneskole,9.21905,58.71646
-Mo skule,0.0,0.0
-Lindesnes læringssenter,0.0,0.0
+Mo skule,5.808981998520959,60.8175231763064                                     # Hentet fra Google Maps
+Lindesnes læringssenter,7.476693703198468,58.0291243443884                                      # Hentet fra Google Maps
 Blomdalen ungdomsskole,7.44282,58.02574
 Solund skule,4.83989,61.07471
 Flekkefjord ungdomsskole,6.66775,58.30325
@@ -1571,7 +1571,7 @@ Lunde 10-Årige skole,9.10091,59.30603
 Holla 10-Årige skole,9.26229,59.27975
 Krødsherad skole,9.78741,60.12389
 Gol skule,8.93703,60.7053
-Lindhøy skole,0.0,0.0
+Lindhøy skole,10.40185744078558,59.10873867386003                                      # Hentet fra Google Maps
 Andebu ungdomsskole,10.17186,59.30476
 Borre ungdomsskole,10.45101,59.38023
 Lysheim skole,10.41397,59.38348
@@ -1682,14 +1682,14 @@ Lofsrud skole,10.82768,59.84591
 Lønnebakken skole,10.85813,59.94578
 Oslo voksenopplæring Nydalen,10.7674,59.94963
 Stasjonsfjellet skole,10.92821,59.94918
-Øraker skole,0.0,0.0
-Nordseter skole,0.0,0.0
+Øraker skole,10.63888311383184,59.92558610470074                                      # Hentet fra Google Maps
+Nordseter skole,10.795221283141432,59.866861480947016                                      # Hentet fra Google Maps
 Bjørnsletta skole,10.64334,59.9286
 Brannfjell skole,10.7827,59.88787
 Hauketo skole,10.81314,59.83854
 Haugerud skole,10.85941,59.92252
 Haugenstua skole,10.91867,59.95438
-Ellingsrud skole,0.0,0.0
+Ellingsrud skole,10.924865569651951,59.93263733114173                                      # Hentet fra Google Maps
 Lysejordet skole,10.63805,59.93711
 Bjørndal skole,10.83669,59.82596
 Jeriko skole,10.88597,59.93375
@@ -1706,7 +1706,7 @@ Svarttjern skole,10.90046,59.96804
 Vålerenga skole,10.78982,59.90701
 Voksen skole,10.65284,59.95448
 Vinderen skole,10.70624,59.94155
-Vestli skole,0.0,0.0
+Vestli skole,10.928007254309227,59.9714504776628                                      # Hentet fra Google Maps
 Veitvet skole,10.85387,59.94205
 Uranienborg skole,10.7182,59.9201
 Ullevål skole,10.73334,59.94216
@@ -1731,9 +1731,9 @@ Oppsal skole,10.84289,59.89785
 Nøklevann skole,10.84954,59.87692
 Nordtvet skole,10.87261,59.95168
 Nordstrand skole,10.79401,59.86078
-Rosenholm skole,0.0,0.0
+Rosenholm skole,10.785128177057043,59.829896238764235                                      # Hentet fra Google Maps
 Møllergata skole,10.75041,59.91819
-Munkerud skole,0.0,0.0
+Munkerud skole,10.81110424081323,59.85918221980321                                      # Hentet fra Google Maps
 Marienlyst skole,10.72264,59.93529
 Maridalen skole,10.76352,60.00444
 Majorstuen skole,10.71365,59.92933
@@ -1746,9 +1746,9 @@ Lakkegata skole,10.76764,59.91995
 Korsvoll skole,10.75127,59.96414
 Klemetsrud skole,10.84423,59.83522
 Kjelsås skole,10.78511,59.96544
-Oslo voksenopplæring Skullerud,0.0,0.0
+Oslo voksenopplæring Skullerud,10.841806740813468,59.86712779407268                                     # Hentet fra Google Maps
 Kampen skole,10.78283,59.91307
-Ila skole,10.74593,59.92736
+Ila skole,10.74593,59.92736                     # Oslo
 Høyenhall skole,10.81253,59.90002
 Høybråten skole,10.92523,59.94678
 Huseby skole,10.6526,59.946
@@ -1771,9 +1771,9 @@ Abildsø skole,10.82539,59.88137
 Orkanger barneskole,9.85206,63.30718
 Årlivoll skole,9.74401,63.17173
 Gjølme skole,9.80668,63.31801
-Evjen skole,0.0,0.0
+Evjen skole,9.840548442794972,63.287095261984625                                      # Hentet fra Google Maps
 Grøtte skole,9.81036,63.2613
-Orkanger ungdomsskole,0.0,0.0
+Orkanger ungdomsskole,9.852107796763272,63.306007189918624                                     # Hentet fra Google Maps
 Klæbu ungdomsskole,10.46455,63.30501
 Strønstad skole,14.755,68.43353
 Sandnes skole,14.90964,68.58418
@@ -1802,7 +1802,7 @@ Langestrand skole,10.01126,59.04888
 Hvarnes skole,9.9357,59.28855
 Hedrum barneskole,10.07234,59.08762
 Berg skole,9.8717156,58.9865508
-Aurskog-Høland kommune - Aursmoen skole,0.0,0.0
+Aurskog-Høland kommune - Aursmoen skole,11.438572371504149,59.9320652155277                                      # Hentet fra Google Maps
 Aurskog-Høland kommune - Bråte skole,11.45307,59.72223
 Aurskog-Høland kommune - Løken skole,11.46546,59.79699
 Aurskog-Høland kommune - Bjørkelangen skole,11.56069,59.87543
@@ -1872,7 +1872,7 @@ Aremark skole,11.6958,59.22197
 Tynset ungdomsskole,10.77664,62.27285
 Tynset barneskole og Sfo,10.77894,62.27303
 Kvikne skole og Sfo,10.32449,62.56138
-Fåset skole og Sfo,0.0,0.0
+Fåset skole og Sfo,10.658671030469542,62.258944594823                                      # Hentet fra Google Maps
 Sørreisa barneskole,18.15972,69.14558
 Skøelv skole,18.06071,69.13241
 Manndalen skole,20.52628,69.52621
@@ -1898,11 +1898,11 @@ Selnes skole,18.84686,69.68762
 Sandnessund skole,18.87982,69.69717
 Ramfjord skole,19.18583,69.55979
 Prestvannet skole,18.94372,69.66
-Mortensnes skole,0.0,0.0
+Mortensnes skole,18.938908650458448,69.6844730795124                                      # Hentet fra Google Maps
 Lakselvbukt skole,19.64567,69.4334
 Kvaløysletta skole,18.88026,69.69666
 Hillesøyskolen Kattfjord skole,18.27521,69.58181
-Gyllenborg skole,0.0,0.0
+Gyllenborg skole,18.950765624160347, 69.6519633777845                                      # Hentet fra Google Maps
 Grønnåsen skole,18.9648,69.67647
 Hillesøyskolen Brensholmen skole,18.04812,69.59884
 Borgtun skole,18.96876,69.67471
@@ -1950,7 +1950,7 @@ Strand oppvekstsenter avd skole,9.15351,63.54327
 Fillan skole,8.97428,63.60207
 Barman oppvekstsenter avd skole,8.84998,63.62197
 Lundamo ungdomsskole,10.2848,63.15079
-Gimse ungdomsskole,0.0,0.0
+Gimse ungdomsskole,10.261115992531773,63.2862320963262                                      # Hentet fra Google Maps
 Rosmælen skole,10.27364,63.22641
 Lundamo skole,10.28805,63.15123
 Høyeggen skole,10.29675,63.28647
@@ -1960,7 +1960,7 @@ Gimse skole,10.26191,63.28667
 Flå skole,10.31645,63.19656
 Laupstad skole,14.74114,68.35635
 Kabelvåg skole,14.46592,68.21688
-Henningsvær skole,0.0,0.0
+Henningsvær skole,14.20043155647906,68.15217580400665                                     # Hentet fra Google Maps
 Digermulen skole,14.98707,68.30979
 Strauman oppvekstsenter,14.34713,68.28585
 Svolvær skole,14.56018,68.23868
@@ -1980,7 +1980,7 @@ Hauger skole,10.50648,59.91018
 Gjettum skole,10.53236,59.90745
 Hosletoppen skole,10.58697,59.94113
 Bjørnegård skole,10.49832,59.88734
-Bekkestua skole,0.0,0.0
+Bekkestua skole,10.5877876561597,59.92300077459683                                      # Hentet fra Google Maps
 Tanum skole,10.47688,59.88549
 Stabekk skole,10.59296,59.91581
 Skui skole,10.44728,59.92762
@@ -1990,7 +1990,7 @@ Lommedalen skole,10.47331,59.96053
 Levre skole,10.50912,59.9071
 Anna Krefting skole,10.51222,59.94905
 Jong skole,10.50994,59.88761
-Jar skole,0.0,0.0
+Jar skole,10.627211869651484,59.9200113420052                                      # Hentet fra Google Maps
 Høvik Verk skole,10.57025,59.89361
 Høvik skole,10.57105,59.90239
 Hosle skole,10.58457,59.93436
@@ -2052,10 +2052,10 @@ Eidebakken skole,20.19678,69.57571
 Finnsnes barneskole,17.99982,69.23503
 Senjahopen skole,17.48314,69.49646
 Laksvatn oppvekstsenter avd skole,19.36649,69.37709
-Nordkjosbotn skole,0.0,0.0
+Nordkjosbotn skole,19.563640304406878,69.21707247050576                                     # Hentet fra Google Maps
 Storsteinnes skole,19.21366,69.23695
 Malangen skole,18.90103,69.33172
-Stakkevollan skole,0.0,0.0
+Stakkevollan skole,18.99247256447704, 69.69415731136243                                      # Hentet fra Google Maps
 Inndyr skole avd skole,14.03503,67.03622
 Sørarnøy skole og barnehage avd skole,13.9705,67.14149
 Husøy skole,12.09398,66.50259
@@ -2066,7 +2066,7 @@ Tverlandet skole,14.72827,67.2972
 Rørvik skole,11.23923,64.87106
 Vuku barne- og ungdomsskole,11.73931,63.77559
 Aune barneskole,9.68299,62.59678
-Sunndal ungdomsskole,0.0,0.0
+Sunndal ungdomsskole,8.594027400443318,62.669450367860264                                      # Hentet fra Google Maps
 Angvik skule,8.08893,62.89709
 Harøy skule,6.45818,62.77153
 Kvam skole,7.10109,62.73693
@@ -2080,7 +2080,7 @@ Vågsetra barne- og ungdomsskole,7.42678,62.7141
 Bolsøya skole,7.32133,62.73068
 Sekken oppvekstsenter skole,7.33872,62.65202
 Bekkevoll ungdomsskole,7.141,62.7409
-Skjevik barne- og ungdomsskole,0.0,0.0
+Skjevik barne- og ungdomsskole,7.530877105063068,62.78702048593519                                     # Hentet fra Google Maps
 Øystese skule,6.19911,60.38818
 Norheimsund skule,6.14306,60.37051
 Ålvik skule,6.43599,60.43335
@@ -2111,7 +2111,7 @@ Spikkestad skole,10.33652,59.74922
 Hyggen skole,10.37311,59.71663
 Slemmestad barneskole,10.49145,59.77937
 Nærsnes skole,10.5051,59.75512
-Frydenlund skole,10.5106,59.71444
+Frydenlund skole,10.5106,59.71444                           # Åros
 Midtbygda skole,10.41412,59.74533
 Torvbråten skole,10.4799,59.76165
 Sydskogen skole,10.45235,59.75985
@@ -2123,7 +2123,7 @@ Sykehusskolen i Oslo,10.71712,59.94804
 Lusetjern skole,10.78906,59.8324
 Gamlebyen skole,10.77044,59.90681
 Sollerudstranda skole,10.64741,59.91357
-Oslo sjøskole,0.0,0.0
+Oslo sjøskole,10.738097113830733,59.8964735675499           # Hentet fra Google Maps
 Holmen skole Grunnskole/Videregående skole,10.48746,59.86594
 Volla skole,11.04688,59.95712
 Vigernes skole,11.07158,59.95535
@@ -2136,7 +2136,7 @@ Den Alternative skolen,10.44017,59.83126
 Hærland skole,11.42392,59.55022
 Mysen ungdomsskole,11.33385,59.54982
 Byskogen ungdomsskole,10.41817,59.28405
-Harstad kommune Nordsida barneskole,0.0,0.0
+Harstad kommune Nordsida barneskole,16.510424415171613,68.81788584166195                                      # Hentet fra Google Maps
 Vesterøya skole,10.24742,59.10982
 Badderen oppvekstsenter,22.03265,69.84443
 Stange kommune kvalifiseringssenter,11.18938,60.71654
@@ -2151,7 +2151,7 @@ Stange ungdomsskole,11.19937,60.71531
 Flatanger kommune voksenopplæring,10.89473,64.5013
 Øyslebø ungdomsskole,7.55482,58.17176
 Biri barneskole,10.60786,60.95371
-Sommerschild skole,0.0,0.0
+Sommerschild skole,10.399162583276196,63.42955015672339                                        # Hentet fra Google Maps
 Bentsebrua skole,10.76132,59.93744
 Sørreisa ungdomsskole,18.161,69.14532
 Klokkerjordet skole,10.21468,59.58676
@@ -2236,7 +2236,7 @@ Gvarv skole,9.19002,59.38872
 Løren skole,10.80249,59.93161
 Askim ungdomsskole,11.16929,59.57777
 Meldal barne- og ungdomsskole,9.70222,63.04234
-Kuben videregående skole,0.0,0.0
+# Kuben videregående skole,10.817008410127475,59.928133452974635                                     # Hentet fra Google Maps
 Bruhagen barneskole,7.63791,63.04928
 Nordbygdo ungdomsskule,5.51144,59.79962
 Einedalen skule,5.68859,62.33463
@@ -2283,7 +2283,7 @@ Bjerkvik skole,17.55346,68.55174
 Ballangen skole,16.82475,68.33943
 Bjorøy skule,5.17198,60.317
 Brattholmen skule,5.15666,60.35125
-Selvær oppvekstsenter Avdeling skole,0.0,0.0
+Selvær oppvekstsenter Avdeling skole,12.237957261038414,66.58794716430062                                    # Hentet fra Google Maps
 Ytteren skole,14.12528,66.3479
 Dønna barne- og ungdomsskole,12.48897,66.10709
 Toftøy skule,4.94682,60.48046
@@ -2297,25 +2297,25 @@ Vistdal oppvekstsenter skole,7.92842,62.72076
 Veggli skole,9.14989,60.04144
 Fræna ungdomsskule,7.15579,62.85434
 Sylte skule,7.23292,62.82936
-Dølemo oppvekstsenter avd skule,0.0,0.0
+Dølemo oppvekstsenter avd skule,8.339686760131212,58.71150191909595                                      # Hentet fra Google Maps - lagt ned?
 Stuenes skole barne- og Ungdomstrinn,8.84791,58.49273
 Stinta skole barne- og Ungdomstrinnet,8.75785,58.46275
 Søndeled skole,9.08144,58.76286
-Soknedal skole,0.0,0.0
+Soknedal skole,10.18882692796444, 62.956038804775304                                      # Hentet fra Google Maps
 Midtbygda skole,9.56705,62.61664
 Stadsbygd skole,10.00109,63.5119
 Sistranda barneskole,8.82852,63.73056
 Søre Øyane barneskule,5.37446,60.14706
 Fusa barneskule,5.61961,60.19979
 Skulestad skule,6.43466,60.65852
-Skare barneskule,0.0,0.0
+Skare barneskule,6.596509338963613,59.931293712929104                                        # Hentet fra Google Maps
 Øvrebygda skule,5.33303,59.86683
 Roligheden skole Barne-/Ungdomstrinnet,8.80659,58.45535
 Tindlund ungdomsskole,11.04596,59.26825
 Spydeberg ungdomsskole,11.08547,59.61842
 Melløs skole,10.66689,59.42121
 Tanabru skole,28.1665,70.19775
-Billefjord Sjøsamiske oppvekstsenter Avdeling skole,0.0,0.0
+Billefjord Sjøsamiske oppvekstsenter Avdeling skole,25.047989814239475,70.31656681108848                                     # Hentet fra Google Maps
 Fjordtun skole,23.68474,70.63451
 Bergsfjord oppvekstsenter avd skole,21.79281,70.25072
 Høknes barneskole,11.53498,64.47302
@@ -2352,7 +2352,7 @@ Nordli skole,10.75655,60.74174
 Lunner ungdomsskole,10.60998,60.29346
 Bjoneroa skole,10.29614,60.51633
 Etnedal skule,9.63339,60.92617
-Os skole,11.23755,62.49631
+Os skole,11.23755,62.49631                          # Os
 Stor-Elvdal ungdomsskole,11.0593,61.56687
 Hernes skole,11.63789,60.92613
 Sogsti skole,10.64638,59.65489
@@ -2405,14 +2405,14 @@ Tordenskjoldsgate skole,7.99262,58.15005
 Torridal skole,7.92718,58.20446
 Flekkerøy skole,7.99561,58.07872
 Store Bergan skole,10.20821,59.10193
-Vevelstadåsen skole,0.0,0.0
-Os skole,0.0,0.0
+Vevelstadåsen skole,10.848278090768979,59.75740429176041                                      # Hentet fra Google Maps
+Os skole,11.388505788670846,59.12680209337316                                       # Hentet fra Google Maps - Halden          
 Tokerud skole,10.93053,59.96622
 Hovseter skole,10.65461,59.94974
 Haugen skole,10.90543,59.94729
 Skjønnhaug skole,10.87693,59.9288
 Rustad skole,10.83855,59.87201
-Manglerud skole,0.0,0.0
+Manglerud skole,10.824106596634293,59.894162206510316                                       # Hentet fra Google Maps
 Lilleaker skole,10.63898,59.92295
 Grünerløkka skole,10.76166,59.92639
 Holmlia skole,10.79058,59.83345
@@ -2453,7 +2453,7 @@ Sagdalen skole,11.01346,59.95116
 Lervig skole,5.75769,58.96706
 Kleppelunden skule,5.61692,58.77939
 Stangaland skole,5.31472,59.27352
-Årviksand skole,0.0,0.0
+Årviksand skole,20.527199825874217,70.19768171184874                                      # Hentet fra Google Maps
 Trøndelag grunnskole,11.49431,64.01318
 Oslo kommune Språksenteret,10.7702,59.92199
 Nore Neset ungdomsskule,5.41761,60.17966

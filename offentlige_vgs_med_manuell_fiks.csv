@@ -37,7 +37,7 @@ Ung Invest Aib avd Midtfylket,9.97575,59.94489
 Brundalen videregående skole avd Trondheim Kretsfengsel,10.47546,63.42085
 Statped Oslo Diamanten skole skole for Elever Med Døvblindhet,10.84289,59.89785
 Longyearbyen skole grunnskole,15.61161,78.21022
-Samisk videregående skole Karasjok,25.53002,69.46730                               # Hentet fra Google Maps
+Samisk videregående skole Karasjok,25.53002,69.46730                              # Hentet fra Google Maps
 Samisk videregående skole og reindriftsskole,23.03693,69.02032
 Tingvoll vidaregåande skole,8.1945,62.915
 Solør videregående skole Internat,12.06585,60.66368
@@ -47,12 +47,12 @@ Randaberg videregående skole,5.65469,58.99688
 Godalen videregående skole,5.75185,58.95377
 Karmsund videregående skole,5.2832,59.40075
 Bergeland videregående skole,5.73724,58.96731
-Gand videregående skole,58.84628731631782, 5.736870267759746                        # Hentet fra Google Maps
+Gand videregående skole,5.736870267759746,58.84628731631782                        # Hentet fra Google Maps
 Sauda videregående skole avd Sand,6.25106,59.49336
 Åkrehamn vidaregåande skole,5.19802,59.25665
 Haugaland videregående skole,5.29116,59.40954
 Dalane videregående skole,6.01065,58.4648
-Øksnevad videregående skole,58.80104938915596, 5.6714290831021525                   # Hentet fra Google Maps   
+Øksnevad videregående skole,5.6714290831021525,58.80104938915596                   # Hentet fra Google Maps   
 St. Olav videregående skole,5.72504,58.96711
 Vardafjell videregående skole,5.29024,59.41164
 St Svithun videregående skole,5.6961,58.95606
@@ -85,7 +85,7 @@ Sortland videregående skole avd Kleiva,15.27993,68.64895
 Hadsel videregående skole,14.90966,68.5667
 Andøy videregående skole,16.12912,69.31696
 Ung Invest Aib avd Ringerike,10.26184,60.20038
-Numedal videregående skole,60.16931409740857, 9.007543162040533                             # Hentet fra Google Maps
+Numedal videregående skole,9.007543162040533,60.16931409740857                            # Hentet fra Google Maps
 Buskerud videregående skole,9.93128,59.89492
 Ringerike videregående skole,10.25895,60.16425
 Gol vidaregåande skule,8.94376,60.70275
@@ -136,7 +136,7 @@ Foss videregående skole,10.75544,59.92704
 Nordvoll skole,10.86458,59.92403
 Lønnebakken skole,10.85813,59.94578
 Haukåsen skole,10.8626,59.9233
-Oslo voksenopplæring Skullerud,59.86712779407268, 10.841774554305376                        # Hentet fra Google Maps
+Oslo voksenopplæring Skullerud,10.841774554305376,59.86712779407268                       # Hentet fra Google Maps
 Dønski videregående skole,10.50662,59.90678
 Drømtorp videregående skole,10.86716,59.716
 Rosenvilde videregående skole,10.5086,59.90988
@@ -173,7 +173,7 @@ Stranda vidaregåande skule,6.91389,62.306
 Surnadal vidaregåande skule,8.71859,62.9825
 Ørsta vidaregåande skule,6.12998,62.19599
 Kristiansund videregående skole,7.71943,63.11959
-Sunndal vidaregåande skole,62.66901218245166, 8.591297991539443                         # Hentet fra Google Maps    
+Sunndal vidaregåande skole,8.591297991539443,62.66901218245166                         # Hentet fra Google Maps    
 Rauma videregående skole,7.68267,62.56393
 Borgund vidaregåande skole,6.37262,62.46816
 Romsdal videregående skole,7.1913,62.74438
@@ -186,7 +186,7 @@ Ulstein vidaregåande skule,5.88288,62.34024
 Molde videregående skole,7.16433,62.73967
 Sande videregående skole,10.24122,59.58584
 Færder videregående skole,10.41044,59.26109
-Melsom videregående skole,59.23017281651141, 10.347035329150316                             # Hentet fra Google Maps
+Melsom videregående skole,10.347035329150316,59.23017281651141                             # Hentet fra Google Maps
 Thor Heyerdahl videregående skole,10.05533,59.04936
 Sandefjord videregående skole,10.20438,59.13322
 Nøtterøy videregående skole,10.40418,59.22449
@@ -231,7 +231,7 @@ Vest-Telemark vidaregåande skule,7.98769,59.44661
 Skien videregående skole,9.61431,59.19934
 Porsgrunn videregående skole,9.66904,59.13845
 Notodden videregående skole,9.25771,59.5553
-Kragerø videregående skole,58.87155438733069, 9.392281784956978                           # Hentet fra Google Maps
+Kragerø videregående skole,9.392281784956978,58.87155438733069                           # Hentet fra Google Maps
 Bø vidaregåande skule,9.06299,59.41713
 Inderøy videregående skole,11.28629,63.87729
 Grong videregående skole,12.31375,64.46179
@@ -265,7 +265,7 @@ Austevoll vidaregåande skule,5.26328,60.08635
 Fyllingsdalen videregående skole,5.28765,60.34743
 Os vidaregåande skule,5.44271,60.19641
 Sotra vidaregåande skule,5.109,60.35192
-Askøy videregående skole,60.41602007676747, 5.2225228985059395                        # Hentet fra Google Maps
+Askøy videregående skole,5.222522898505939,60.41602007676747                        # Hentet fra Google Maps
 Fagskulen Vestland Nordnes,5.30622,60.39811
 Austrheim vidaregåande skule,4.93731,60.78852
 Årstad videregående skole,5.34041,60.37493
@@ -312,7 +312,7 @@ Stangnes Rå videregående skole avd Rå,16.177,68.77489
 Narvik videregående skole,17.40187,68.43836
 Hardanger produksjonsskule,6.92671,60.56202
 Smi-Skolen i Arendal,8.7576,58.46647
-Norges brannskole,68.55334817425816, 16.513027383479155                        # Hentet fra Google Maps
+Norges brannskole,16.513027383479155,68.55334817425816                        # Hentet fra Google Maps
 Kirkeveien videregående skole,10.73706,59.93694
 Holmen skole Grunnskole/Videregående skole,10.48746,59.86594
 Nord-Østerdal videregående skole,10.77185,62.27007
@@ -327,14 +327,14 @@ Nettskolen Rogaland,6.01065,58.4648
 Eksamenskontoret i Østfold,11.1059,59.27503
 Eksamenskontoret i Buskerud,10.18914,59.74837
 Eksamenskontoret i Akershus,10.75562,59.912
-Sommerschild skole,63.42955015672339, 10.399162583276196                                        # Hentet fra Google Maps
+Sommerschild skole,10.399162583276196, 63.42955015672339                                        # Hentet fra Google Maps
 Oslo Vo Hovinbyen,10.81535,59.92694
 Nettskolen Troms,18.94315,69.64468
 Privatisteksamen,5.33231,60.38656
 Trøndelag privatistskole,10.39416,63.42914
 Karriere Innlandet Sør-Østerdal,11.56338,60.87703
 Karriere Innlandet Nord-Østerdal,10.77185,62.27007
-Karriere Innlandet Lillehammer,61.11607003815866, 10.462337146945481                            # Hentet fra Google Maps
+Karriere Innlandet Lillehammer,10.462337146945481, 61.11607003815866                            # Hentet fra Google Maps
 Karriere Innlandet Kongsvinger,12.00186,60.19053
 Karriere Innlandet Hamar,11.03982,60.79774
 Karriere Innlandet Hadeland,10.5768,60.35526
@@ -342,13 +342,13 @@ Karriere Innlandet Gudbrandsdal,9.73426,61.59814
 Karriere Innlandet Gjøvik,10.67725,60.78582
 Longyearbyen skole videregående Avdeling,15.61161,78.21022
 Johan Bojer videregående skole,10.22129,63.55291
-Karriere Agder Lyngdal,58.15599446544414, 7.1026326695868645                                    # Hentet fra Google Maps
+Karriere Agder Lyngdal,7.1026326695868645, 58.15599446544414                                    # Hentet fra Google Maps
 Smi-Skolen i Agder,7.99417,58.15105
 Trøndelag nettskole,10.36376,63.39538
 Cissi Klein videregående skole,10.4606,63.43646
 Karriere Agder Kristiansand,7.99417,58.15105
 Vetland videregående skole,10.84289,59.89785
-Charlottenlund videregående skole avd Trondheim Fengsel,63.420928785727895, 10.47542020785083   # Hentet fra Google Maps
+Charlottenlund videregående skole avd Trondheim Fengsel,10.47542020785083, 63.420928785727895   # Hentet fra Google Maps
 Vika videregående skole,10.72413,59.91304
 Øystre Slidre Lærlingeverksemda,9.07921,61.13364
 Sjøforsvarets fagskole,5.22002,60.34
@@ -372,7 +372,7 @@ Knut Hamsun videregående skole avd Steigen,15.01489,67.77703
 Blindern videregående skole,10.7293,59.95015
 Edvard Munch videregående skole,10.74356,59.91863
 Hersleb videregående skole,10.76403,59.91813
-Kuben videregående skole,59.92811194869552, 10.817072783143667                                      # Hentet fra Google Maps
+Kuben videregående skole,10.817072783143667,59.92811194869552                                      # Hentet fra Google Maps
 Smi-Skolen i Kristiansand,7.98128,58.16383
 Møllehagen skolesenter grunnskole og videregående skole,5.73619,58.94843
 Sauda vidaregåande skule,6.35914,59.65353
