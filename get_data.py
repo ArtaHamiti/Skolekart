@@ -25,10 +25,12 @@ df = pd.DataFrame(all_data_flat)
 
 # Lag ulike dataframes basert på hva som skal filtreres
 privatskoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == True) & (df["ErAktiv"] == True)]
+offentlige_skoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == True)]
 nedlagte_privatskoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == True) & (df["ErAktiv"] == False)]
 nedlagte_offentlige_skoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == False)]
-offentlige_skoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == True)]
 # nedlagte offentlige skoler og nye privatskoler i samme kart
+private_grunnskoler = df[(df["ErGrunnskole"] == True) & (df["ErPrivatskole"] == True) & (df["ErAktiv"] == True)]
+offentlige_grunnskoler = df[(df["ErGrunnskole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == True)]
 
 # Hent ut koordinatene til skolene via organisasjonsnummer - gør denne om til generell funksjon som henter utfra df-ene over og gjør om til csv
 
@@ -53,4 +55,5 @@ def get_coordinates(base_url_info_schools: str, filtered_df: pd.DataFrame, new_f
     return res
 
 
-get_coordinates(base_url_info_schools, privatskoler_vgs, "privatskoler_vgs.csv")
+#get_coordinates(base_url_info_schools, privatskoler_vgs, "privatskoler_vgs.csv")
+get_coordinates(base_url_info_schools, private_grunnskoler, "private_grunnskoler.csv")
