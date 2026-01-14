@@ -7,31 +7,33 @@ Norway_coords = [59.9127, 10.7461]
 m = fm.Map(location=Norway_coords, zoom_start=7)
 
 # Lag ulike grupper
-private_skoler = fm.FeatureGroup(name="Private skoler")
-offentlige_skoler = fm.FeatureGroup(name="Offentlige skoler")
+private_vgs = fm.FeatureGroup(name="Private videregående skoler")
+offentlige_vgs = fm.FeatureGroup(name="Offentlige videregående skoler")
 private_grunnskoler = fm.FeatureGroup(name="Private grunnskoler")
+offentlige_grunnskoler = fm.FeatureGroup(name="Offentlige grunnskoler")
 
-df = pd.read_csv("privatskoler_vgs.csv", comment="#")
-for _, row in df.iterrows():
-    fm.Marker(
-        location=[row["Breddegrad"], row["Lengdegrad"]],
-        popup=row["Navn"],
-        icon=fm.Icon(color="blue", icon="graduation-cap", prefix="fa")
-    ).add_to(private_skoler)
+# Generell funksjon for å legge til data fra csv-fil til en FeatureGroup
+def add_csv_to_feature_group(csv_file_name: str, feature_group: fm.FeatureGroup, icon_colour: str, icon_name: str):
+    df = pd.read_csv(csv_file_name, comment="#")
+    for _, row in df.iterrows():
+        fm.Marker(
+            location=[row["Breddegrad"], row["Lengdegrad"]],
+            popup=row["Navn"],
+            icon=fm.Icon(color=icon_colour, icon = icon_name, prefix="fa") # Velg herfra: https://fontawesome.com/icons?d=gallery
+        ).add_to(feature_group)
 
-df = pd.read_csv("private_grunnskoler.csv", comment="#")
-for _, row in df.iterrows():
-    fm.Marker(
-        location=[row["Breddegrad"], row["Lengdegrad"]],
-        popup=row["Navn"],
-        icon=fm.Icon(color="blue", icon="school", prefix="fa")
-    ).add_to(private_grunnskoler)
+add_csv_to_feature_group("privatskoler_vgs_med_manuell_fiks.csv", private_vgs, "blue", "graduation-cap")
+add_csv_to_feature_group("offentlige_vgs_med_manuell_fiks.csv", offentlige_vgs, "green", "graduation-cap")
+add_csv_to_feature_group("private_grunnskoler_med_manuell_fiks.csv", private_grunnskoler, "blue", "school")
+#add_csv_to_feature_group("offentlige_grunnskoler.csv", offentlige_grunnskoler, "green", "school")
 
 # Legg gruppen til kartet
-private_skoler.add_to(m)
+private_vgs.add_to(m)
+offentlige_vgs.add_to(m)
 private_grunnskoler.add_to(m)
+#offentlige_grunnskoler.add_to(m)
 
 # Legg til lagkontroll
 fm.LayerControl().add_to(m)
 
-m.save("norgeskart_med_private_vgs_manuelt_fylt_inn_for_0_verdier_og_private_grunnskoler.html")
+m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler.html")
