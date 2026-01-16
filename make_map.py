@@ -22,7 +22,8 @@ def add_csv_to_feature_group(csv_file_name: str, feature_group: fm.FeatureGroup,
             icon=fm.Icon(color=icon_colour, icon = icon_name, prefix="fa") # Velg herfra: https://fontawesome.com/icons?d=gallery
         ).add_to(feature_group)
 
-add_csv_to_feature_group("privatskoler_vgs_med_manuell_fiks.csv", private_vgs, "blue", "graduation-cap")
+#add_csv_to_feature_group("privatskoler_vgs_med_manuell_fiks.csv", private_vgs, "blue", "graduation-cap")
+add_csv_to_feature_group("privatskoler_vgs.csv", private_vgs, "blue", "graduation-cap")
 add_csv_to_feature_group("offentlige_vgs_med_manuell_fiks.csv", offentlige_vgs, "green", "graduation-cap")
 add_csv_to_feature_group("private_grunnskoler_med_manuell_fiks.csv", private_grunnskoler, "blue", "school")
 add_csv_to_feature_group("offentlige_grunnskoler_med_manuell_fiks.csv", offentlige_grunnskoler, "green", "school")
@@ -36,4 +37,4 @@ offentlige_grunnskoler.add_to(m)
 # Legg til lagkontroll
 fm.LayerControl().add_to(m)
 
-m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler.html")
+m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler_nyeste_versjon.html")

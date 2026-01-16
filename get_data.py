@@ -28,14 +28,14 @@ privatskoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"
 offentlige_skoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == True)]
 nedlagte_privatskoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == True) & (df["ErAktiv"] == False)]
 nedlagte_offentlige_skoler_vgs = df[(df["ErVideregaaendeSkole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == False)]
-# nedlagte offentlige skoler og nye privatskoler i samme kart
+# Nedlagte offentlige skoler og nye privatskoler i samme kart - ikke brukt disse ennå
 private_grunnskoler = df[(df["ErGrunnskole"] == True) & (df["ErPrivatskole"] == True) & (df["ErAktiv"] == True)]
 offentlige_grunnskoler = df[(df["ErGrunnskole"] == True) & (df["ErPrivatskole"] == False) & (df["ErAktiv"] == True)]
 
 # Hent ut koordinatene til skolene via organisasjonsnummer - gør denne om til generell funksjon som henter utfra df-ene over og gjør om til csv
 
 def get_coordinates(base_url_info_schools: str, filtered_df: pd.DataFrame, new_file_name: str) -> pd.DataFrame:
-    res = pd.DataFrame(columns=["Navn", "Lengdegrad", "Breddegrad"])
+    res = pd.DataFrame(columns=["Navn", "Breddegrad", "Lengdegrad", "Organisasjonsnummer"])
     count = 0
     for school_id in filtered_df.loc[:, "Organisasjonsnummer"]:
         try:
@@ -46,16 +46,17 @@ def get_coordinates(base_url_info_schools: str, filtered_df: pd.DataFrame, new_f
             koordinater = data.get("Koordinat")
             lengdegrad = koordinater.get("Lengdegrad")
             breddegrad = koordinater.get("Breddegrad")
-            res = pd.concat([res, pd.DataFrame({"Navn": [data.get("Navn")], "Lengdegrad": [lengdegrad], "Breddegrad": [breddegrad]})], ignore_index=True)
+            res = pd.concat([res, pd.DataFrame({"Navn": [data.get("Navn")], "Breddegrad": [breddegrad], "Lengdegrad": [lengdegrad], "Organisasjonsnummer": [school_id]})], ignore_index=True)
             count += 1
             print(f"La til skole nummer {count} av {len(filtered_df)}")
         except requests.exceptions.RequestException as e:
             print(f"An error occurred while fetching school info: {e}")
+    res = res.sort_values(by="Navn")
     res.to_csv(new_file_name, index=False)
     return res
 
 
-#get_coordinates(base_url_info_schools, privatskoler_vgs, "privatskoler_vgs.csv")         
-#get_coordinates(base_url_info_schools, private_grunnskoler, "private_grunnskoler.csv")     
-#get_coordinates(base_url_info_schools, offentlige_skoler_vgs, "offentlige_vgs")
-#get_coordinates(base_url_info_schools, offentlige_grunnskoler, "offentlige_grunnskoler")
+get_coordinates(base_url_info_schools, privatskoler_vgs, "privatskoler_vgs.csv")         
+get_coordinates(base_url_info_schools, private_grunnskoler, "private_grunnskoler.csv")     
+#get_coordinates(base_url_info_schools, offentlige_skoler_vgs, "offentlige_vgs.csv")
+#get_coordinates(base_url_info_schools, offentlige_grunnskoler, "offentlige_grunnskoler.csv")
