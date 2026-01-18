@@ -9,7 +9,7 @@ import pandas as pd
 
 # Vil lage kode som går gjennom csv-filene for private vgs og grunnskoler og fjerner de radene som ikke har et organisasjonsnummer som er i en annen csv-fil
 
-def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_csv):
+def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_csv_file_name):
     all_orgs = pd.read_csv(list_csv1)["Orgnummer"].astype(str).tolist()
     private_schools_df = pd.read_csv(private_schools_csv)
     filter_df = pd.read_csv(filter_csv2)
@@ -17,22 +17,23 @@ def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_c
         all_orgs.append(orgnr)
 
     filter_org_numbers = set(all_orgs)
-    added_schools = []
-    left_out_schools = []
-    for school_row in private_schools_df.iterrows():
-        school_orgnr = str(school_row[1]["Organisasjonsnummer"])
+    added_schools = pd.DataFrame()
+    left_out_schools = pd.DataFrame()
+    for _, school_row in private_schools_df.iterrows():
+        school_orgnr = str(school_row["Organisasjonsnummer"])
+        school_name = school_row["Navn"]
         if school_orgnr in filter_org_numbers:
-            added_schools.append(school_row)
+            added_schools = pd.concat([added_schools, school_row.to_frame().T], ignore_index=True)  
         else:
-            i = input(f"Skole {school_row[1]['Navn']} med orgnr {school_orgnr} ikke i liste. Ta med? (j/n) ")
+            i = input(f"{school_name} med orgnr: {school_orgnr} er ikke i listen. Ta med? (j/n) ")
             if i.lower() == "j":
-                added_schools.append(school_orgnr)
-                print(f"Tok med skole {school_row[1]['Navn']} med orgnr {school_orgnr}")
+                added_schools = pd.concat([added_schools, school_row.to_frame().T], ignore_index=True)
+                print(f"Tatt med!")
             else:
-                left_out_schools.append(school_orgnr)
-                print(f"Tok ikke med skole {school_row[1]['Navn']} med orgnr {school_orgnr}")
-    output_df = private_schools_df[private_schools_df["Organisasjonsnummer"].astype(str).isin([str(school[1]["Organisasjonsnummer"]) for school in added_schools])]
-    output_df.to_csv(output_csv, index=False)
+                left_out_schools = pd.concat([left_out_schools, school_row.to_frame().T], ignore_index=True)
+                print(f"Utelatt!")
+    added_schools.to_csv(output_csv_file_name, index=False)
     print("Skoler som ikke kom med med:", left_out_schools)
 
-filter_private_schools("privatskoler_vgs.csv", "underenheter_privatskoler_per_2025.csv", "privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv")
+#filter_private_schools("privatskoler_vgs.csv", "underenheter_privatskoler_per_2025.csv", "privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv")
+filter_private_schools("private_grunnskoler.csv", "underenheter_privatskoler_per_2025.csv", "privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv")

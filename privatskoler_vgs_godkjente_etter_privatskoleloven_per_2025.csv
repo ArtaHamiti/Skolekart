@@ -1,700 +1,144 @@
-0,1,2,3,4,5,6,7,8
-0,"Navn                   Acta bibelskole
-Breddegrad                    58.95488
-Lengdegrad                     5.69944
-Organisasjonsnummer          973798995
-Name: 0, dtype: object",,,,,,,
-1,"Navn                   Aglo videregående skole
-Breddegrad                             63.5333
-Lengdegrad                             10.8234
-Organisasjonsnummer                  991025057
-Name: 1, dtype: object",,,,,,,
-2,"Navn                   Akademiet Drammen AS
-Breddegrad                        59.740361
-Lengdegrad                        10.181932
-Organisasjonsnummer               985500568
-Name: 2, dtype: object",,,,,,,
-3,"Navn                   Akademiet Fredrikstad AS Privat videregående s...
-Breddegrad                                                      59.21384
-Lengdegrad                                                      10.92913
-Organisasjonsnummer                                            988519480
-Name: 3, dtype: object",,,,,,,
-4,"Navn                   Akademiet Kristiansand AS
-Breddegrad                              58.15325
-Lengdegrad                               8.02905
-Organisasjonsnummer                    982759846
-Name: 4, dtype: object",,,,,,,
-5,"Navn                   Akademiet Norsk restaurantskole Sti
-Breddegrad                                             0.0
-Lengdegrad                                             0.0
-Organisasjonsnummer                              913711793
-Name: 5, dtype: object",,,,,,,
-6,"Navn                   Akademiet Oslo AS
-Breddegrad                      59.92345
-Lengdegrad                      10.73179
-Organisasjonsnummer            887664102
-Name: 6, dtype: object",,,,,,,
-7,"Navn                   Akademiet Sandnes
-Breddegrad                           0.0
-Lengdegrad                           0.0
-Organisasjonsnummer            987546603
-Name: 7, dtype: object",,,,,,,
-8,"Navn                   Akademiet Toppidrettsgymnas Ålesund AS
-Breddegrad                                           62.47027
-Lengdegrad                                            6.18723
-Organisasjonsnummer                                 911770172
-Name: 8, dtype: object",,,,,,,
-9,"Navn                   Akademiet Vgs Bergen AS
-Breddegrad                            60.38666
-Lengdegrad                             5.33062
-Organisasjonsnummer                  986900055
-Name: 9, dtype: object",,,,,,,
-10,"Navn                   Akademiet Vgs Bislett AS
-Breddegrad                             59.92345
-Lengdegrad                             10.73179
-Organisasjonsnummer                   988938386
-Name: 10, dtype: object",,,,,,,
-11,"Navn                   Akademiet Vgs Bragernes Drammen AS
-Breddegrad                                        59.7486
-Lengdegrad                                       10.17168
-Organisasjonsnummer                             996789845
-Name: 11, dtype: object",,,,,,,
-12,"Navn                   Akademiet Vgs Kongsberg AS
-Breddegrad                               59.67378
-Lengdegrad                                9.64225
-Organisasjonsnummer                     924441747
-Name: 12, dtype: object",,,,,,,
-13,"Navn                   Akademiet Vgs Møre AS
-Breddegrad                          62.47284
-Lengdegrad                           6.16358
-Organisasjonsnummer                888535322
-Name: 13, dtype: object",,,,,,,
-14,"Navn                   Akademiet Vgs Sandvika AS
-Breddegrad                              59.89269
-Lengdegrad                              10.52632
-Organisasjonsnummer                    931696068
-Name: 14, dtype: object",,,,,,,
-15,"Navn                   Akademiet Vgs Ålesund AS
-Breddegrad                              62.4734
-Lengdegrad                              6.15031
-Organisasjonsnummer                   984800746
-Name: 15, dtype: object",,,,,,,
-16,"Navn                   Akademiet Ypsilon videregående skole AS
-Breddegrad                                             59.7486
-Lengdegrad                                            10.17168
-Organisasjonsnummer                                  988938424
-Name: 16, dtype: object",,,,,,,
-17,"Navn                   Ansgar bibelskole AS
-Breddegrad                         58.18298
-Lengdegrad                          8.08403
-Organisasjonsnummer               973112376
-Name: 17, dtype: object",,,,,,,
-18,"Navn                   Bergen bibelskole Sti
-Breddegrad                          60.37804
-Lengdegrad                           5.35595
-Organisasjonsnummer                973937979
-Name: 18, dtype: object",,,,,,,
-19,"Navn                   Bergen private gymnas AS
-Breddegrad                             60.38746
-Lengdegrad                              5.33138
-Organisasjonsnummer                   988602671
-Name: 19, dtype: object",,,,,,,
-20,"Navn                   Bibelskolen Bildøy
-Breddegrad                       60.34462
-Lengdegrad                        5.11735
-Organisasjonsnummer             974135604
-Name: 20, dtype: object",,,,,,,
-21,"Navn                   Bibelskolen Link
-Breddegrad                     58.96837
-Lengdegrad                      5.73962
-Organisasjonsnummer           996768856
-Name: 21, dtype: object",,,,,,,
-22,"Navn                   Bibelskolen Oslo Kristne senter
-Breddegrad                                    59.98172
-Lengdegrad                                    11.01538
-Organisasjonsnummer                          973067516
-Name: 22, dtype: object",,,,,,,
-23,"Navn                   Bibelskolen i Grimstad
-Breddegrad                           58.31169
-Lengdegrad                            8.56593
-Organisasjonsnummer                 973388436
-Name: 23, dtype: object",,,,,,,
-24,"Navn                   Bibelskolen i Trondheim Sti
-Breddegrad                                63.42862
-Lengdegrad                                10.39237
-Organisasjonsnummer                      975146960
-Name: 24, dtype: object",,,,,,,
-25,"Navn                   Bibelskolen på Fossnes
-Breddegrad                           59.28137
-Lengdegrad                           10.25776
-Organisasjonsnummer                 873668482
-Name: 25, dtype: object",,,,,,,
-26,"Navn                   Blå Kors videregående skole Grimstad AS
-Breddegrad                                            58.33753
-Lengdegrad                                             8.58078
-Organisasjonsnummer                                  922100101
-Name: 26, dtype: object",,,,,,,
-27,"Navn                   Blå Kors videregående skole Øvrebø AS
-Breddegrad                                           58.2877
-Lengdegrad                                           7.87645
-Organisasjonsnummer                                973391100
-Name: 27, dtype: object",,,,,,,
-28,"Navn                   Briskeby videregående skole AS
-Breddegrad                                        0.0
-Lengdegrad                                        0.0
-Organisasjonsnummer                         986737162
-Name: 28, dtype: object",,,,,,,
-29,"Navn                   Bybroen videregående skole AS
-Breddegrad                                    63.429
-Lengdegrad                                  10.40036
-Organisasjonsnummer                        971816279
-Name: 29, dtype: object",,,,,,,
-30,"Navn                   Båtsfjord private videregående skole AS
-Breddegrad                                            70.63277
-Lengdegrad                                            29.70523
-Organisasjonsnummer                                  914837367
-Name: 30, dtype: object",,,,,,,
-31,"Navn                   Campus Blå videregående skole AS
-Breddegrad                                     65.46981
-Lengdegrad                                     12.13377
-Organisasjonsnummer                           818509812
-Name: 31, dtype: object",,,,,,,
-32,"Navn                   Create - Lillehammer Kreative videregående sko...
-Breddegrad                                                      61.11788
-Lengdegrad                                                      10.46692
-Organisasjonsnummer                                            920330754
-Name: 32, dtype: object",,,,,,,
-33,"Navn                   Credo bibelskole
-Breddegrad                     60.33899
-Lengdegrad                      5.32024
-Organisasjonsnummer           973840991
-Name: 33, dtype: object",,,,,,,
-34,"Navn                   Danielsen Intensivgymnas
-Breddegrad                             60.39271
-Lengdegrad                              5.33095
-Organisasjonsnummer                   882067432
-Name: 34, dtype: object",,,,,,,
-35,"Navn                   Danielsen videregående skole
-Breddegrad                                   60.393
-Lengdegrad                                  5.33068
-Organisasjonsnummer                       873159642
-Name: 35, dtype: object",,,,,,,
-36,"Navn                   Den norske skole - Costa Blanca
-Breddegrad                                   38.595811
-Lengdegrad                                   -0.113365
-Organisasjonsnummer                          U90099009
-Name: 36, dtype: object",,,,,,,
-U,9,0,0,9,9,0,1,7
-U,9,0,0,9,9,0,1,2
-U,9,0,0,9,9,0,1,5
-40,"Navn                   Drottningborg Vgs AS
-Breddegrad                         58.34851
-Lengdegrad                          8.64152
-Organisasjonsnummer               974117738
-Name: 40, dtype: object",,,,,,,
-41,"Navn                   Evangeliesenterets bibelskole
-Breddegrad                                  59.46509
-Lengdegrad                                  10.81341
-Organisasjonsnummer                        975212491
-Name: 41, dtype: object",,,,,,,
-42,"Navn                   Feiring videregående skole AS
-Breddegrad                                  60.47763
-Lengdegrad                                  11.16565
-Organisasjonsnummer                        825322922
-Name: 42, dtype: object",,,,,,,
-43,"Navn                   Filadelfia bibelskole
-Breddegrad                           59.9178
-Lengdegrad                          10.73714
-Organisasjonsnummer                988421006
-Name: 43, dtype: object",,,,,,,
-44,"Navn                   Fjellhaug bibelskole
-Breddegrad                              0.0
-Lengdegrad                              0.0
-Organisasjonsnummer               989298585
-Name: 44, dtype: object",,,,,,,
-45,"Navn                   Fjellheim bibelskole
-Breddegrad                         69.63869
-Lengdegrad                         18.93087
-Organisasjonsnummer               874137472
-Name: 45, dtype: object",,,,,,,
-46,"Navn                   Forus friskole - Vgs
-Breddegrad                         58.88395
-Lengdegrad                          5.73894
-Organisasjonsnummer               927794187
-Name: 46, dtype: object",,,,,,,
-47,"Navn                   Framnes Kristne vidaregåande skule
-Breddegrad                                        60.3498
-Lengdegrad                                        6.18418
-Organisasjonsnummer                             974117959
-Name: 47, dtype: object",,,,,,,
-48,"Navn                   Gjennestad videregående skole
-Breddegrad                                  59.23032
-Lengdegrad                                  10.27398
-Organisasjonsnummer                        990745277
-Name: 48, dtype: object",,,,,,,
-49,"Navn                   Halden montessoriskole AS
-Breddegrad                              59.11809
-Lengdegrad                              11.39657
-Organisasjonsnummer                    998173108
-Name: 49, dtype: object",,,,,,,
-50,"Navn                   Hans Nielsen Hauge videregående skole
-Breddegrad                                          59.21174
-Lengdegrad                                           10.9386
-Organisasjonsnummer                                913279727
-Name: 50, dtype: object",,,,,,,
-51,"Navn                   Hauge videregående skole
-Breddegrad                             59.37473
-Lengdegrad                              5.26223
-Organisasjonsnummer                   916612095
-Name: 51, dtype: object",,,,,,,
-52,"Navn                   Haugesund Toppidrettsgymnas AS
-Breddegrad                                   59.42576
-Lengdegrad                                    5.27431
-Organisasjonsnummer                         971816287
-Name: 52, dtype: object",,,,,,,
-53,"Navn                   Havbruksakademiet Nord AS
-Breddegrad                               68.1299
-Lengdegrad                              13.58109
-Organisasjonsnummer                    924480831
-Name: 53, dtype: object",,,,,,,
-54,"Navn                   Helsepedagogisk steinerskole på Hedemarken
-Breddegrad                                               60.77756
-Lengdegrad                                                11.1034
-Organisasjonsnummer                                     973670646
-Name: 54, dtype: object",,,,,,,
-55,"Navn                   Heltberg private gymnas
-Breddegrad                             59.9491
-Lengdegrad                            10.73242
-Organisasjonsnummer                  974192020
-Name: 55, dtype: object",,,,,,,
-56,"Navn                   Hjerleid handverksskole AS
-Breddegrad                               61.98317
-Lengdegrad                                 9.2448
-Organisasjonsnummer                     987344873
-Name: 56, dtype: object",,,,,,,
-57,"Navn                   Hop videregående skole AS
-Breddegrad                              60.46604
-Lengdegrad                                 5.222
-Organisasjonsnummer                    974312441
-Name: 57, dtype: object",,,,,,,
-58,"Navn                   Hoppensprett Akademiet Vgs Jessheim AS
-Breddegrad                                           60.15228
-Lengdegrad                                           11.18266
-Organisasjonsnummer                                 913459598
-Name: 58, dtype: object",,,,,,,
-59,"Navn                   International School Of Stavanger avd Undervis...
-Breddegrad                                                      58.95005
-Lengdegrad                                                       5.65417
-Organisasjonsnummer                                            974180693
-Name: 59, dtype: object",,,,,,,
-60,"Navn                   Kongshaug Musikkgymnas
-Breddegrad                           60.15129
-Lengdegrad                            5.38534
-Organisasjonsnummer                 974117967
-Name: 60, dtype: object",,,,,,,
-61,"Navn                   Kragerø kunstskole AS
-Breddegrad                          58.86461
-Lengdegrad                           9.40858
-Organisasjonsnummer                993887439
-Name: 61, dtype: object",,,,,,,
-62,"Navn                   Kristelig gymnasium AS videregående skole
-Breddegrad                                                59.924
-Lengdegrad                                              10.72948
-Organisasjonsnummer                                    974117797
-Name: 62, dtype: object",,,,,,,
-63,"Navn                   Kristen videregående skole Nordland Sti
-Breddegrad                                            66.19877
-Lengdegrad                                            13.03525
-Organisasjonsnummer                                  973494694
-Name: 63, dtype: object",,,,,,,
-64,"Navn                   Kristen videregående skole Trøndelag
-Breddegrad                                          63.3601
-Lengdegrad                                          10.3816
-Organisasjonsnummer                               974149699
-Name: 64, dtype: object",,,,,,,
-65,"Navn                   Krokeide videregående skole AS
-Breddegrad                                   60.22295
-Lengdegrad                                    5.28764
-Organisasjonsnummer                         873255692
-Name: 65, dtype: object",,,,,,,
-66,"Navn                   Kvitsund gymnas
-Breddegrad                    59.38135
-Lengdegrad                     8.52013
-Organisasjonsnummer          974085062
-Name: 66, dtype: object",,,,,,,
-67,"Navn                   Kvs-Bygland AS
-Breddegrad                   58.83103
-Lengdegrad                     7.8028
-Organisasjonsnummer         989280767
-Name: 67, dtype: object",,,,,,,
-68,"Navn                   Kvs-Lyngdal AS
-Breddegrad                   58.12425
-Lengdegrad                    7.05024
-Organisasjonsnummer         973149776
-Name: 68, dtype: object",,,,,,,
-69,"Navn                   Lev bibelskole Sti
-Breddegrad                       58.14828
-Lengdegrad                        8.00266
-Organisasjonsnummer             873390522
-Name: 69, dtype: object",,,,,,,
-70,"Navn                   Ljabruskolen - steinerskole for Elever Med Spe...
-Breddegrad                                                       59.8499
-Lengdegrad                                                      10.80442
-Organisasjonsnummer                                            973465139
-Name: 70, dtype: object",,,,,,,
-71,"Navn                   Lukas videregående skole AS
-Breddegrad                                63.43896
-Lengdegrad                                10.48351
-Organisasjonsnummer                      973638416
-Name: 71, dtype: object",,,,,,,
-72,"Navn                   Lundeneset Vgs
-Breddegrad                   59.60809
-Lengdegrad                    5.77295
-Organisasjonsnummer         874117722
-Name: 72, dtype: object",,,,,,,
-73,"Navn                   Lycee Francais Rene Cassin avd Vidregående skole
-Breddegrad                                                     59.91702
-Lengdegrad                                                     10.71729
-Organisasjonsnummer                                           975051293
-Name: 73, dtype: object",,,,,,,
-74,"Navn                   Metis videregående AS
-Breddegrad                          60.38746
-Lengdegrad                           5.33138
-Organisasjonsnummer                985076308
-Name: 74, dtype: object",,,,,,,
-75,"Navn                   Misjonsskolen Gå Ut Senteret
-Breddegrad                                 63.42982
-Lengdegrad                                 10.39215
-Organisasjonsnummer                       989302477
-Name: 75, dtype: object",,,,,,,
-76,"Navn                   Momo waldorfskole AS
-Breddegrad                         63.36135
-Lengdegrad                         10.35149
-Organisasjonsnummer               913003284
-Name: 76, dtype: object",,,,,,,
-77,"Navn                    Motio AS
-Breddegrad                   0.0
-Lengdegrad                   0.0
-Organisasjonsnummer    986272208
-Name: 77, dtype: object",,,,,,,
-78,"Navn                   Møbelsnekkerskolen AS
-Breddegrad                           59.5654
-Lengdegrad                          11.32593
-Organisasjonsnummer                911795442
-Name: 78, dtype: object",,,,,,,
-79,"Navn                   Natur videregående skole Sti
-Breddegrad                                  59.9362
-Lengdegrad                                 10.88051
-Organisasjonsnummer                       974714426
-Name: 79, dtype: object",,,,,,,
-80,"Navn                   Nordborg Vgs
-Breddegrad                 69.22912
-Lengdegrad                 17.99658
-Organisasjonsnummer       974117703
-Name: 80, dtype: object",,,,,,,
-81,"Navn                   Norges Realfagsgymnas Sandvika AS
-Breddegrad                                      59.89269
-Lengdegrad                                      10.52632
-Organisasjonsnummer                            921204353
-Name: 81, dtype: object",,,,,,,
-82,"Navn                   Norges Toppidrettsgymnas Bergen AS
-Breddegrad                                       60.36712
-Lengdegrad                                        5.35898
-Organisasjonsnummer                             922148805
-Name: 82, dtype: object",,,,,,,
-83,"Navn                   Norges Toppidrettsgymnas Bodø AS
-Breddegrad                                     67.27618
-Lengdegrad                                     14.38304
-Organisasjonsnummer                           916694490
-Name: 83, dtype: object",,,,,,,
-84,"Navn                   Norges Toppidrettsgymnas Bærum AS
-Breddegrad                                      59.92561
-Lengdegrad                                      10.59114
-Organisasjonsnummer                            990672962
-Name: 84, dtype: object",,,,,,,
-85,"Navn                   Norges Toppidrettsgymnas Geilo AS
-Breddegrad                                      60.53654
-Lengdegrad                                       8.22571
-Organisasjonsnummer                            974176122
-Name: 85, dtype: object",,,,,,,
-86,"Navn                   Norges Toppidrettsgymnas Kongsvinger AS
-Breddegrad                                            60.19129
-Lengdegrad                                            12.00542
-Organisasjonsnummer                                  986147667
-Name: 86, dtype: object",,,,,,,
-87,"Navn                   Norges Toppidrettsgymnas Lillehammer AS
-Breddegrad                                              61.125
-Lengdegrad                                            10.47277
-Organisasjonsnummer                                  873600152
-Name: 87, dtype: object",,,,,,,
-88,"Navn                   Norges Toppidrettsgymnas Tromsø AS
-Breddegrad                                       69.64967
-Lengdegrad                                       18.93502
-Organisasjonsnummer                             991575731
-Name: 88, dtype: object",,,,,,,
-89,"Navn                   Norheim Vgs AS
-Breddegrad                   59.38214
-Lengdegrad                     5.3112
-Organisasjonsnummer         913404793
-Name: 89, dtype: object",,,,,,,
-90,"Navn                   Norlights International School Oslo AS
-Breddegrad                                           59.96258
-Lengdegrad                                           10.69287
-Organisasjonsnummer                                 915601618
-Name: 90, dtype: object",,,,,,,
-91,"Navn                   Norsk yrkesdykkerskole AS
-Breddegrad                                   0.0
-Lengdegrad                                   0.0
-Organisasjonsnummer                    972286745
-Name: 91, dtype: object",,,,,,,
-92,"Navn                   Oasen skole Strømme AS videregående skole
-Breddegrad                                              58.15521
-Lengdegrad                                               8.07752
-Organisasjonsnummer                                    930029017
-Name: 92, dtype: object",,,,,,,
-93,"Navn                   Oasen videregående skole AS
-Breddegrad                                58.14663
-Lengdegrad                                 8.00212
-Organisasjonsnummer                      994557416
-Name: 93, dtype: object",,,,,,,
-94,"Navn                   Oslo By steinerskole Sti
-Breddegrad                                  0.0
-Lengdegrad                                  0.0
-Organisasjonsnummer                   981089065
-Name: 94, dtype: object",,,,,,,
-95,"Navn                   Oslo International School
-Breddegrad                              59.91956
-Lengdegrad                              10.58345
-Organisasjonsnummer                    971845635
-Name: 95, dtype: object",,,,,,,
-96,"Navn                   Oslo fotokunstskole AS
-Breddegrad                           59.92832
-Lengdegrad                            10.7522
-Organisasjonsnummer                 988595039
-Name: 96, dtype: object",,,,,,,
-97,"Navn                   Oslo private gymnasium AS
-Breddegrad                              59.92345
-Lengdegrad                              10.73179
-Organisasjonsnummer                    972286389
-Name: 97, dtype: object",,,,,,,
-98,"Navn                   Otto Treider private gymnas AS
-Breddegrad                                   59.91121
-Lengdegrad                                   10.73838
-Organisasjonsnummer                         971816309
-Name: 98, dtype: object",,,,,,,
-99,"Navn                   Plus-Skolen AS Yrkesfaglig Utdanning
-Breddegrad                                         59.20444
-Lengdegrad                                         10.95422
-Organisasjonsnummer                               971627018
-Name: 99, dtype: object",,,,,,,
-100,"Navn                   Prosjektskolen AS
-Breddegrad                           0.0
-Lengdegrad                           0.0
-Organisasjonsnummer            987415371
-Name: 100, dtype: object",,,,,,,
-101,"Navn                   Rudolf steinerskolen i Bergen skolen
-Breddegrad                                         60.34368
-Lengdegrad                                          5.34308
-Organisasjonsnummer                               973159232
-Name: 101, dtype: object",,,,,,,
-102,"Navn                   Rudolf steinerskolen i Oslo Sti
-Breddegrad                                    59.94917
-Lengdegrad                                    10.65886
-Organisasjonsnummer                          974117096
-Name: 102, dtype: object",,,,,,,
-103,"Navn                   Seiersborg videregående skole Follo AS
-Breddegrad                                           59.66176
-Lengdegrad                                           10.79354
-Organisasjonsnummer                                 924422459
-Name: 103, dtype: object",,,,,,,
-104,"Navn                   Seiersborg videregående skole Fredrikstad AS
-Breddegrad                                                 59.27328
-Lengdegrad                                                 11.01803
-Organisasjonsnummer                                       974158876
-Name: 104, dtype: object",,,,,,,
-105,"Navn                   Signo Grunn- og videregående skole AS
-Breddegrad                                          59.31808
-Lengdegrad                                          10.15271
-Organisasjonsnummer                                998666783
-Name: 105, dtype: object",,,,,,,
-106,"Navn                   Skagerak International School Sti
-Breddegrad                                      59.12004
-Lengdegrad                                      10.23137
-Organisasjonsnummer                            973488783
-Name: 106, dtype: object",,,,,,,
-107,"Navn                   Skoleskipet Gann
-Breddegrad                          0.0
-Lengdegrad                          0.0
-Organisasjonsnummer           971815817
-Name: 107, dtype: object",,,,,,,
-108,"Navn                   Slottsfjellet videregående
-Breddegrad                               59.27051
-Lengdegrad                               10.40571
-Organisasjonsnummer                     973141805
-Name: 108, dtype: object",,,,,,,
-109,"Navn                   St. Paul gymnas
-Breddegrad                    60.38285
-Lengdegrad                     5.33371
-Organisasjonsnummer          916794304
-Name: 109, dtype: object",,,,,,,
-110,"Navn                   Steinerskolen i Bærum videregående Opplæring
-Breddegrad                                                    59.93
-Lengdegrad                                                 10.60565
-Organisasjonsnummer                                       975015785
-Name: 110, dtype: object",,,,,,,
-111,"Navn                   Steinerskolen i Moss videregående skole
-Breddegrad                                            59.46358
-Lengdegrad                                            10.69718
-Organisasjonsnummer                                  973075381
-Name: 111, dtype: object",,,,,,,
-112,"Navn                   Steinerskolen i Stavanger videregående skole
-Breddegrad                                                 58.93885
-Lengdegrad                                                  5.73421
-Organisasjonsnummer                                       975037436
-Name: 112, dtype: object",,,,,,,
-113,"Navn                   Steinerskolen i Trondheim videregående skole
-Breddegrad                                                      0.0
-Lengdegrad                                                      0.0
-Organisasjonsnummer                                       975014894
-Name: 113, dtype: object",,,,,,,
-114,"Navn                   Steinerskolen på Hedemarken avd videregående s...
-Breddegrad                                                           0.0
-Lengdegrad                                                           0.0
-Organisasjonsnummer                                            978664067
-Name: 114, dtype: object",,,,,,,
-115,"Navn                   Steinerskolen på Skjold Helseped Avdeling
-Breddegrad                                              60.31017
-Lengdegrad                                               5.32901
-Organisasjonsnummer                                    973465112
-Name: 115, dtype: object",,,,,,,
-9,3,0,5,9,1,5,4,8
-117,"Navn                   Stiftelsen Maritim videregående skole Sørlandet
-Breddegrad                                                    58.14923
-Lengdegrad                                                     8.03194
-Organisasjonsnummer                                          974117371
-Name: 117, dtype: object",,,,,,,
-118,"Navn                   Stiftelsen Spin Off Forstudium
-Breddegrad                                        0.0
-Lengdegrad                                        0.0
-Organisasjonsnummer                         984777604
-Name: 118, dtype: object",,,,,,,
-119,"Navn                   Stiftelsen Telemark Toppidrett gymnas
-Breddegrad                                          59.21206
-Lengdegrad                                           9.59073
-Organisasjonsnummer                                888361332
-Name: 119, dtype: object",,,,,,,
-120,"Navn                   Stiftelsen steinerskolen Rotvoll
-Breddegrad                                     63.43889
-Lengdegrad                                     10.48563
-Organisasjonsnummer                           982196574
-Name: 120, dtype: object",,,,,,,
-121,"Navn                   Stiftelsen Østerbo videregående skole
-Breddegrad                                          59.23161
-Lengdegrad                                          11.47543
-Organisasjonsnummer                                974826704
-Name: 121, dtype: object",,,,,,,
-122,"Navn                   Strykejernet kunstskole AS
-Breddegrad                               59.92035
-Lengdegrad                               10.75279
-Organisasjonsnummer                     973449990
-Name: 122, dtype: object",,,,,,,
-123,"Navn                   Sygna Vgs
-Breddegrad              61.20767
-Lengdegrad               6.52918
-Organisasjonsnummer    974151537
-Name: 123, dtype: object",,,,,,,
-124,"Navn                   Tomb videregående skole
-Breddegrad                            59.32111
-Lengdegrad                            10.81228
-Organisasjonsnummer                  974117290
-Name: 124, dtype: object",,,,,,,
-125,"Navn                   Troens Bevis Bibel og Misjons Institutt
-Breddegrad                                            59.92385
-Lengdegrad                                            10.73946
-Organisasjonsnummer                                  971833793
-Name: 125, dtype: object",,,,,,,
-126,"Navn                   Trondheim Toppidrettsgymnas Sti
-Breddegrad                                    63.44256
-Lengdegrad                                    10.45906
-Organisasjonsnummer                          931570994
-Name: 126, dtype: object",,,,,,,
-127,"Navn                   Tryggheim vidaregåande skule
-Breddegrad                                 58.67356
-Lengdegrad                                  5.63596
-Organisasjonsnummer                       973157221
-Name: 127, dtype: object",,,,,,,
-128,"Navn                   Tveit vidaregåande skule Sti
-Breddegrad                                 59.34455
-Lengdegrad                                  5.79518
-Organisasjonsnummer                       974313804
-Name: 128, dtype: object",,,,,,,
-129,"Navn                   Tyrifjord videregående skole
-Breddegrad                                 60.07095
-Lengdegrad                                 10.16954
-Organisasjonsnummer                       973255754
-Name: 129, dtype: object",,,,,,,
-130,"Navn                   Tønsberg bibelskole AS
-Breddegrad                           59.27896
-Lengdegrad                           10.39904
-Organisasjonsnummer                 921320205
-Name: 130, dtype: object",,,,,,,
-131,"Navn                   Urtehagen videregående privatskole Sti
-Breddegrad                                            59.9134
-Lengdegrad                                           10.76078
-Organisasjonsnummer                                 873489502
-Name: 131, dtype: object",,,,,,,
-132,"Navn                   Val Skoler AS avd Vgs
-Breddegrad                          64.78575
-Lengdegrad                          11.42312
-Organisasjonsnummer                974139790
-Name: 132, dtype: object",,,,,,,
-133,"Navn                   Vestborg Vgs
-Breddegrad                 62.30856
-Lengdegrad                  6.91996
-Organisasjonsnummer       974117711
-Name: 133, dtype: object",,,,,,,
-134,"Navn                   Vinterlandbruksskulen i Ryfylke Sti
-Breddegrad                                        59.60665
-Lengdegrad                                         5.81312
-Organisasjonsnummer                              997940431
-Name: 134, dtype: object",,,,,,,
-135,"Navn                   Vinterlandbruksskulen på Jæren Sti
-Breddegrad                                       58.76159
-Lengdegrad                                        5.64889
-Organisasjonsnummer                             973255509
-Name: 135, dtype: object",,,,,,,
-136,"Navn                   Wang Fredrikstad AS
-Breddegrad                        59.21256
-Lengdegrad                        10.92896
-Organisasjonsnummer              986779795
-Name: 136, dtype: object",,,,,,,
-137,"Navn                   Wang Hamar AS
-Breddegrad                  60.80167
-Lengdegrad                  11.03811
-Organisasjonsnummer        913391470
-Name: 137, dtype: object",,,,,,,
-138,"Navn                   Wang Romerike AS
-Breddegrad                     59.94674
-Lengdegrad                     10.95199
-Organisasjonsnummer           825308512
-Name: 138, dtype: object",,,,,,,
-139,"Navn                   Wang Toppidrett Stavanger AS
-Breddegrad                                  58.9546
-Lengdegrad                                  5.70006
-Organisasjonsnummer                       988586102
-Name: 139, dtype: object",,,,,,,
-140,"Navn                   Wang Tønsberg AS
-Breddegrad                     59.29502
-Lengdegrad                     10.41573
-Organisasjonsnummer           995354071
-Name: 140, dtype: object",,,,,,,
-141,"Navn                   Wang videregående Skole/ Wang Toppidrett
-Breddegrad                                             59.91474
-Lengdegrad                                             10.72427
-Organisasjonsnummer                                   971816317
-Name: 141, dtype: object",,,,,,,
-142,"Navn                   Øya videregående skole
-Breddegrad                           63.23681
-Lengdegrad                           10.27536
-Organisasjonsnummer                 974149966
-Name: 142, dtype: object",,,,,,,
+Navn,Breddegrad,Lengdegrad,Organisasjonsnummer
+Acta bibelskole,58.95488,5.69944,973798995
+Aglo videregående skole,63.5333,10.8234,991025057
+Akademiet Drammen AS,59.74036097932266,10.18193216616209,985500568
+Akademiet Fredrikstad AS Privat videregående skole,59.21384,10.92913,988519480
+Akademiet Kristiansand AS,58.15325,8.02905,982759846
+Akademiet Norsk restaurantskole Sti,0.0,0.0,913711793
+Akademiet Oslo AS,59.92345,10.73179,887664102
+Akademiet Sandnes,0.0,0.0,987546603
+Akademiet Toppidrettsgymnas Ålesund AS,62.47027,6.18723,911770172
+Akademiet Vgs Bergen AS,60.38666,5.33062,986900055
+Akademiet Vgs Bislett AS,59.92345,10.73179,988938386
+Akademiet Vgs Bragernes Drammen AS,59.7486,10.17168,996789845
+Akademiet Vgs Kongsberg AS,59.67378,9.64225,924441747
+Akademiet Vgs Møre AS,62.47284,6.16358,888535322
+Akademiet Vgs Sandvika AS,59.89269,10.52632,931696068
+Akademiet Vgs Ålesund AS,62.4734,6.15031,984800746
+Akademiet Ypsilon videregående skole AS,59.7486,10.17168,988938424
+Ansgar bibelskole AS,58.18298,8.08403,973112376
+Bergen bibelskole Sti,60.37804,5.35595,973937979
+Bergen private gymnas AS,60.38746,5.33138,988602671
+Bibelskolen Bildøy,60.34462,5.11735,974135604
+Bibelskolen Link,58.96837,5.73962,996768856
+Bibelskolen Oslo Kristne senter,59.98172,11.01538,973067516
+Bibelskolen i Grimstad,58.31169,8.56593,973388436
+Bibelskolen i Trondheim Sti,63.42862,10.39237,975146960
+Bibelskolen på Fossnes,59.28137,10.25776,873668482
+Blå Kors videregående skole Grimstad AS,58.33753,8.58078,922100101
+Blå Kors videregående skole Øvrebø AS,58.2877,7.87645,973391100
+Briskeby videregående skole AS,0.0,0.0,986737162
+Bybroen videregående skole AS,63.429,10.40036,971816279
+Båtsfjord private videregående skole AS,70.63277,29.70523,914837367
+Campus Blå videregående skole AS,65.46981,12.13377,818509812
+Create - Lillehammer Kreative videregående skole AS,61.11788,10.46692,920330754
+Credo bibelskole,60.33899,5.32024,973840991
+Danielsen Intensivgymnas,60.39271,5.33095,882067432
+Danielsen videregående skole,60.393,5.33068,873159642
+Den norske skole - Costa Blanca,38.595811,-0.113364700000034,U90099009
+Den norske skole - Gran Canaria,27.7783325,-15.692120400000022,U90099017
+Den norske skolen i Malaga,36.60399960000001,-4.541974200000027,U90099012
+Den norske skolen i Rojales,38.0664348,-0.7269490999999562,U90099015
+Drottningborg Vgs AS,58.34851,8.64152,974117738
+Evangeliesenterets bibelskole,59.46509,10.81341,975212491
+Feiring videregående skole AS,60.47763,11.16565,825322922
+Filadelfia bibelskole,59.9178,10.73714,988421006
+Fjellhaug bibelskole,0.0,0.0,989298585
+Fjellheim bibelskole,69.63869,18.93087,874137472
+Forus friskole - Vgs,58.88395,5.73894,927794187
+Framnes Kristne vidaregåande skule,60.3498,6.18418,974117959
+Gjennestad videregående skole,59.23032,10.27398,990745277
+Halden montessoriskole AS,59.11809,11.39657,998173108
+Hans Nielsen Hauge videregående skole,59.21174,10.9386,913279727
+Hauge videregående skole,59.37473,5.26223,916612095
+Haugesund Toppidrettsgymnas AS,59.42576,5.27431,971816287
+Havbruksakademiet Nord AS,68.1299,13.58109,924480831
+Helsepedagogisk steinerskole på Hedemarken,60.77756,11.1034,973670646
+Heltberg private gymnas,59.9491,10.73242,974192020
+Hjerleid handverksskole AS,61.98317,9.2448,987344873
+Hop videregående skole AS,60.46604,5.222,974312441
+Hoppensprett Akademiet Vgs Jessheim AS,60.15228,11.18266,913459598
+International School Of Stavanger avd Undervisning,58.95005,5.65417,974180693
+Kongshaug Musikkgymnas,60.15129,5.38534,974117967
+Kragerø kunstskole AS,58.86461,9.40858,993887439
+Kristelig gymnasium AS videregående skole,59.924,10.72948,974117797
+Kristen videregående skole Nordland Sti,66.19877,13.03525,973494694
+Kristen videregående skole Trøndelag,63.3601,10.3816,974149699
+Krokeide videregående skole AS,60.22295,5.28764,873255692
+Kvitsund gymnas,59.38135,8.52013,974085062
+Kvs-Bygland AS,58.83103,7.8028,989280767
+Kvs-Lyngdal AS,58.12425,7.05024,973149776
+Lev bibelskole Sti,58.14828,8.00266,873390522
+Ljabruskolen - steinerskole for Elever Med Spesielle Behov Sti,59.8499,10.80442,973465139
+Lukas videregående skole AS,63.43896,10.48351,973638416
+Lundeneset Vgs,59.60809,5.77295,874117722
+Lycee Francais Rene Cassin avd Vidregående skole,59.91702,10.71729,975051293
+Metis videregående AS,60.38746,5.33138,985076308
+Misjonsskolen Gå Ut Senteret,63.42982,10.39215,989302477
+Momo waldorfskole AS,63.36135,10.35149,913003284
+Motio AS,0.0,0.0,986272208
+Møbelsnekkerskolen AS,59.5654,11.32593,911795442
+Natur videregående skole Sti,59.9362,10.88051,974714426
+Nordborg Vgs,69.22912,17.99658,974117703
+Norges Realfagsgymnas Sandvika AS,59.89269,10.52632,921204353
+Norges Toppidrettsgymnas Bergen AS,60.36712,5.35898,922148805
+Norges Toppidrettsgymnas Bodø AS,67.27618,14.38304,916694490
+Norges Toppidrettsgymnas Bærum AS,59.92561,10.59114,990672962
+Norges Toppidrettsgymnas Geilo AS,60.53654,8.22571,974176122
+Norges Toppidrettsgymnas Kongsvinger AS,60.19129,12.00542,986147667
+Norges Toppidrettsgymnas Lillehammer AS,61.125,10.47277,873600152
+Norges Toppidrettsgymnas Tromsø AS,69.64967,18.93502,991575731
+Norheim Vgs AS,59.38214,5.3112,913404793
+Norlights International School Oslo AS,59.96258,10.69287,915601618
+Norsk yrkesdykkerskole AS,0.0,0.0,972286745
+Oasen skole Strømme AS videregående skole,58.15521,8.07752,930029017
+Oasen videregående skole AS,58.14663,8.00212,994557416
+Oslo By steinerskole Sti,0.0,0.0,981089065
+Oslo International School,59.91956,10.58345,971845635
+Oslo fotokunstskole AS,59.92832,10.7522,988595039
+Oslo private gymnasium AS,59.92345,10.73179,972286389
+Otto Treider private gymnas AS,59.91121,10.73838,971816309
+Plus-Skolen AS Yrkesfaglig Utdanning,59.20444,10.95422,971627018
+Prosjektskolen AS,0.0,0.0,987415371
+Rudolf steinerskolen i Bergen skolen,60.34368,5.34308,973159232
+Rudolf steinerskolen i Oslo Sti,59.94917,10.65886,974117096
+Seiersborg videregående skole Follo AS,59.66176,10.79354,924422459
+Seiersborg videregående skole Fredrikstad AS,59.27328,11.01803,974158876
+Signo Grunn- og videregående skole AS,59.31808,10.15271,998666783
+Skagerak International School Sti,59.12004,10.23137,973488783
+Skoleskipet Gann,0.0,0.0,971815817
+Slottsfjellet videregående,59.27051,10.40571,973141805
+St. Paul gymnas,60.38285,5.33371,916794304
+Steinerskolen i Bærum videregående Opplæring,59.93,10.60565,975015785
+Steinerskolen i Moss videregående skole,59.46358,10.69718,973075381
+Steinerskolen i Stavanger videregående skole,58.93885,5.73421,975037436
+Steinerskolen i Trondheim videregående skole,0.0,0.0,975014894
+Steinerskolen på Hedemarken avd videregående skole,0.0,0.0,978664067
+Steinerskolen på Skjold Helseped Avdeling,60.31017,5.32901,973465112
+Stiftelsen Den Tysk-Norske skolen i Oslo avd grunnskole og videregående,59.93637,10.75914,930591548
+Stiftelsen Maritim videregående skole Sørlandet,58.14923,8.03194,974117371
+Stiftelsen Spin Off Forstudium,0.0,0.0,984777604
+Stiftelsen Telemark Toppidrett gymnas,59.21206,9.59073,888361332
+Stiftelsen steinerskolen Rotvoll,63.43889,10.48563,982196574
+Stiftelsen Østerbo videregående skole,59.23161,11.47543,974826704
+Strykejernet kunstskole AS,59.92035,10.75279,973449990
+Sygna Vgs,61.20767,6.52918,974151537
+Tomb videregående skole,59.32111,10.81228,974117290
+Troens Bevis Bibel og Misjons Institutt,59.92385,10.73946,971833793
+Trondheim Toppidrettsgymnas Sti,63.44256,10.45906,931570994
+Tryggheim vidaregåande skule,58.67356,5.63596,973157221
+Tveit vidaregåande skule Sti,59.34455,5.79518,974313804
+Tyrifjord videregående skole,60.07095,10.16954,973255754
+Tønsberg bibelskole AS,59.27896,10.39904,921320205
+Urtehagen videregående privatskole Sti,59.9134,10.76078,873489502
+Val Skoler AS avd Vgs,64.78575,11.42312,974139790
+Vestborg Vgs,62.30856,6.91996,974117711
+Vinterlandbruksskulen i Ryfylke Sti,59.60665,5.81312,997940431
+Vinterlandbruksskulen på Jæren Sti,58.76159,5.64889,973255509
+Wang Fredrikstad AS,59.21256,10.92896,986779795
+Wang Hamar AS,60.80167,11.03811,913391470
+Wang Romerike AS,59.94674,10.95199,825308512
+Wang Toppidrett Stavanger AS,58.9546,5.70006,988586102
+Wang Tønsberg AS,59.29502,10.41573,995354071
+Wang videregående Skole/ Wang Toppidrett,59.91474,10.72427,971816317
+Øya videregående skole,63.23681,10.27536,974149966
