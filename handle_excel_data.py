@@ -35,5 +35,9 @@ def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_c
     added_schools.to_csv(output_csv_file_name, index=False)
     print("Skoler som ikke kom med med:", left_out_schools)
 
-#filter_private_schools("privatskoler_vgs.csv", "underenheter_privatskoler_per_2025.csv", "privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv")
-filter_private_schools("private_grunnskoler.csv", "underenheter_privatskoler_per_2025.csv", "privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv")
+#filter_private_schools("privatskoler_vgs.csv", "underenheter_privatskoler_per_2025.csv", "alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv")
+filter_private_schools("private_grunnskoler.csv", "underenheter_privatskoler_per_2025.csv", "alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv")
+
+""" vgs_og_grskole = pd.merge(pd.read_csv("privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv"), pd.read_csv("private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv"), how = "outer", on="Organisasjonsnummer")
+pd.merge(vgs_og_grskole, pd.read_csv("alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv"), how="left", on="Organisasjonsnummer", indicator=True).to_csv("skoler_vi_har_som_ikke_er_i_all_listen.csv", index=False)
+pd.merge(vgs_og_grskole, pd.read_csv("alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv"), how="right", on="Organisasjonsnummer", indicator=True).to_csv("skoler_i_all_listen_som_mangler_i_de_to_mine_lister.csv", index=False) """
