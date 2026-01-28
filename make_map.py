@@ -23,8 +23,8 @@ def add_csv_to_feature_group(csv_file_name: str, feature_group: fm.FeatureGroup,
         ).add_to(feature_group)
 
 #add_csv_to_feature_group("privatskoler_vgs_med_manuell_fiks.csv", private_vgs, "blue", "graduation-cap")
-add_csv_to_feature_group("privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv", private_vgs, "blue", "graduation-cap")
-add_csv_to_feature_group("offentlige_vgs_med_manuell_fiks.csv", offentlige_vgs, "green", "graduation-cap")
+add_csv_to_feature_group("privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv", private_vgs, "darkblue", "graduation-cap")
+add_csv_to_feature_group("offentlige_vgs_med_manuell_fiks.csv", offentlige_vgs, "darkgreen", "graduation-cap")
 add_csv_to_feature_group("private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv", private_grunnskoler, "blue", "school")
 add_csv_to_feature_group("offentlige_grunnskoler_med_manuell_fiks.csv", offentlige_grunnskoler, "green", "school")
 
@@ -35,6 +35,6 @@ private_grunnskoler.add_to(m)
 offentlige_grunnskoler.add_to(m)
 
 # Legg til lagkontroll
-fm.LayerControl().add_to(m)
+fm.LayerControl(collapsed=False).add_to(m)
 
 m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler_nyeste_versjon.html")

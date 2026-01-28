@@ -10,9 +10,9 @@ import pandas as pd
 # Vil lage kode som går gjennom csv-filene for private vgs og grunnskoler og fjerner de radene som ikke har et organisasjonsnummer som er i en annen csv-fil
 
 def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_csv_file_name):
-    all_orgs = pd.read_csv(list_csv1)["Orgnummer"].astype(str).tolist()
-    private_schools_df = pd.read_csv(private_schools_csv)
-    filter_df = pd.read_csv(filter_csv2)
+    all_orgs = pd.read_csv(list_csv1, comment="#")["Orgnummer"].astype(str).tolist()
+    private_schools_df = pd.read_csv(private_schools_csv, comment="#")
+    filter_df = pd.read_csv(filter_csv2, comment="#")
     for orgnr in filter_df["Orgnummer"]:
         all_orgs.append(orgnr)
 
@@ -20,7 +20,7 @@ def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_c
     added_schools = pd.DataFrame()
     left_out_schools = pd.DataFrame()
     for _, school_row in private_schools_df.iterrows():
-        school_orgnr = str(school_row["Organisasjonsnummer"])
+        school_orgnr = str(school_row["Organisasjonsnummer"]).strip()
         school_name = school_row["Navn"]
         if school_orgnr in filter_org_numbers:
             added_schools = pd.concat([added_schools, school_row.to_frame().T], ignore_index=True)  
@@ -35,8 +35,8 @@ def filter_private_schools(private_schools_csv, list_csv1, filter_csv2, output_c
     added_schools.to_csv(output_csv_file_name, index=False)
     print("Skoler som ikke kom med med:", left_out_schools)
 
-#filter_private_schools("privatskoler_vgs.csv", "underenheter_privatskoler_per_2025.csv", "alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv")
-filter_private_schools("private_grunnskoler.csv", "underenheter_privatskoler_per_2025.csv", "alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv")
+#filter_private_schools("privatskoler_vgs_med_manuell_fiks_og_organisasjonsnummer.csv", "underenheter_privatskoler_per_2025.csv", "alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv")
+filter_private_schools("private_grunnskoler_med_manuell_fiks_og_organisasjonsnummer.csv", "underenheter_privatskoler_per_2025.csv", "alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv", "private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv")
 
 """ vgs_og_grskole = pd.merge(pd.read_csv("privatskoler_vgs_godkjente_etter_privatskoleloven_per_2025.csv"), pd.read_csv("private_grunnskoler_godkjente_etter_privatskoleloven_per_2025.csv"), how = "outer", on="Organisasjonsnummer")
 pd.merge(vgs_og_grskole, pd.read_csv("alle_privatskoler_godkjente_etter_privatskoleloven_per_2025.csv"), how="left", on="Organisasjonsnummer", indicator=True).to_csv("skoler_vi_har_som_ikke_er_i_all_listen.csv", index=False)
