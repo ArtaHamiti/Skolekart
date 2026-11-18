@@ -4,7 +4,7 @@ import pandas as pd
 
 Norway_coords = [59.9127, 10.7461]
 # Lage et kart over Norge
-m = fm.Map(location=Norway_coords, zoom_start=7)
+m = fm.Map(location=Norway_coords, zoom_start=7, tiles="OpenStreetMap")
 
 # Lag ulike grupper
 private_vgs = fm.FeatureGroup(name="Private videregående skoler")
@@ -37,4 +37,4 @@ offentlige_grunnskoler.add_to(m)
 # Legg til lagkontroll
 fm.LayerControl(collapsed=False).add_to(m)
 
-m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler_nyeste_versjon.html")
+m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler_181126.html")
