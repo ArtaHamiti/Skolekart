@@ -37,4 +37,4 @@ offentlige_grunnskoler.add_to(m)
 # Legg til lagkontroll
 fm.LayerControl(collapsed=False).add_to(m)
 
-m.save("Norgeskart_med_private_og_offentlige_vgs_og_grunnskoler_181126.html")
+m.save("index.html")
